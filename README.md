@@ -6,7 +6,7 @@ description: C.Scale Data Model 2.23.00
 
 **C.Scale** is a stateless API for calculation whole life carbon emissions from the construction, renovation, and operation of buildings. **When highly-detailed energy modeling and life cycle assessment isn't affordable or practicable, teams use C.Scale.**
 
-**C.Scale** is designed for use during site and feasibility studies, requests for proposals, pre-design, in retrospective analysis, or in other situations where a whole-building life cycle assessments and/or energy models are not practicable.&#x20;
+C.Scale is designed for use during site and feasibility studies, requests for proposals, pre-design, in retrospective analysis, or in other situations where a whole-building life cycle assessments and/or energy models are not practicable.&#x20;
 
 The model allows a user to enter a strict minimum of project parameters to test a wide range of the most meaningful carbon reductions strategies. It is the calculation engine behind numerous web applications and research efforts focused on both forward-looking planning and retrospective analysis of carbon emissions from buildings and the built environment.
 
