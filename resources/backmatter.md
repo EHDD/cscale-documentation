@@ -28,7 +28,7 @@ Despite this review, errors may persist. If you are interested in providing addi
 
 ## Contact
 
-Questions regarding the tool, its use, or the public beta web application can be directed to [epic@ehdd.com](<mailto:epic@ehdd.com >).
+Questions regarding the model, its methodology, or the data behind it can be directed to [hi@cscale.io](mailto:hi@cscale.io).
 
 ## Copyright
 
