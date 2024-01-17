@@ -66,7 +66,7 @@ Where $$e_{t}$$ is the excess energy in kWh generated in year $$t$$ and $$c_{t}$
 
 ## c.scale is a time series model
 
-In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, c.scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](methodology.md#time-horizon)), c.scale estimates all emissions occurring in that year.
+In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, c.scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](./#time-horizon)), c.scale estimates all emissions occurring in that year.
 
 **In the first year**, the following emissions are always calculated:
 
@@ -112,4 +112,4 @@ Units describe data. When we compare 2 kilograms to 2 square feet, the units hel
 
 c.scale is built as a series of modules, each connected to the others and tasked with a specific set of calculations. These modules are added or expanded in response to the requests of users.
 
-Many parts of the EPIC model (in v2.0.0 and beyond) can be customized or overriden by the user. This allows for the addition of project-specific data where it is available while maintaining the EPIC model for calculating all other parts of the project's carbon footprint. The customizations available in the open access web app are described [here](epic-web-application/carbon-reduction-measures/customize-scenario.md). To request additional features, [contact us](mailto:epic@ehdd.com).
+Many parts of the EPIC model (in v2.0.0 and beyond) can be customized or overriden by the user. This allows for the addition of project-specific data where it is available while maintaining the EPIC model for calculating all other parts of the project's carbon footprint. The customizations available in the open access web app are described [here](../../epic-web-application/carbon-reduction-measures/customize-scenario.md). To request additional features, [contact us](mailto:epic@ehdd.com).

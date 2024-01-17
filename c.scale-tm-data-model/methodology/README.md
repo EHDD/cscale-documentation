@@ -22,9 +22,9 @@ EPIC is a work in progress; future development will respond to user feedback, in
 
 ### Life Cycle Stages
 
-**c.scale** integrates data from life cycle stages (sometimes called "life cycle modules") A1-A5, B2-B6, and C2-C4. These correspond to the impacts of the materials used in the project, emissions from construction, their replacement over time, and the project’s operational energy use. When biogenic carbon is counted, some end-of-life impacts (from modules C2-C4) are assessed during the product phase (see appendix [Biogenic Carbon](c.scale-tm-data-model/methodology/broken-reference/)). End-of-life (C2-C4) emissions for structure are only assessed when a 60 year time horizon is selected.
+**c.scale** integrates data from life cycle stages (sometimes called "life cycle modules") A1-A5, B2-B6, and C2-C4. These correspond to the impacts of the materials used in the project, emissions from construction, their replacement over time, and the project’s operational energy use. When biogenic carbon is counted, some end-of-life impacts (from modules C2-C4) are assessed during the product phase (see appendix [Biogenic Carbon](broken-reference/)). End-of-life (C2-C4) emissions for structure are only assessed when a 60 year time horizon is selected.
 
-<figure><img src=".gitbook/assets/EPIC - Included LIfe Cycle Stages.png" alt=""><figcaption><p>Highlighted stages are included in the c.scale model.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EPIC - Included LIfe Cycle Stages.png" alt=""><figcaption><p>Highlighted stages are included in the c.scale model.</p></figcaption></figure>
 
 ### Embodied Carbon Scope
 
@@ -54,7 +54,7 @@ EPIC is a work in progress; future development will respond to user feedback, in
 
 In EPIC, you can add or remove some life cycle modules and building components from the scope of an assessment. When comparing results between scenarios witin EPIC, between c.scale and wbLCA, or between any estimates of carbon emissions, _the scopes of each analysis must be identical._
 
-When EPIC's scope is defined for a given project, that same definition of scope will be used in each of the project's scenarios. More information on how to define the scope of analysis within EPIC is available in the user's guide [here](epic-web-application/base-case/refine-project-scope.md).
+When EPIC's scope is defined for a given project, that same definition of scope will be used in each of the project's scenarios. More information on how to define the scope of analysis within EPIC is available in the user's guide [here](../../epic-web-application/base-case/refine-project-scope.md).
 
 ## Uncertainty
 
