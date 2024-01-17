@@ -4,9 +4,9 @@ The overview of how c.scale calculated operational carbon is detailed on the [mo
 
 ## Energy Use
 
-EPIC uses energy use intensity (EUI) in kBtu/sf/yr as its metric for energy use in buildings. EPIC is designed to give accurate feedback on the carbon emissions associated with a declared energy use, but is not an energy modeling tool for determining how a declared energy use can be achieved.
+C.Scale uses energy use intensity (EUI) in units of kBtu/sf/yr (or kWh/m2/yr) as its metric for energy use in buildings. EPIC is designed to give accurate feedback on the carbon emissions associated with a declared energy use, but is not an energy modeling tool for determining how a declared energy use can be achieved.
 
-Baseline EUIs are set in c.scale using a direct API connection with Architecture 2030's [Zero Tool](https://zerotool.org/zerotool/), with a failover to a subset of cached Zero Tool results. Zero Tool estimates are used to set baselines for AIA 2030 reporting, but should not be construed as representing "code minimum" design. To set a code minimum EUI, enter a custom value in the "Benchmark EUI" [override](../../epic-web-application/base-case/overrides.md) in EPIC's Base Case tab.
+Baseline EUIs are set in c.scale using a direct API connection with Architecture 2030's [Zero Tool](https://zerotool.org/zerotool/), with a failover to a subset of cached Zero Tool results. Zero Tool estimates are used to set baselines for AIA 2030 reporting, but should not be construed as representing "code minimum" design. To set a code minimum EUI, enter your desired value as the `benchmark_EUI` in the request object.
 
 ### Fuel Mix
 
@@ -70,7 +70,7 @@ c.scale evaluates energy use on an annual basis. The carbon emissions from elect
 
 c.scale calculates energy generation from onsite solar photovoltaic arrays using an API connection to Version 8 of NREL's [PVWatts](https://pvwatts.nrel.gov/) tool. This energy is assumed to displace an equivalent amount of energy demand from the electrical grid and, by doing so, displace a corresponding quantity of emissions (calculated using the Cambium data detailed above).
 
-The array area returned by the c.scale is the total area of the array (i.e., inclusive of the space between the panels). The ratio of solar panels to total array area is the Ground Coverage Ratio (GCR). This ratio can be adjusted in the [Overrides](../../epic-web-application/base-case/overrides.md#solar-ground-coverage-ratio) panel of the Base Case tab.
+The array area returned by the c.scale is the total area of the array (i.e., inclusive of the space between the panels). The ratio of solar panels to total array area is the Ground Coverage Ratio (GCR).
 
 PVWatts is limited to latitudes from -90 to +90 degrees. For latitudes outside this range, we calculate solar potential at the limit (either -90 or +90). If you're using EPIC to model a PV arrray at extreme latitudes, use caution.
 

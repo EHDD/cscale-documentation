@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🏗 The c.scale™ Data Model](README.md)
+* [🏗 The C.Scale™ Data Model](README.md)
 * [Goal and Scope](c.scale-tm-data-model/methodology/README.md)
 * [Model Structure](c.scale-tm-data-model/methodology/model-structure.md)
 * [Embodied Carbon](c.scale-tm-data-model/methodology/embodied-carbon.md)
