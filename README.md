@@ -2,7 +2,7 @@
 description: C.Scale Data Model 2.23.00
 ---
 
-# 🏗 The c.scale™ Data Model
+# 🏗 The C.Scale™ Data Model
 
 C.Scale is a stateless API for calculation whole life carbon emissions from the construction, renovation, and operation of buildings. **When highly-detailed energy modeling and life cycle assessment isn't affordable or practicable, teams use C.Scale.**&#x20;
 

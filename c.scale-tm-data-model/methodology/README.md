@@ -2,11 +2,11 @@
 
 ## Goal
 
-EPIC provides directionally accurate guidance for specific projects by helping to identify which carbon reduction strategies a project should pursue, and helps to guide decarbonization of portfolios and portions of the building stock where c.scale assumptions have been tested (i.e., in the continental United States).
+EPIC provides directionally accurate guidance for specific projects by helping to identify which carbon reduction strategies a project should pursue, and helps to guide decarbonization of portfolios and portions of the building stock where C.Scale assumptions have been tested (i.e., in the continental United States).
 
 EPIC is designed for use during site and feasibility studies, requests for proposals, pre-design, and in other situations where decisions affecting the whole life carbon footprint are being made and completing a whole-building life cycle assessment and/or energy model is not practicable.
 
-EPIC is powered by **c.scale**™, a lightweight data model for carbon footprinting the built environment.
+EPIC is powered by **C.Scale**™, a lightweight data model for carbon footprinting the built environment.
 
 EPIC is a work in progress; future development will respond to user feedback, incorporate improved data, and refine the tool's methodology. We're actively seeking [feedback](mailto:epic@ehdd.com?subject=Feedback) as we continue to improve.
 
@@ -14,21 +14,21 @@ EPIC is a work in progress; future development will respond to user feedback, in
 
 ### Whole Life Carbon
 
-**c.scale** is an whole life carbon model. "Whole life carbon" means that it integrates assessments of embodied, operational, and landscape carbon in a data model to capture the entire carbon footprint of the project.
+**C.Scale** is an whole life carbon model. "Whole life carbon" means that it integrates assessments of embodied, operational, and landscape carbon in a data model to capture the entire carbon footprint of the project.
 
 ### Time Horizon
 
-**c.scale** can accommodate time horizons of 30 or 60 years. Currently, the web application can only accommodate a 30 year time horizon. For analysis on a 60 year time horizon, [use our API](broken-reference).
+**C.Scale** can accommodate time horizons of 30 or 60 years. Currently, the web application can only accommodate a 30 year time horizon. For analysis on a 60 year time horizon, [use our API](broken-reference).
 
 ### Life Cycle Stages
 
-**c.scale** integrates data from life cycle stages (sometimes called "life cycle modules") A1-A5, B2-B6, and C2-C4. These correspond to the impacts of the materials used in the project, emissions from construction, their replacement over time, and the project’s operational energy use. When biogenic carbon is counted, some end-of-life impacts (from modules C2-C4) are assessed during the product phase (see appendix [Biogenic Carbon](broken-reference/)). End-of-life (C2-C4) emissions for structure are only assessed when a 60 year time horizon is selected.
+**C.Scale** integrates data from life cycle stages (sometimes called "life cycle modules") A1-A5, B2-B6, and C2-C4. These correspond to the impacts of the materials used in the project, emissions from construction, their replacement over time, and the project’s operational energy use. When biogenic carbon is counted, some end-of-life impacts (from modules C2-C4) are assessed during the product phase (see appendix [Biogenic Carbon](broken-reference/)). End-of-life (C2-C4) emissions for structure are only assessed when a 60 year time horizon is selected.
 
-<figure><img src="../../.gitbook/assets/EPIC - Included LIfe Cycle Stages.png" alt=""><figcaption><p>Highlighted stages are included in the c.scale model.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/EPIC - Included LIfe Cycle Stages.png" alt=""><figcaption><p>Highlighted stages are included in the C.Scale model.</p></figcaption></figure>
 
 ### Embodied Carbon Scope
 
-**c.scale** includes an assessment of embodied carbon from the following sources:
+**C.Scale** includes an assessment of embodied carbon from the following sources:
 
 * Building structure and foundation
 * Construction activities
@@ -40,7 +40,7 @@ EPIC is a work in progress; future development will respond to user feedback, in
 
 ### Operational Carbon Scope
 
-**c.scale** considers operational emissions from the following sources:
+**C.Scale** considers operational emissions from the following sources:
 
 * Emissions from the combustion of methane gas in the building
 * Upstream leakage of methane gas as a proportion of methane gas combusted in the building
@@ -48,11 +48,11 @@ EPIC is a work in progress; future development will respond to user feedback, in
 
 ### Stored Carbon Scope
 
-**c.scale** includes an estimate of carbon storage in timber structural systems and site landscaping. Carbon storage in planting is calculated over the time horizon then annualized. Carbon storage in building structure is assigned to the first year of the project. c.scale's method for calculating carbon storage in timber structural systems is detailed in the section on [stored and avoided carbon](stored-avoided-carbon.md).
+**C.Scale** includes an estimate of carbon storage in timber structural systems and site landscaping. Carbon storage in planting is calculated over the time horizon then annualized. Carbon storage in building structure is assigned to the first year of the project. C.Scale's method for calculating carbon storage in timber structural systems is detailed in the section on [stored and avoided carbon](stored-avoided-carbon.md).
 
 ### Refining EPIC's Scope
 
-In EPIC, you can add or remove some life cycle modules and building components from the scope of an assessment. When comparing results between scenarios witin EPIC, between c.scale and wbLCA, or between any estimates of carbon emissions, _the scopes of each analysis must be identical._
+In EPIC, you can add or remove some life cycle modules and building components from the scope of an assessment. When comparing results between scenarios witin EPIC, between C.Scale and wbLCA, or between any estimates of carbon emissions, _the scopes of each analysis must be identical._
 
 When EPIC's scope is defined for a given project, that same definition of scope will be used in each of the project's scenarios. More information on how to define the scope of analysis within EPIC is available in the user's guide [here](../../epic-web-application/base-case/refine-project-scope.md).
 
@@ -60,10 +60,10 @@ When EPIC's scope is defined for a given project, that same definition of scope 
 
 _<mark style="color:green;">Inclusion of an uncertainty estimate is coming soon to the public web application.</mark>_
 
-Anecdotal evidence has put c.scale results (modeled without any customization) within 5-30% of the estimates generated by whole building Life Cycle Assessment and hourly operational carbon assessment for buildings where EPIC was used either in early project stages or _post facto_.
+Anecdotal evidence has put C.Scale results (modeled without any customization) within 5-30% of the estimates generated by whole building Life Cycle Assessment and hourly operational carbon assessment for buildings where EPIC was used either in early project stages or _post facto_.
 
-Every attempt has been made to ensure that c.scale describes a typical building (i.e. a building similar to those in our database) whose characteristics match those you enter in the tool. However, unreported characteristics may make a particular building atypical in ways that it is beyond the scope of EPIC to describe. For instance, the use of particularly high-carbon and high-cost finish materials (e.g., a building where all the millwork is in gold leaf) is not covered by c.scale. It is impossible to preemptively describe all cases where c.scale might deviate from a particular building (the possibilities are literally endless) but, as your project progresses, we recommend that your team remains aware of how any deviation from "typical" design will affect the project's climate goals.
+Every attempt has been made to ensure that C.Scale describes a typical building (i.e. a building similar to those in our database) whose characteristics match those you enter in the tool. However, unreported characteristics may make a particular building atypical in ways that it is beyond the scope of EPIC to describe. For instance, the use of particularly high-carbon and high-cost finish materials (e.g., a building where all the millwork is in gold leaf) is not covered by C.Scale. It is impossible to preemptively describe all cases where C.Scale might deviate from a particular building (the possibilities are literally endless) but, as your project progresses, we recommend that your team remains aware of how any deviation from "typical" design will affect the project's climate goals.
 
 Customizing any model parameters removes them from the calculation of uncertainty. We assume that custom data represents commitments made by the project team.
 
-If you would like to discuss c.scale's uncertainty on your project, [reach out](mailto:epic@ehdd.com).
+If you would like to discuss C.Scale's uncertainty on your project, [reach out](mailto:epic@ehdd.com).

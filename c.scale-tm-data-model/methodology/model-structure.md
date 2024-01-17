@@ -1,10 +1,10 @@
 # Model Structure
 
-## c.scale calculates whole life carbon emissions
+## C.Scale calculates whole life carbon emissions
 
-c.scale integrates embodied, operational, and landscape carbon emission assessment into a single model. By taking a 'whole carbon' view, c.scale prevents burden shifting and ensures that a project has the information necessary to target the most impactful carbon reductions.
+C.Scale integrates embodied, operational, and landscape carbon emission assessment into a single model. By taking a 'whole carbon' view, C.Scale prevents burden shifting and ensures that a project has the information necessary to target the most impactful carbon reductions.
 
-c.scale uses GWP-100 characterization factors.
+C.Scale uses GWP-100 characterization factors.
 
 ### Calculating Embodied Carbon [↗](model-structure.md#calculating-embodied-carbon)
 
@@ -22,7 +22,7 @@ $$
 10,000\ sf\ast4\ \frac{lbs\ rebar}{sf}\ast0.5\ \frac{kg\ CO_2e}{lb\ rebar}=20,000\ kg\ CO_2e
 $$
 
-In each section of its model, c.scale sums the assessed emission of many individual contributors. While simple summation is acceptable in some cases, some materials will be replaced before the target date. For these materials, the emissions are assigned to the year(s) in which they’re replaced, and a multiplier is added to the total summation. The total embodied emissions assessed by c.scale are represented by this expression:
+In each section of its model, C.Scale sums the assessed emission of many individual contributors. While simple summation is acceptable in some cases, some materials will be replaced before the target date. For these materials, the emissions are assigned to the year(s) in which they’re replaced, and a multiplier is added to the total summation. The total embodied emissions assessed by C.Scale are represented by this expression:
 
 $$
 Total\ embodied\ carbon\ emissions=\ \sum_{i=1}^{n}\ A\ast x_i\ast c_i\ast(1+r_i)\
@@ -32,7 +32,7 @@ For n number of contributors to the embodied emissions, where A is the total bui
 
 ### Calculating Operational Carbon [↗](model-structure.md#calculating-operational-carbon)
 
-The operational emissions of the project are assessed annually and summed across all years before the target date. The equation is similar to the equation for embodied emissions, with two key differences: first, the quantity x is substituted for the energy use intensity (EUI) e; second, the equation is a double summation, once across all the fuel types in the building and again across all years between the building’s completion and the target year. The total operational emissions assessed by c.scale are represented by this expression:
+The operational emissions of the project are assessed annually and summed across all years before the target date. The equation is similar to the equation for embodied emissions, with two key differences: first, the quantity x is substituted for the energy use intensity (EUI) e; second, the equation is a double summation, once across all the fuel types in the building and again across all years between the building’s completion and the target year. The total operational emissions assessed by C.Scale are represented by this expression:
 
 $$
 Operational\ carbon\ emissions=\ \sum_{t=1}^{m}\ \sum_{j=1}^{o}\ A\ast e_{tj}\ast c_j
@@ -44,11 +44,11 @@ Carbon emissions associated with electricity are derived from NREL's Cambium mod
 
 #### Refrigerant Emissions
 
-In c.scale, fugitive emissions from refrigerant leakage are categorized as operational emissions. They are counted in life cycle stage B1.
+In C.Scale, fugitive emissions from refrigerant leakage are categorized as operational emissions. They are counted in life cycle stage B1.
 
 ### Calculating Stored and Avoided Carbon [↗](model-structure.md#calculating-stored-and-avoided-carbon)
 
-In c.scale, landscaping and the use of structural timber contribute to biogenic carbon storage. Carbon storage in structural materials is assessed once in the first year of the project, and landscape sequestration is assessed each year. Biogenic carbon sequestration is evaluated with the following expression:
+In C.Scale, landscaping and the use of structural timber contribute to biogenic carbon storage. Carbon storage in structural materials is assessed once in the first year of the project, and landscape sequestration is assessed each year. Biogenic carbon sequestration is evaluated with the following expression:
 
 $$
 Carbon\ Storage=x_i\ast C_i+\ \sum_{t=1}^{m}\ A_k\ast C_k
@@ -62,11 +62,11 @@ $$
 Avoided\ carbon\ emissions=\ \sum_{t=1}^{m}\ e_{t}\ast c_{t}
 $$
 
-Where $$e_{t}$$ is the excess energy in kWh generated in year $$t$$ and $$c_{t}$$ is the carbon intensity of the electrical grid per unit demand in year $$t$$. This method assumes that there is no curtailment of PV production, and that the carbon emissions of grid electricity when solar energy is produced is substantially similar to the annual average emissions. In locations with a high proportion of solar on the grid, curtailment is likely and skepticism of c.scale's calculation of avoided emissions is warranted.
+Where $$e_{t}$$ is the excess energy in kWh generated in year $$t$$ and $$c_{t}$$ is the carbon intensity of the electrical grid per unit demand in year $$t$$. This method assumes that there is no curtailment of PV production, and that the carbon emissions of grid electricity when solar energy is produced is substantially similar to the annual average emissions. In locations with a high proportion of solar on the grid, curtailment is likely and skepticism of C.Scale's calculation of avoided emissions is warranted.
 
-## c.scale is a time series model
+## C.Scale is a time series model
 
-In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, c.scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](./#time-horizon)), c.scale estimates all emissions occurring in that year.
+In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, C.Scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](./#time-horizon)), C.Scale estimates all emissions occurring in that year.
 
 **In the first year**, the following emissions are always calculated:
 
@@ -93,7 +93,7 @@ Units describe data. When we compare 2 kilograms to 2 square feet, the units hel
 
 #### Area Units
 
-* **Square feet.** As the geographic scope of c.scale is currently limited to the United States, area is described in square feet and emissions evaluated on a per square foot basis. In much of the literature on carbon emissions from buildings, however, emissions are compared on a per square meter basis. To compare results from c.scale to results on a per square meter basis, unit conversion is necessary.
+* **Square feet.** As the geographic scope of C.Scale is currently limited to the United States, area is described in square feet and emissions evaluated on a per square foot basis. In much of the literature on carbon emissions from buildings, however, emissions are compared on a per square meter basis. To compare results from C.Scale to results on a per square meter basis, unit conversion is necessary.
 
 #### Time Units
 
@@ -108,8 +108,8 @@ Units describe data. When we compare 2 kilograms to 2 square feet, the units hel
 
 * **Metric tons of CO2-equivalent** (tCO2e)**.** Following conventions across the literature, carbon emissions are described in metric units. One metric ton is equal to 1000 kilograms and 2,204 pounds. EPIC measures emissions of "carbon dioxide equivalents," using emission factors published by the IPCC to include emissions of extremely potent greenhouse gases (such as methane and nitrous oxide) based on their comparability to carbon dioxide emissions.
 
-## EPIC and c.scale are customizable and extensible
+## EPIC and C.Scale are customizable and extensible
 
-c.scale is built as a series of modules, each connected to the others and tasked with a specific set of calculations. These modules are added or expanded in response to the requests of users.
+C.Scale is built as a series of modules, each connected to the others and tasked with a specific set of calculations. These modules are added or expanded in response to the requests of users.
 
 Many parts of the EPIC model (in v2.0.0 and beyond) can be customized or overriden by the user. This allows for the addition of project-specific data where it is available while maintaining the EPIC model for calculating all other parts of the project's carbon footprint. The customizations available in the open access web app are described [here](../../epic-web-application/carbon-reduction-measures/customize-scenario.md). To request additional features, [contact us](mailto:epic@ehdd.com).
