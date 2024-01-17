@@ -87,29 +87,8 @@ In the built environment, it is essential to understand the [time value of carbo
 * Replacement and refurbishment of interior fit-out (life cycle stages B3-B5)
 * Replacement and refurbishment of MEP and PV systems (life cycle stages B3-B5)
 
-## Units in EPIC
-
-Units describe data. When we compare 2 kilograms to 2 square feet, the units help us to understand which is a measure of mass and which of area. In EPIC, where data are used both to calculate and present the result of carbon reduction measures, the interpretation of units is essential to the evaluation and comparison of carbon reduction strategies. EPIC uses a set of units specific to the tool's objectives. The units included in EPIC, and the consequences of their inclusion, are described below.
-
-#### Area Units
-
-* **Square feet.** As the geographic scope of C.Scale is currently limited to the United States, area is described in square feet and emissions evaluated on a per square foot basis. In much of the literature on carbon emissions from buildings, however, emissions are compared on a per square meter basis. To compare results from C.Scale to results on a per square meter basis, unit conversion is necessary.
-
-#### Time Units
-
-* **Years.** EPIC evaluates emissions on an annual basis. The choice of an annual basis means that EPIC cannot describe intra-annual variations in carbon emissions from electricity, such as seasonal or daily variations. This approach is standard practice, but precludes inclusion of important carbon reduction measures such as demand response or battery storage in EPIC.
-
-**Energy and Power Units**
-
-* **kBtu/sf/yr.** This unit describes Energy Use Intensity (EUI), the quantity of energy required by a building per square foot per year. 1 kBtu is equivalent to 1,000 British thermal units and 293 Watt-hours. In EPIC, energy use is measured at the project site (site EUI) and not at the generation source.
-* **kW.** The nameplate capacity of a solar array is described in kilowatts (kW), a unit of power.
-
-#### Carbon Emissions Units
-
-* **Metric tons of CO2-equivalent** (tCO2e)**.** Following conventions across the literature, carbon emissions are described in metric units. One metric ton is equal to 1000 kilograms and 2,204 pounds. EPIC measures emissions of "carbon dioxide equivalents," using emission factors published by the IPCC to include emissions of extremely potent greenhouse gases (such as methane and nitrous oxide) based on their comparability to carbon dioxide emissions.
-
-## EPIC and C.Scale are customizable and extensible
+## C.Scale customizable and extensible
 
 C.Scale is built as a series of modules, each connected to the others and tasked with a specific set of calculations. These modules are added or expanded in response to the requests of users.
 
-Many parts of the EPIC model (in v2.0.0 and beyond) can be customized or overriden by the user. This allows for the addition of project-specific data where it is available while maintaining the EPIC model for calculating all other parts of the project's carbon footprint. The customizations available in the open access web app are described [here](../../epic-web-application/carbon-reduction-measures/customize-scenario.md). To request additional features, [contact us](mailto:epic@ehdd.com).
+The C.scale model's assumptions and background data can be overriden or refined through additional inputs. This allows for the addition of project-specific data where it is available while maintaining the C.Scale model for calculating all other parts of the project's carbon footprint. For more information on how this works, check out our Swagger docs or reach out for a conversation.
