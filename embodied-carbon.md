@@ -14,7 +14,7 @@ EPIC's estimation of embodied carbon in a building's structure is modeled based 
 
 #### Calculating a Bill of Materials
 
-EPIC uses a suite of machine learning models to estimate quantities of major structural materials in typical buildings. These models were trained from an EHDD database of structural quantities in completed buildings (n > 1000) assembled from both internal and public sources. The models are updated regularly as new data becomes available.&#x20;
+EPIC uses a suite of machine learning models to estimate quantities of major structural materials in typical buildings. These models were trained from an EHDD database of structural quantities in completed buildings (n > 1000) assembled from both internal and public sources. The models are updated regularly as new data becomes available.
 
 These weighted data is used to train a statistical model for each structural material in each structural system. These models are trained on five predictors:
 
@@ -30,7 +30,7 @@ These methods for calculating a structural bill of materials have been reviewed 
 
 #### Carbon Intensities of Structural Materials
 
-**Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, EPIC uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources](broken-reference/) section of this guide.
+**Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, EPIC uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources](c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
 
 The three specifications available in EPIC—low carbon, best practices, and conservative—correspond to the 20th, 50th, and 80th percentile of emissions for that material. These estimates _do not_ correspond to a specific EPD, as there are many options for achieving a certain level of performance. Most carbon intensities for structural materials in EPIC are national averages, as material supply chains for major structural materials are typically national (or global) in coverage.
 
@@ -44,7 +44,7 @@ In locations where concrete EPDs are available, EPIC sets the specification leve
 {% tab title="United States" %}
 <table><thead><tr><th width="199">Structural Material</th><th>Low Carbon</th><th width="174">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Concrete, 3-4 kSI</strong></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td></tr><tr><td><strong>Concrete, 5-6 kSI</strong></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td></tr><tr><td><strong>Concrete, 7-10 kSI</strong></td><td>0.16 kgCO2e/kg</td><td>0.18 kgCO2e/kg</td><td>0.19 kgCO2e/kg</td></tr><tr><td><strong>Reinforcing Steel</strong></td><td>0.9 kgCO2e/kg</td><td>1.1 kgCO2e/kg</td><td>1.16 kgCO2e/kg</td></tr><tr><td><strong>Structural Steel</strong></td><td>0.9 kgCO2e/kg</td><td>1.1 kgCO2e/kg</td><td>1.2 kgCO2e/kg</td></tr><tr><td><strong>Steel Deck</strong></td><td>1.7 kgCO2e/kg</td><td>2.2 kgCO2e/kg</td><td>2.4 kgCO2e/kg</td></tr><tr><td><strong>Lumber</strong></td><td>0.09 kgCO2e/kg</td><td>0.16 kgCO2e/kg</td><td>0.21 kgCO2e/kg</td></tr><tr><td><strong>Plywood/OSB</strong></td><td>0.36 kgCO2e/kg</td><td>0.51 kgCO2e/kg</td><td>0.73 kgCO2e/kg</td></tr><tr><td><strong>Engineered Wood</strong></td><td>0.19 kgCO2e/kg</td><td>0.25 kgCO2e/kg</td><td>0.36 kgCO2e/kg</td></tr></tbody></table>
 
-<figure><img src="../../.gitbook/assets/concrete regionalization-01.png" alt=""><figcaption><p>EPD regionalization. Note that EPDs are typically concentrated in metro areas, and the background NRMCA data for that region may have either a higher or a lower carbon intensity.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/concrete regionalization-01.png" alt=""><figcaption><p>EPD regionalization. Note that EPDs are typically concentrated in metro areas, and the background NRMCA data for that region may have either a higher or a lower carbon intensity.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Canada" %}
@@ -88,7 +88,7 @@ For each of the three envelope categories, the carbon intensity is determined by
 
 All three parameters can be customized for a scenario in the scenario customization screen.
 
-Additional data on envelope assemblies are accessible via EPIC's [API](../access-epic-via-api.md). For access to these data, [please reach out](mailto:epic@ehdd.com?subject=API).
+Additional data on envelope assemblies are accessible via EPIC's [API](broken-reference). For access to these data, [please reach out](mailto:epic@ehdd.com?subject=API).
 
 #### Embodied Carbon in Interior Fit Out
 
@@ -117,7 +117,7 @@ This parameter can be customized for a scenario in the scenario customization sc
 
 #### Embodied Carbon in Solar Photovoltaic Arrays
 
-Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](broken-reference/) section of this guide.
+Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
 
 #### Embodied Carbon in Hardscape
 
@@ -129,7 +129,7 @@ All site area not designated as planted is assumed to be hardscaped. Hardscape e
 
 #### Emissions from Landscape Maintenance
 
-Emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](broken-reference/) section of this guide.
+Emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
 
 ### Construction Emissions
 

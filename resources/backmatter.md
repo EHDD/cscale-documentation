@@ -1,8 +1,6 @@
 # 📃 Backmatter
 
-**EPIC** is an early-phase low-carbon design tool.
-
-**c.scale** is a lightweight data model for carbon footprinting in the built environment.
+**C.Scale** is a lightweight data model for whole life carbon assessments.
 
 **EHDD** creates transformative places of belonging and impact. Learn more about our work at [ehdd.com](http://ehdd.com).
 
@@ -54,4 +52,4 @@ The c.scale data model © 2023 EHDD
 
 **September 14, 2023** - v2.0.2. Updates to the estimation model for structural quantities. Miscellaneous backend performance updates. Minor UI updates.
 
-**September 25, 2023** - v2.0.3. Addition of fugitive emissions from refrigerants to the c.scale model. Additional model overrides are publicly accessible.&#x20;
+**September 25, 2023** - v2.0.3. Addition of fugitive emissions from refrigerants to the c.scale model. Additional model overrides are publicly accessible.
