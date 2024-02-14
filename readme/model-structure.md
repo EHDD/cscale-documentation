@@ -66,7 +66,7 @@ Where $$e_{t}$$ is the excess energy in kWh generated in year $$t$$ and $$c_{t}$
 
 ## C.Scale is a time series model
 
-In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, C.Scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](./#time-horizon)), C.Scale estimates all emissions occurring in that year.
+In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, C.Scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](methodology.md#time-horizon)), C.Scale estimates all emissions occurring in that year.
 
 **In the first year**, the following emissions are always calculated:
 

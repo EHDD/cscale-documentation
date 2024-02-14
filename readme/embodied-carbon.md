@@ -38,7 +38,7 @@ _We anticipate journal publication of our modeling pipeline in 2024. In the mean
 
 #### Carbon Intensities of Structural Materials
 
-**Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, C.Scale uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources](broken-reference/) section of this guide.
+**Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, C.Scale uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources](../c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
 
 The three specifications available in C.Scale—low carbon, best practices, and conservative—correspond to the 20th, 50th, and 80th percentile of emissions for that material. These estimates _do not_ correspond to a specific EPD, as there are many options for achieving a certain level of performance. Most carbon intensities for structural materials in C.Scale are national averages, as material supply chains for major structural materials are typically national (or global) in coverage.
 
@@ -127,7 +127,7 @@ This parameter can be customized for a scenario in the scenario customization sc
 
 #### Embodied Carbon in Solar Photovoltaic Arrays
 
-Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](broken-reference/) section of this guide.
+Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](../c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
 
 #### Embodied Carbon in Hardscape
 
@@ -139,7 +139,7 @@ All site area not designated as planted is assumed to be hardscaped. Hardscape e
 
 #### Emissions from Landscape Maintenance
 
-Emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](broken-reference/) section of this guide.
+Emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](../c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
 
 ### Construction Emissions
 
