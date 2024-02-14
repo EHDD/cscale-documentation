@@ -4,13 +4,13 @@ The overview of how C.Scale calculated operational carbon is detailed on the [mo
 
 ## Energy Use
 
-C.Scale uses energy use intensity (EUI) in units of kBtu/sf/yr (or kWh/m2/yr) as its metric for energy use in buildings. EPIC is designed to give accurate feedback on the carbon emissions associated with a declared energy use, but is not an energy modeling tool for determining how a declared energy use can be achieved.
+C.Scale uses energy use intensity (EUI) in units of kBtu/sf/yr (or kWh/m2/yr) as its metric for energy use in buildings. C.Scale is designed to give accurate feedback on the carbon emissions associated with a declared energy use, but is not an energy modeling tool for determining how a declared energy use can be achieved.
 
 Baseline EUIs are set in c.scale using a direct API connection with Architecture 2030's [Zero Tool](https://zerotool.org/zerotool/), with a failover to a subset of cached Zero Tool results. Zero Tool estimates are used to set baselines for AIA 2030 reporting, but should not be construed as representing "code minimum" design. To set a code minimum EUI, enter your desired value as the `benchmark_EUI` in the request object.
 
 ### Fuel Mix
 
-Benchmark buildings are assumed to be "mixed fuel," using energy from both electricity and onsite combustion. All onsite combustion is assumed to be natural gas. The fuel mix of buildings is calculated to align with assumptions in Architecture 2030's [Zero Tool](https://zerotool.org/zerotool/). Zero Tool estimates are used to set baselines for AIA 2030 reporting, but should not be construed as representing "code minimum" design. To set a code minimum fossil fuel use, enter a custom value in the "% Onsite Fossil Fuel Combustion" [override](../../epic-web-application/base-case/overrides.md) in EPIC's Base Case tab.
+Benchmark buildings are assumed to be "mixed fuel," using energy from both electricity and onsite combustion. All onsite combustion is assumed to be natural gas. The fuel mix of buildings is calculated to align with assumptions in Architecture 2030's [Zero Tool](https://zerotool.org/zerotool/). Zero Tool estimates are used to set baselines for AIA 2030 reporting, but should not be construed as representing "code minimum" design.&#x20;
 
 C.Scale assumes a 2.4% upstream leakage rate for all fossil fuel combusted in a building. The carbon intensity of this leakage is calculated with characterization factors from the IPCC's AR6.
 
@@ -54,7 +54,7 @@ The future of the electrical grid is uncertain. To account for this uncertainty,
 {% endtab %}
 
 {% tab title="Canada" %}
-In order to ensure accurate operational emissions estimations for the lifecycle of a building in EPIC, a similar method to incorporating U.S. Grid Data was employed. Using [measured Grid Data](https://data-donnees.ec.gc.ca/data/substances/monitor/canada-s-official-greenhouse-gas-inventory/C-Tables-Electricity-Canada-Provinces-Territories/?lang=en) and [future projection data](https://open.canada.ca/data/en/dataset/5a6abd9d-d343-41ef-a525-7a1efb686300), yearly Canadian Grid emissions are estimated through 2110 with three different decarbonization scenarios so that operational emissions of any EPIC project started before 2050 can be effectively estimated over a 60 year lifetime. Given the uncertainty of future grid emissions, the three decarbonization forecasts included represent the following scenarios:
+In order to ensure accurate operational emissions estimations for the lifecycle of a building in C.Scale, a similar method to incorporating U.S. Grid Data was employed. Using [measured Grid Data](https://data-donnees.ec.gc.ca/data/substances/monitor/canada-s-official-greenhouse-gas-inventory/C-Tables-Electricity-Canada-Provinces-Territories/?lang=en) and [future projection data](https://open.canada.ca/data/en/dataset/5a6abd9d-d343-41ef-a525-7a1efb686300), yearly Canadian Grid emissions are estimated through 2110 with three different decarbonization scenarios so that operational emissions of any C.Scale project started before 2050 can be effectively estimated over a 60 year lifetime. Given the uncertainty of future grid emissions, the three decarbonization forecasts included represent the following scenarios:
 
 * **Expected Decarbonization:** Current policies are maintained, including an assumption that non-emitting materials comprise 80% of electricity generation by 2030, and comprise 89% of generation by 2050. Where electricity generation comes from emitting technologies, carbon capture and storage units are to be built. Electricity Storage becomes possible, as well as inter-provincial transmission, allowing excess generation to be shared among provinces. This is referred to as “Net Zero Electricity (NZE) Baseline” in Canadian Energy Regulator Energy Future 2021.
 * **Slower Decarbonization:** Same as NZE Baseline scenario, except there is no inter-provincial transmission of electricity due to high cost of expansion and subsequently, investment is uncertain. Without inter-provincial transmission, provinces with less ability to decarbonize still need to use emitting technologies. This is referred to as “Limited Transmission” Canadian Energy Regulator Energy Future 2021.
@@ -72,7 +72,7 @@ C.Scale calculates energy generation from onsite solar photovoltaic arrays using
 
 The array area returned by the c.scale is the total area of the array (i.e., inclusive of the space between the panels). The ratio of solar panels to total array area is the Ground Coverage Ratio (GCR).
 
-PVWatts is limited to latitudes from -90 to +90 degrees. For latitudes outside this range, we calculate solar potential at the limit (either -90 or +90). If you're using EPIC to model a PV arrray at extreme latitudes, use caution.
+PVWatts is limited to latitudes from -90 to +90 degrees. For latitudes outside this range, we calculate solar potential at the limit (either -90 or +90). If you're using C.Scale to model a PV arrray at extreme latitudes, use caution.
 
 ## Refrigerant Emissions
 
@@ -82,7 +82,7 @@ For each year of operation, emissions from refrigerant leakage are calculated as
 
 $$Emissions_{\text{annual}} = (\text{ref charge}) \cdot (\text{ref leakage rate}_{\text{annual}}) \cdot (\text{ref GWP})$$
 
-For each year where MEP systems are replaced/refurbished (denoted in EPIC as the “refurbishment period”), emissions from refrigerant leakage are calculated as:
+For each year where MEP systems are replaced/refurbished (denoted in C.Scale as the “refurbishment period”), emissions from refrigerant leakage are calculated as:
 
 $$Emissions_{\text{EoL}} = (\text{ref charge}) \cdot (\text{ref leakage rate}_{\text{EoL}} + \text{leakage rate}_{\text{annual}}) \cdot (\text{ref GWP})$$
 

@@ -2,7 +2,7 @@
 
 The overview of how C.Scale calculated embodied carbon is detailed on the [model structure](model-structure.md) page. Below, we give additional detail about how C.Scale calculates emissions from all the assemblies and processes counted as part of a project's embodied carbon.
 
-Every attempt has been made to ensure that C.Scale's results describe a typical building (i.e. a building similar to those in our database) whose characteristics match those you enter in the tool. However, unreported characteristics may make a particular building atypical in ways that it is beyond the scope of C.Scale to describe. For instance, the use of particularly high-carbon and high-cost finish materials (e.g., a building where all the millwork is in gold leaf) is not well-described by C.Scale. It is impossible to preemptively describe all cases where EPIC might deviate from a particular building (the possibilities are literally endless) but, as your project progresses, we recommend that your project team remains aware of how any deviation from "typical" design will affect the project's climate goals.
+Every attempt has been made to ensure that C.Scale's results describe a typical building (i.e. a building similar to those in our database) whose characteristics match those you enter in the tool. However, unreported characteristics may make a particular building atypical in ways that it is beyond the scope of C.Scale to describe. For instance, the use of particularly high-carbon and high-cost finish materials (e.g., a building where all the millwork is in gold leaf) is not well-described by C.Scale. It is impossible to preemptively describe all cases where C.Scale might deviate from a particular building (the possibilities are literally endless) but, as your project progresses, we recommend that your project team remains aware of how any deviation from "typical" design will affect the project's climate goals.
 
 ### Embodied Carbon in Building Structure
 
@@ -38,15 +38,15 @@ _We anticipate journal publication of our modeling pipeline in 2024. In the mean
 
 #### Carbon Intensities of Structural Materials
 
-**Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, EPIC uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources](broken-reference/) section of this guide.
+**Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, C.Scale uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources](broken-reference/) section of this guide.
 
-The three specifications available in EPIC—low carbon, best practices, and conservative—correspond to the 20th, 50th, and 80th percentile of emissions for that material. These estimates _do not_ correspond to a specific EPD, as there are many options for achieving a certain level of performance. Most carbon intensities for structural materials in EPIC are national averages, as material supply chains for major structural materials are typically national (or global) in coverage.
+The three specifications available in C.Scale—low carbon, best practices, and conservative—correspond to the 20th, 50th, and 80th percentile of emissions for that material. These estimates _do not_ correspond to a specific EPD, as there are many options for achieving a certain level of performance. Most carbon intensities for structural materials in C.Scale are national averages, as material supply chains for major structural materials are typically national (or global) in coverage.
 
 Concrete emissions, on the other hand, as assessed at the zip code level. Concrete is a regional material, rarely traveling more than 25 miles between production and use. Additionally, the relatively large number of concrete EPDs available in the United States ([80,000+](https://buildingtransparency.org/ec3) at time of writing) supports a regional approach to measuring concrete emissions.
 
-Where concrete EPDs are not available, the specification levels in EPIC are set using NRMCA published minimum, average, and maximum values in line with the method outlined in the CLF's [2021 Material Baseline Report](https://carbonleadershipforum.org/2021-material-baseline-report/), included the use of the uncertainty method put forward by Building Transparency.
+Where concrete EPDs are not available, the specification levels in C.Scale are set using NRMCA published minimum, average, and maximum values in line with the method outlined in the CLF's [2021 Material Baseline Report](https://carbonleadershipforum.org/2021-material-baseline-report/), included the use of the uncertainty method put forward by Building Transparency.
 
-In locations where concrete EPDs are available, EPIC sets the specification levels for concrete by sampling the distribution of GWP values from available concrete EPDs at the 20th, 50th, and 80th percentile. Location specific data on concrete are collected via the [OpenEPD API](https://openepd.buildingtransparency.org/) and compiled in a GIS platform. High-strength concrete (7-10 kSI) carbon intensities correspond to Building Transparency's [OpenImpact](https://www.buildingtransparency.org/programs/openimpact/) data on 55.2 MPa concrete.
+In locations where concrete EPDs are available, C.Scale sets the specification levels for concrete by sampling the distribution of GWP values from available concrete EPDs at the 20th, 50th, and 80th percentile. Location specific data on concrete are collected via the [OpenEPD API](https://openepd.buildingtransparency.org/) and compiled in a GIS platform. High-strength concrete (7-10 kSI) carbon intensities correspond to Building Transparency's [OpenImpact](https://www.buildingtransparency.org/programs/openimpact/) data on 55.2 MPa concrete.
 
 {% tabs %}
 {% tab title="North America" %}
@@ -66,11 +66,11 @@ Users can access these data, including C.Scale's location-specific data, via a `
 
 ### Embodied Carbon in Building Assembles
 
-Building assemblies in EPIC are evaluated on a per-area basis.
+Building assemblies in C.Scale are evaluated on a per-area basis.
 
 #### Embodied Carbon in the Building Envelope
 
-The building envelope in divided into three components: opaque cladding, glazing, and roofing. The area of each is calculated based on user inputs for building floor area, number of floors, floor-to-floor height window-to-wall ratio (WWR), and building perimeter. EPIC makes a preliminary estimate of floor-to-floor height, WWR, and building perimeter (assuming a square building) which the user can refine in the "overrides" panel in the base case tab.
+The building envelope in divided into three components: opaque cladding, glazing, and roofing. The area of each is calculated based on user inputs for building floor area, number of floors, floor-to-floor height window-to-wall ratio (WWR), and building perimeter. C.Scale makes a preliminary estimate of floor-to-floor height, WWR, and building perimeter (assuming a square building) which the user can refine in the "overrides" panel in the base case tab.
 
 $$
 Envelope \ area = Perimeter \ * \ Floor \ Height \ * \ Number \ of \ floors
@@ -98,11 +98,11 @@ For each of the three envelope categories, the carbon intensity is determined by
 
 All three parameters can be customized for a scenario in the scenario customization screen.
 
-Additional data on envelope assemblies are accessible via EPIC's [API](broken-reference). For access to these data, [please reach out](mailto:epic@ehdd.com?subject=API).
+Additional data on envelope assemblies are accessible via C.Scale's [API](broken-reference). For access to these data, [please reach out](mailto:epic@ehdd.com?subject=API).
 
 #### Embodied Carbon in Interior Fit Out
 
-Interior fit out is calculated on a per area basis for a proportion of the building's total area. Note that the dataset used to generate the quantities used in EPIC is not sensitive to use type and is biased toward commercial interiors. These data include internal EHDD data and data from the CLF study on tenant fit outs in commercial office buildings.
+Interior fit out is calculated on a per area basis for a proportion of the building's total area. Note that the dataset used to generate the quantities used in C.Scale is not sensitive to use type and is biased toward commercial interiors. These data include internal EHDD data and data from the CLF study on tenant fit outs in commercial office buildings.
 
 | Assembly           | Low Carbon    | Best Practices | Conservative   |
 | ------------------ | ------------- | -------------- | -------------- |
@@ -112,7 +112,7 @@ This parameter can be customized for a scenario in the scenario customization sc
 
 #### Embodied Carbon in MEP
 
-Embodied carbon in mechanical systems in evaluated at two specification levels—standard performance and high performance—and is dependent of the total square footage of the building. This approach, and the data used in EPIC, follow from the CLF study on building mechanical systems.
+Embodied carbon in mechanical systems in evaluated at two specification levels—standard performance and high performance—and is dependent of the total square footage of the building. This approach, and the data used in C.Scale, follow from the CLF study on building mechanical systems.
 
 | Building Area       | Standard Performance | High Performance |
 | ------------------- | -------------------- | ---------------- |
@@ -121,7 +121,7 @@ Embodied carbon in mechanical systems in evaluated at two specification levels�
 | 80,000 - 300,000 sf | 5.93 kgCO2e/sf       | 6.02 kgCO2e/sf   |
 | > 300,000 sf        | 4.83 kgCO2e/sf       | 6.79 kgCO2e/sf   |
 
-Base case buildings in EPIC are always assumed to have a standard performance system. <mark style="background-color:yellow;">Scenarios that achieve an EUI reduction of more than 50% the benchmark are assumed to have a high performance system.</mark> The EUI reduction threshold is not directly editable in the public-facing web app, but can be redefined in the API.
+Base case buildings in C.Scale are always assumed to have a standard performance system. <mark style="background-color:yellow;">Scenarios that achieve an EUI reduction of more than 50% the benchmark are assumed to have a high performance system.</mark> The EUI reduction threshold is not directly editable in the public-facing web app, but can be redefined in the API.
 
 This parameter can be customized for a scenario in the scenario customization screen.
 
@@ -131,7 +131,7 @@ Embodied carbon in solar photovoltaics arrays is calculated using values from th
 
 #### Embodied Carbon in Hardscape
 
-All site area not designated as planted is assumed to be hardscaped. Hardscape emissions were calculated by EHDD using a parameterized streamlined LCA model of built from standard hardscape details. The 20th, 50th, and 80th percentile of the resulting distribution was sampled and used to define the specification levels in EPIC.
+All site area not designated as planted is assumed to be hardscaped. Hardscape emissions were calculated by EHDD using a parameterized streamlined LCA model of built from standard hardscape details. The 20th, 50th, and 80th percentile of the resulting distribution was sampled and used to define the specification levels in C.Scale.
 
 | Assembly      | Low Carbon    | Best Practices | Conservative  |
 | ------------- | ------------- | -------------- | ------------- |
@@ -143,14 +143,14 @@ Emissions from landscape maintenance is calculated per planted area using values
 
 ### Construction Emissions
 
-Emissions from the construction of the building are estimated as a proportion of A1-A3 emissions. Our expert review process established below ground construction as the major driver of A4-A5 emission. EPIC estimates A4-A5 emissions as 10% of A1-A3 emissions when there is no below ground construction, and conservatively estimates the same at 18% when there is below ground construction.
+Emissions from the construction of the building are estimated as a proportion of A1-A3 emissions. Our expert review process established below ground construction as the major driver of A4-A5 emission. C.Scale estimates A4-A5 emissions as 10% of A1-A3 emissions when there is no below ground construction, and conservatively estimates the same at 18% when there is below ground construction.
 
 This parameter can be customized for a scenario in the scenario customization screen.
 
 ### Emissions from Greenfield Development
 
-When a user enters a site area, they have the option to select whether or not the site has been previously developed. If the site has been previously developed, EPIC treats it as a "brownfield" site with no carbon sequestered in its soil and existing landscape. If the site has _not_ been previously developed, EPIC treats it as a "greenfield" site with preexisting vegetation.
+When a user enters a site area, they have the option to select whether or not the site has been previously developed. If the site has been previously developed, C.Scale treats it as a "brownfield" site with no carbon sequestered in its soil and existing landscape. If the site has _not_ been previously developed, C.Scale treats it as a "greenfield" site with preexisting vegetation.
 
-Developing a greenfield site releases carbon emissions from two sources: carbon stored in soil and carbon stored in biomass. EPIC assumes that 100% of the carbon stored in topsoil is emitted as carbon dioxide. Data on carbon storage in soil is highly regional, and EPIC uses FAO's Global Soil Organic Carbon data product for this calculation, taking the mean value at the zip code level.
+Developing a greenfield site releases carbon emissions from two sources: carbon stored in soil and carbon stored in biomass. C.Scale assumes that 100% of the carbon stored in topsoil is emitted as carbon dioxide. Data on carbon storage in soil is highly regional, and C.Scale uses FAO's Global Soil Organic Carbon data product for this calculation, taking the mean value at the zip code level.
 
-To calculate emissions from the removal of above ground biomass, EPIC treats the site as vegetated with regionally-specific "low carbon storage" plants at 50% of the site's carrying capacity. More information on how carbon storage in living biomass is calculated in EPIC is available in the [Stored and Avoided Carbon](stored-avoided-carbon.md#carbon-storage-in-landscapes-and-green-roofs) section of the methodology.
+To calculate emissions from the removal of above ground biomass, C.Scale treats the site as vegetated with regionally-specific "low carbon storage" plants at 50% of the site's carrying capacity. More information on how carbon storage in living biomass is calculated in C.Scale is available in the [Stored and Avoided Carbon](stored-avoided-carbon.md#carbon-storage-in-landscapes-and-green-roofs) section of the methodology.
