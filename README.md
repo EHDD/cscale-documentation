@@ -1,5 +1,5 @@
 ---
-description: C.Scale Data Model 2.23.00
+description: C.Scale Data Model 2.24.00
 ---
 
 # 🏗 The C.Scale™ Data Model
