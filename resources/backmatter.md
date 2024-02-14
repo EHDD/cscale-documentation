@@ -6,14 +6,14 @@
 
 ## Project Team
 
-**Project Coordinators**\
-Brad Jacobson, Jack Rusk
-
-**Lead Technical Development**\
+**Project Coordinator, Technical Development**\
 Jack Rusk
 
-**Technical Development**\
+**Data Engineering**\
 Lalyn Yu
+
+**Additional Support**\
+Lee Roder
 
 **Web Development**\
 [Lifelike Labs](https://www.lifelikelabs.com/)
