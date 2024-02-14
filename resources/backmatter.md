@@ -33,7 +33,3 @@ Questions regarding the model, its methodology, or the data behind it can be dir
 ## Copyright
 
 C.Scale © 2023-2024 EHDD. All rights reserved.
-
-## Changelog
-
-_coming soon_

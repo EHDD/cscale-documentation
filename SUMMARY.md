@@ -10,5 +10,6 @@
 
 ## Resources
 
+* [Version Log](resources/version-log.md)
 * [📃 Backmatter](resources/backmatter.md)
 * [🌐 EPIC Web App](http://epic.ehdd.com)
