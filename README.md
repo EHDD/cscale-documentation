@@ -10,4 +10,4 @@ C.Scale is designed for use during site and feasibility studies, requests for pr
 
 The model allows a user to enter a strict minimum of project parameters to test a wide range of the most meaningful carbon reductions strategies. It is the calculation engine behind numerous web applications and research efforts focused on both forward-looking planning and retrospective analysis of carbon emissions from buildings and the built environment.
 
-We ship features continuously, and have an exciting roadmap for the year ahead. Features asre developed in response to user feedback, to incorporate improved data, and to refine the tool's methodology. Something you'd like to see? Reach out.&#x20;
+We ship features continuously, and have an exciting roadmap for the year ahead. Features are developed in response to user feedback, to incorporate improved data, and to refine the tool's methodology. Something you'd like to see? Reach out.&#x20;
