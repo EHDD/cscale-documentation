@@ -9,7 +9,7 @@
 **2.24.00**
 
 * Implemented rate limiting of some tokens
-* Auth refactor
+* Authentication refactor to allow for more fine-grained backend permissioning
 * Rewrite deployment routine
 
 2.23.04
