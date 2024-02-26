@@ -1,9 +1,10 @@
 # 🪵 Version Log
 
-**2.24.00**
+2.24.01
 
-* Implemented standard 20/50/80 specification levels for MEP systems (in nested schema only).
-* Added example request/response to `tokens/token_data` endpoint.&#x20;
+* Implemented standard 20/50/80 specification levels for MEP systems (in nested schema only)
+* Added example request/response to `tokens/token_data` endpoint
+* Pointed links in docs to [cscale.io](https://cscale.io)
 
 **2.24.00**
 
