@@ -50,7 +50,7 @@ The future of the electrical grid is uncertain. To account for this uncertainty,
 * **Slow Decarbonization**. Average estimates as in the mid-case scenario, but with an assumption that battery and renewable energy costs are high. This scenario assumes that the thresholds set by the Inflation Reduction Act’s Production and Investment Tax Credits are not met and, as such, they do not phase out. This metric is described in NREL's Cambium model as "High Cost of Renewable Energy."
 * **Rapid Decarbonization**. Average estimates for inputs such as technology costs, fuel prices, and demand growth. Nascent technologies are included. Electric sector policies as they existed in September 2022, with the assumption that the Inflation Reduction Act’s Production and Investment Tax Credits do not phase out. High-level assumption that the national electricity grid's carbon emissions in 2050 are 5% of their 2005 level. This metric is described in NREL's Cambium model as "95% decarbonization by 2050."
 
-<figure><img src="../../.gitbook/assets/EPIC - LRMER and AER.png" alt=""><figcaption><p>Carbon emissions from electricity demand from 2023-2110 for two metrics and three scenarios.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/EPIC - LRMER and AER.png" alt=""><figcaption><p>Carbon emissions from electricity demand from 2023-2110 for two metrics and three scenarios.</p></figcaption></figure>
 {% endtab %}
 
 {% tab title="Canada" %}
@@ -103,8 +103,4 @@ Annual and end-of-life refrigerant leakage rates are typically a model assumptio
 
 Throughout C.Scale, three options are given for specification-related options: Conservative, Best Practices, and Low Carbon. Typically, these refer to the 20th, 50th, and 80th percentile of GWP values for available materials. We were unable to replicate this methodology for refrigerants, though, as the overall distribution of refrigerants skews very high–and this highly skewed distribution doesn’t represent the choices designers are making on their projects. In the refrigerant model, these three choices are keyed to specific refrigerants as follows:
 
-| Specification Level | Reference Refrigerant(s) | GWP Value |
-| ------------------- | ------------------------ | --------- |
-| Standard            | 60% R-410a; 40% R-134    | **1675**  |
-| Lower Carbon        | R-513                    | **573**   |
-| Lowest Carbon       | R-123                    | **79**    |
+<table><thead><tr><th width="202">Specification Level</th><th width="406.3333333333333">Reference Refrigerant(s)</th><th>GWP Value</th></tr></thead><tbody><tr><td>Conservative</td><td>HFC Refrigerant (e.g., 60% R-410a; 40% R-134)</td><td>2000</td></tr><tr><td>Best Practices</td><td>Low-GWP Refrigerant (e.g., R-513)</td><td>700</td></tr><tr><td>Low Carbon</td><td>Next-Gen Natural Refrigerant (e.g., CO2)</td><td>5</td></tr></tbody></table>
