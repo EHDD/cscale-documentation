@@ -1,5 +1,16 @@
 # 🪵 Version Log
 
+**2.25.00**
+
+* Migrated from Cambium 2022 to Cambium 2023 electricity emissions data for the contiguous US
+  * NREL deprecated state-level data, so our analysis increased resolution to the ReEDS Balancing Authority level.
+* Interim A4-A5 refactor in preparation for alignment with ASHRAE/ICC 240P.
+* Update `/carbon-intensities` endpoint to give better visibility into EC ranges possible for specific cladding types.
+* Added `description` to glazing data to increase resolution.
+  * Multiple glazing types
+  * Multiple mullion/CW materials
+* Fix refrigerant GWP bug (in flat schema only).
+
 2.24.01
 
 * Implemented standard 20/50/80 specification levels for MEP systems (in nested schema only)
