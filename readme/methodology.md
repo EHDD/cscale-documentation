@@ -4,15 +4,39 @@
 
 **C.Scale** provides directionally accurate guidance for specific projects by helping to identify which carbon reduction strategies a project should pursue, and helps to guide decarbonization of portfolios and portions of the building stock where C.Scale assumptions have been tested (i.e., in North America and the EU).&#x20;
 
+### Geographic Coverage
+
+C.Scale currently includes country-specific data for:
+
+* United States of America
+* Canada
+* United Kingdom
+* Denmark
+* France
+* Germany
+* Italy
+* Norway
+* Sweden
+
+Where country-level data is not available, we use background data. Background data sets currently include:&#x20;
+
+* North America (NAM)
+* Europe (EU)
+* Rest of World (RoW)
+
 ## Scope
 
-### Whole Life Carbon
+**C.Scale** is an whole life carbon model, integrating assessments of embodied, operational, and landscape carbon in a data model to capture the entire carbon footprint of the project.
 
-**C.Scale** is an whole life carbon model. "Whole life carbon" means that it integrates assessments of embodied, operational, and landscape carbon in a data model to capture the entire carbon footprint of the project.
+By default, all emissions associated with the building are included in the model's scope of analysis.&#x20;
 
 ### Time Horizon
 
-**C.Scale** can accommodate time horizons of 30 or 60 years.&#x20;
+**C.Scale** can calculate emissions at a time horizon of 30 or 60 years.&#x20;
+
+### Reference Service Life
+
+C.Scale assumes a building's reference service life of 60 years.&#x20;
 
 ### Life Cycle Stages
 
@@ -26,11 +50,12 @@
 
 * Building structure and foundation
 * Construction activities
-* Cladding, glazing, and roofing and their replacement over time
-* Interior fit-out and its replacement over time
+* Cladding, glazing, and roofing assemblies and their replacement over time
+* Interior fit-outs and their replacement over time
 * MEP systems and their replacement over time
 * PV arrays and their replacement over time
 * Regular landscape maintenance, assessed annually
+* Hardscape on the building site
 
 ### Operational Carbon Scope
 
@@ -39,6 +64,7 @@
 * Emissions from the combustion of methane gas in the building
 * Upstream leakage of methane gas as a proportion of methane gas combusted in the building
 * Upstream emissions from the generation of electricity delivered to the site
+* Refrigerant leakage annually and at the end of the equipment's life.&#x20;
 
 ### Stored Carbon Scope
 
@@ -46,7 +72,7 @@
 
 ### Adjusting the Analysis Scope
 
-In C.Scale, you can add or remove some life cycle modules and building components from the scope of an assessment. When comparing results between sC.Scale and wbLCA, or between any estimates of carbon emissions, _the scopes of each analysis must be identical._
+In C.Scale, you can add or remove some life cycle modules and building components from the scope of an assessment using the `include` toggles in each section of the request body. When comparing results between C.Scale and other tools, or between any estimates of carbon emissions, _the scopes of each analysis must be identical._
 
 ## Uncertainty
 
