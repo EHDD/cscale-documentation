@@ -1,5 +1,10 @@
 # 🪵 Version Log
 
+2.25.01
+
+* Hotfixes related to schema for Cambium 2023.&#x20;
+* Deprecate size/performance MEP data in `/carbon-intensities` endpoint.
+
 **2.25.00**
 
 * Migrated from Cambium 2022 to Cambium 2023 electricity emissions data for the contiguous US
