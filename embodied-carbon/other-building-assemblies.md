@@ -1,36 +1,22 @@
-# Building Assemblies
+# Other Building Assemblies
 
 ### Embodied Carbon in Building Assembles
 
-Building assemblies in C.Scale are evaluated on a per-area basis.
+Building assemblies in C.Scale are evaluated on a per-area basis. When specific data is not known, the API includes EPIC's pre-defined carbon intensities, defined by the levels of ambition:
 
-#### Embodied Carbon in the Building Envelope
+* **Conservative** represents the 80th percentile of material or assembly carbon intensities.
+* **Best Practices** represents the 50th percentile of material or assembly carbon intensities.
+* **Low Carbon** represents the 20th percentile of material or assembly carbon intensities.
 
-The building envelope in divided into three components: opaque cladding, glazing, and roofing. The area of each is calculated based on user inputs for building floor area, number of floors, floor-to-floor height window-to-wall ratio (WWR), and building perimeter. C.Scale makes a preliminary estimate of floor-to-floor height, WWR, and building perimeter (assuming a square building) which the user can refine in the "overrides" panel in the base case tab.
+For each assembly, the carbon intensity is determined by sampling the distribution of GWP values from typical assemblies at the 20th, 50th, and 80th percentile.&#x20;
 
-$$
-Envelope \ area = Perimeter \ * \ Floor \ Height \ * \ Number \ of \ floors
-$$
-
-$$
-Glazing \ area = WWR \ * \ Perimeter \ * \ Floor \ Height \ * \ Number \ of \ floors
-$$
-
-$$
-Cladding \ area = (1-WWR) \ * \ Perimeter \ * \ Floor \ Height \ * \ Number \ of \ floors
-$$
-
-$$
-Roof \ area = Above \ Ground \ Floor \ Area
-$$
-
-For each assembly, the carbon intensity is determined by sampling the distribution of GWP values from typical assemblies at the 20th, 50th, and 80th percentile. These data are summarized in the table below.
-
-<table><thead><tr><th width="243">Assembly</th><th>Low Carbon</th><th width="172">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Cladding</strong></td><td>3.0 kgCO2e/sf</td><td>8.8 kgCO2e/sf</td><td>14.3 kgCO2e/sf</td></tr><tr><td><strong>Glazing</strong></td><td>11.4 kgCO2e/sf</td><td>13.6 kgCO2e/sf</td><td>19.0 kgCO2e/sf</td></tr><tr><td><strong>Roofing</strong></td><td>5.3 kgCO2e/sf</td><td>7.7 kgCO2e/sf</td><td>14.0 kgCO2e/sf</td></tr><tr><td><strong>Tenant Fit Out</strong></td><td>4.0 kgCO2e/sf</td><td>7.6 kgCO2e/sf</td><td>13.3 kgCO2e/sf</td></tr><tr><td><strong>Hardscape</strong></td><td>4.4 kgCO2e/sf</td><td>5.9 kgCO2e/sf</td><td>7.2 kgCO2e/sf</td></tr></tbody></table>
+<mark style="background-color:yellow;">For all asemblies, custom data can be entered by declaring a carbon intensity value.</mark>&#x20;
 
 #### Embodied Carbon in Interior Fit Out
 
 Interior fit out is calculated on a per area basis for a proportion of the building's total area. Note that the dataset used to generate the quantities used in C.Scale is not sensitive to use type and is biased toward commercial interiors. These data include internal EHDD data and data from the CLF study on tenant fit outs in commercial office buildings.
+
+Custom fit out data can be entered with a&#x20;
 
 #### Embodied Carbon in MEP
 

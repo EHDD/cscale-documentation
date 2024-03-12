@@ -8,7 +8,7 @@ C.Scale's estimation of embodied carbon in a building's structure is modeled bas
 
 <table><thead><tr><th width="233">Structural System</th><th>Description</th></tr></thead><tbody><tr><td><strong>Wood Frame</strong></td><td>A structural system comprised of dimensional lumber, plywood sheathing, and reinforced concrete cores.</td></tr><tr><td><strong>Steel Frame</strong></td><td>A structural system comprised of columns, beams, girders, and decking constructed from steel structural members connected with rigid or pin joints.</td></tr><tr><td><strong>Reinforced Concrete</strong></td><td>A structural system comprised of columns, beams, and slabs of concrete reinforced with steel that provides tensile strength.</td></tr><tr><td><strong>Mass Timber</strong></td><td>A structural system comprised of massive beams, panels, and columns, often assembled by aggregating many smaller timber elements.</td></tr><tr><td><strong>Hybrid Steel-Timber</strong></td><td>A mass timber structure with a large proportion of structural steel. These structures are common when the aesthetics and performance of a mass timber structure are pursued but the structural grid or building form isn't rigorously optimized for an all-timber design.</td></tr><tr><td><strong>Hybrid Concrete-Steel (High-Rise)</strong></td><td>A structural system that combines rigid steel frames with concrete columns, beams, and slabs. These hybrid structures are more materially intensive and may be used when there are significant seismic loads, in high-rise buildings, or for programs with very high live or environmental loads.</td></tr><tr><td><strong>Wood Frame over Concrete Podium</strong></td><td>A wood frame building with one or more of the lower floors in reinforced concrete. Typically, a five-story podium building has one floor in concrete and six- or seven-story buildings have two.</td></tr></tbody></table>
 
-#### Calculating a Bill of Materials
+### Calculating a Bill of Materials
 
 C.Scale uses a suite of machine learning models to estimate quantities of major structural materials in typical buildings. These models were trained from an EHDD database of structural quantities in completed buildings (n > 1200) assembled from both internal and public sources. The models are updated regularly as new data becomes available.
 
@@ -26,7 +26,7 @@ Known issues with the structural bill or materials generation models are an over
 
 _We anticipate journal publication of our modeling pipeline in 2024. In the meantime, please direct questions regarding structural modeling methodology to_ [_j.rusk@ehdd.com_](mailto:j.rusk@ehdd.com)_._
 
-#### Carbon Intensities of Structural Materials
+### Carbon Intensities of Structural Materials
 
 **Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, C.Scale uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources](../c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
 
@@ -34,7 +34,13 @@ The three specifications available in C.Scale—low carbon, best practices, and 
 
 Concrete emissions, on the other hand, as assessed regionally. Concrete is a local material, rarely traveling more than 25 miles between production and use. Additionally, the relatively large number of concrete EPDs available in the United States ([80,000+](https://buildingtransparency.org/ec3)) supports a regional approach to measuring concrete emissions.
 
-Regionalization of Carbon Intensity Data
+When specific data is not known, the API includes EPIC's pre-defined carbon intensities, defined by the levels of ambition:
+
+* **Conservative** represents the 80th percentile of material or assembly carbon intensities.
+* **Best Practices** represents the 50th percentile of material or assembly carbon intensities.
+* **Low Carbon** represents the 20th percentile of material or assembly carbon intensities
+
+#### Regionalization of Carbon Intensity Data
 
 Wherever feasible, carbon intensity data is regionalized to the appropriate level of resolution. Our API includes country-level data for the following countries: United States of America, Canada, United Kingdom, Denmark, France, Germany, Italy, Norway, and Sweden.&#x20;
 
@@ -63,5 +69,3 @@ EU background data is based on available EPDs and Okobaudat. National-level data
 
 {% endtab %}
 {% endtabs %}
-
-Users can access these data, including C.Scale's location-specific data, via a `GET` request to the `/api/carbon-intensities` endpoint.
