@@ -1,12 +1,12 @@
 # Table of contents
 
 * [🏗️ The C.Scale™ Data Model](README.md)
-  * [Goal and Scope](readme/methodology.md)
-  * [Model Structure](readme/model-structure.md)
-  * [Embodied Carbon](readme/embodied-carbon.md)
-  * [Operational Carbon](readme/operational-carbon.md)
-  * [Stored and Avoided Carbon](readme/stored-avoided-carbon.md)
-  * [Reference Data](readme/reference-data.md)
+* [Goal and Scope](methodology.md)
+* [Model Structure](model-structure.md)
+* [Embodied Carbon](embodied-carbon.md)
+* [Operational Carbon](operational-carbon.md)
+* [Stored and Avoided Carbon](stored-avoided-carbon.md)
+* [Reference Data](reference-data.md)
 
 ## Resources
 

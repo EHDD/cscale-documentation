@@ -20,7 +20,7 @@ Lee Roder
 
 ## **Peer Review and Feedback**
 
-Iterations of **C.Scale** have been reviewed in whole or part by colleagues at [MKA](https://www.mka.com/), [Carbon Leadership Forum](https://carbonleadershipforum.org/), and others. Thank you to Jamy Bacchus, Ted Tiffany, Kayleigh Houde, and Peter Alsbach for their careful review of early versions of out refrigerant emissions data and methodology.
+Iterations of **C.Scale** have been reviewed in whole or part by colleagues at [MKA](https://www.mka.com/), [Carbon Leadership Forum](https://carbonleadershipforum.org/), Autodesk, and others. Thank you to Jamy Bacchus, Ted Tiffany, Kayleigh Houde, and Peter Alsbach for their careful review of early versions of out refrigerant emissions data and methodology.
 
 The project team owes a heartfelt thanks to the group of over 80 firms that participated in our initial closed beta, the input of whom was essential to our model's early development, and the countless users who have since offered feedback, critique, and unique use cases.
 
