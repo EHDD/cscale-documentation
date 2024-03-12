@@ -40,7 +40,7 @@
 
 The regionally-specific carbon Intensity data used in C.Scale is exposed via out API at the `/api/carbon-intensities` endpoint. This is useful for populating tooltips and helper texts when C.Scale is integrated in your application.&#x20;
 
-{% swagger src=".gitbook/assets/openapi.json" path="/api/carbon-intensities" method="get" %}
-[openapi.json](.gitbook/assets/openapi.json)
+{% swagger src="../.gitbook/assets/openapi.json" path="/api/carbon-intensities" method="get" %}
+[openapi.json](../.gitbook/assets/openapi.json)
 {% endswagger %}
 

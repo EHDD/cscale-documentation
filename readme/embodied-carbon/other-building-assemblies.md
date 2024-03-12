@@ -24,7 +24,7 @@ Embodied carbon in mechanical systems in evaluated at two specification levelsâ€
 
 #### Embodied Carbon in Solar Photovoltaic Arrays
 
-Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](../c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
+Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](../../c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
 
 #### Embodied Carbon in Hardscape
 
@@ -32,7 +32,7 @@ All site area not designated as planted is assumed to be hardscaped. Hardscape e
 
 #### Emissions from Landscape Maintenance
 
-Emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](../c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
+Emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](../../c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
 
 ### Example Data
 
