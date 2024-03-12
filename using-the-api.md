@@ -6,7 +6,7 @@ Consider the information below a "highlight reel," but the best of the best (and
 
 ### [API Testing Notebook ↗](https://drive.google.com/drive/u/2/folders/1Q\_\_pMVDnPgzv01aWb-cfakifKtuqyH4K)
 
-Skip the swagger and get right to the good stuff - here's a Python Notebook with a panoply of use cases to help you get started ASAP.&#x20;
+Skip the swagger and get right to the good stuff - here's a Python Notebook with a panoply of use cases to get you building your integration ASAP.&#x20;
 
 ## Calculate
 
