@@ -37,7 +37,7 @@ In C.Scale, landscaped area is assumed to approach its maximum storage potential
 
 Maintaining carbon storage in landscape requires maintenance. Emissions from the maintenance of carbon-storing landscape are assessed as embodied emissions. The storage potential of a landscape or green roof depends on its area, its specification (low, moderate, or high storage), and the location of the project.
 
-Developing a "greenfield" site (one that has not been previously developed) will release carbon dioxide into the atmosphere. How C.Scale calculates these emissions is described in the [Embodied Carbon](embodied-carbon.md#emissions-from-greenfield-development) section of the methodology.
+Developing a "greenfield" site (one that has not been previously developed) will release carbon dioxide into the atmosphere. How C.Scale calculates these emissions is described in the [Embodied Carbon](embodied-carbon/#emissions-from-greenfield-development) section of the methodology.
 
 ## Avoided carbon from surplus energy generation
 
