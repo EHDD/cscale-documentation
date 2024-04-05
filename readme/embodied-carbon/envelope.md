@@ -87,6 +87,8 @@ Multiple envelopes can be described for a building by passing a list of descript
 {% endtab %}
 {% endtabs %}
 
+Data in the C.Scale envelope model makes use of Payette Kaleidoscope data for some assemblies by permission. Find the full citation for these data in the [Reference Data](../reference-data.md) section of the methodology.
+
 ### Transparent Envelope
 
 {% tabs %}

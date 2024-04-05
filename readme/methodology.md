@@ -38,7 +38,7 @@ By default, all emissions associated with the building are included in the model
 
 ### Time Horizon
 
-**C.Scale** can calculate emissions at a time horizon of 30 or 60 years.&#x20;
+**C.Scale** is a time series model and can calculate emissions over a time horizon of either 30 or 60 years. Support for additional time horizons is under development. &#x20;
 
 ### Reference Service Life
 
@@ -78,7 +78,7 @@ C.Scale assumes a building's reference service life of 60 years.&#x20;
 
 ### Adjusting the Analysis Scope
 
-In C.Scale, you can add or remove some life cycle modules and building components from the scope of an assessment using the `include` toggles in each section of the request body. When comparing results between C.Scale and other tools, or between any estimates of carbon emissions, _the scopes of each analysis must be identical._
+In C.Scale, you can add or remove some life cycle modules and building components from the scope of an assessment using the `include` toggles in each section of the request body. When comparing results between C.Scale and other tools, or between any estimates of carbon emissions, _the scope of each analysis must be identical._
 
 ## Uncertainty
 

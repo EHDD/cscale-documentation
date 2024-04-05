@@ -1,6 +1,6 @@
 # Stored and Avoided Carbon
 
-The overview of how C.Scale calculates stored and avoided carbon is detailed on the [model structure](model-structure.md#calculating-operational-carbon) page. Below, we give additional detail about how C.Scale calculates emissions from all the sources contributing to a project's stored and avoided carbon.
+The overview of how C.Scale calculates stored and avoided carbon is detailed on the [model structure](model-structure.md) page. Below, we give additional detail about how C.Scale calculates emissions from all the sources contributing to a project's stored and avoided carbon.
 
 ## Biogenic Carbon
 
@@ -33,7 +33,7 @@ C.Scale measures the annual carbon storage of in living and growing landscape. W
 
 Globally, the storage of carbon in plants is a major carbon sink. There are a number of imperatives for greening our built environment—such as [addressing a history of racist redlining](https://ehp.niehs.nih.gov/doi/full/10.1289/EHP7495), [reducing urban heat island](https://www.sciencedirect.com/science/article/abs/pii/S1618866718306411), or [contributing to mental wellness](https://www.sciencedirect.com/science/article/abs/pii/S0033350613002862)—that add positive co-benefits to the carbon storage potential of green space.
 
-In C.Scale, landscaped area is assumed to approach its maximum storage potential (its "carrying capacity") over a 40 year period. The amount of carbon that a landscape can store is location-dependent (i.e., a landscape in Miami can store more carbon than one of a similar size in Arizona).
+In C.Scale, landscaped area is assumed to approach its maximum storage potential (its "carrying capacity") over a 60-year period. The amount of carbon that a landscape can store is location-dependent (i.e., a landscape in Miami can store more carbon than one of a similar size in Arizona).
 
 Maintaining carbon storage in landscape requires maintenance. Emissions from the maintenance of carbon-storing landscape are assessed as embodied emissions. The storage potential of a landscape or green roof depends on its area, its specification (low, moderate, or high storage), and the location of the project.
 

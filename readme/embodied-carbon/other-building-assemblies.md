@@ -24,7 +24,7 @@ Embodied carbon in mechanical systems in evaluated at two specification levelsâ€
 
 #### Embodied Carbon in Solar Photovoltaic Arrays
 
-Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](../../c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
+Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](../reference-data.md) section of this guide.
 
 #### Embodied Carbon in Hardscape
 
@@ -32,13 +32,13 @@ All site area not designated as planted is assumed to be hardscaped. Hardscape e
 
 #### Emissions from Landscape Maintenance
 
-Emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](../../c.scale-tm-data-model/methodology/broken-reference/) section of this guide.
+Emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](../reference-data.md) section of this guide.
 
 ### Example Data
 
-For reference, below is a tabular summary of some of the data used in the US. Additional data (across all supported regions) is [available via API](../reference-data.md#reference-data-via-api).&#x20;
+For reference, below is a tabular summary of some of the data used in the US. Additional data (across all supported regions) is [available via API](http://api.cscale.io/api/cscale-swagger-docs).&#x20;
 
 <table><thead><tr><th width="243">Assembly</th><th>Low Carbon</th><th width="172">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Cladding</strong></td><td>3.0 kgCO2e/sf</td><td>8.8 kgCO2e/sf</td><td>14.3 kgCO2e/sf</td></tr><tr><td><strong>Glazing</strong></td><td>11.4 kgCO2e/sf</td><td>13.6 kgCO2e/sf</td><td>19.0 kgCO2e/sf</td></tr><tr><td><strong>Roofing</strong></td><td>5.3 kgCO2e/sf</td><td>7.7 kgCO2e/sf</td><td>14.0 kgCO2e/sf</td></tr><tr><td><strong>Tenant Fit Out</strong></td><td>4.0 kgCO2e/sf</td><td>7.6 kgCO2e/sf</td><td>13.3 kgCO2e/sf</td></tr><tr><td><strong>Hardscape</strong></td><td>4.4 kgCO2e/sf</td><td>5.9 kgCO2e/sf</td><td>7.2 kgCO2e/sf</td></tr></tbody></table>
 
-###
+
 
