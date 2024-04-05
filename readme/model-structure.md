@@ -30,7 +30,7 @@ $$
 
 For n number of contributors to the embodied emissions, where A is the total building area, $$x_i$$ is the quantity of the contributor $$i$$ per building area, $$c_i$$ is the carbon intensity per unit of the contributor $$i$$, and $$r_i$$ is the number of replacements of the contributor $$i$$ before the target date.
 
-### Calculating Operational Carbon [↗](model-structure.md#calculating-operational-carbon)
+### Calculating Operational Carbon [↗](operational-carbon.md)
 
 The operational emissions of the project are assessed annually and summed across all years before the target date. The equation is similar to the equation for embodied emissions, with two key differences: first, the quantity x is substituted for the energy use intensity (EUI) e; second, the equation is a double summation, once across all the fuel types in the building and again across all years between the building’s completion and the target year. The total operational emissions assessed by C.Scale are represented by this expression:
 
@@ -46,7 +46,7 @@ Carbon emissions associated with electricity are derived from NREL's Cambium mod
 
 In C.Scale, fugitive emissions from refrigerant leakage are categorized as operational emissions. They are counted in life cycle stage B1.
 
-### Calculating Stored and Avoided Carbon [↗](model-structure.md#calculating-stored-and-avoided-carbon)
+### Calculating Stored and Avoided Carbon [↗](stored-avoided-carbon.md)
 
 In C.Scale, landscaping and the use of structural timber contribute to biogenic carbon storage. Carbon storage in structural materials is assessed once in the first year of the project, and landscape sequestration is assessed each year. Biogenic carbon sequestration is evaluated with the following expression:
 

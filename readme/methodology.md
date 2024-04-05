@@ -46,7 +46,7 @@ C.Scale assumes a building's reference service life of 60 years.&#x20;
 
 ### Life Cycle Stages
 
-**C.Scale** integrates data from life cycle stages (sometimes called "life cycle modules") A1-A5, B2-B6, and C2-C4. These correspond to the impacts of the materials used in the project, emissions from construction, their replacement over time, and the project’s operational energy use. When biogenic carbon is counted, some end-of-life impacts (from modules C2-C4) are assessed during the product phase (see appendix [Biogenic Carbon](../c.scale-tm-data-model/methodology/broken-reference/)). End-of-life (C2-C4) emissions for structure are only assessed when a 60 year time horizon is selected.
+**C.Scale** integrates data from life cycle stages (sometimes called "life cycle modules") A1-A5, B2-B6, and C2-C4. These correspond to the impacts of the materials used in the project, emissions from construction, their replacement over time, and the project’s operational energy use. When biogenic carbon is counted, some end-of-life impacts (from modules C2-C4) are assessed during the product phase (see section on [Biogenic Carbon](stored-avoided-carbon.md#biogenic-carbon)). End-of-life (C2-C4) emissions for structure are only assessed when a 60 year time horizon is selected.
 
 <figure><img src="../.gitbook/assets/EPIC - Included LIfe Cycle Stages.png" alt=""><figcaption><p>Highlighted stages are included in the C.Scale model.</p></figcaption></figure>
 
