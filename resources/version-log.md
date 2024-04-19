@@ -1,5 +1,16 @@
 # 🪵 Version Log
 
+**2.26.00**
+
+* New A4-A5 modules in `LifeCycleStages.py` to reflect ASHRAE/ICC 240P
+  * A4\_Emissions: Transportation emissions&#x20;
+    * A5\_Emissions: Demolition (A5.1), construction activity (A5.2), and jobsite waste (A5.3)
+* Added a new `A4_5Options` class, which allows users to input A4 transportation emission factors, `demolished_area`, and A5.1 and/or A5.2 emission factors
+* Added total\_pv\_panel\_area to response\_areas response object
+* Added total\_pv\_panel\_area to response\_pv\_data response object
+* Refactored `structure.custom_carbon_intensities` and `structure.custom_bom` for better visibility in schema and to happily accept incomplete inputs.
+* Requests can now have `none` declared anywhere
+
 2.25.01
 
 * Hotfixes related to schema for Cambium 2023.&#x20;
