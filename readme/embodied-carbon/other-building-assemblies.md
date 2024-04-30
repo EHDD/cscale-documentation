@@ -40,9 +40,6 @@ Annual emissions from landscape maintenance is calculated per planted area using
 
 ### Example Data
 
-For reference, below is a tabular summary of some of the data used in the US. Additional data (across all supported regions) is [available via API](http://api.cscale.io/api/cscale-swagger-docs).&#x20;
+For reference, below is a tabular summary of some of the A1-A3 data used in the US. Additional data (across all supported regions) is [available via API](http://api.cscale.io/api/cscale-swagger-docs).&#x20;
 
 <table><thead><tr><th width="243">Assembly</th><th>Low Carbon</th><th width="172">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Cladding</strong></td><td>3.0 kgCO2e/sf</td><td>8.8 kgCO2e/sf</td><td>14.3 kgCO2e/sf</td></tr><tr><td><strong>Glazing</strong></td><td>11.4 kgCO2e/sf</td><td>13.6 kgCO2e/sf</td><td>19.0 kgCO2e/sf</td></tr><tr><td><strong>Roofing</strong></td><td>5.3 kgCO2e/sf</td><td>7.7 kgCO2e/sf</td><td>14.0 kgCO2e/sf</td></tr><tr><td><strong>Tenant Fit Out</strong></td><td>4.0 kgCO2e/sf</td><td>7.6 kgCO2e/sf</td><td>13.3 kgCO2e/sf</td></tr><tr><td><strong>Hardscape</strong></td><td>4.4 kgCO2e/sf</td><td>5.9 kgCO2e/sf</td><td>7.2 kgCO2e/sf</td></tr></tbody></table>
-
-
-
