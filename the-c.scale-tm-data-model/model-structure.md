@@ -42,9 +42,9 @@ For m total years between the building’s completion and the target year and ac
 
 Carbon emissions associated with electricity are derived from NREL's Cambium model. Onsite fossil fuel use is assumed to be natural gas. The carbon emissions of natural gas are assessed with a 2.4% leakage rate. Fuel oil emissions account for N20 and CH4 emissions. Characterization of non-CO2 emissions is determined with the GWP100 factors published in IPCC AR6.
 
-#### Refrigerant Emissions
+### Refrigerant Emissions
 
-In C.Scale, fugitive emissions from refrigerant leakage are categorized as operational emissions. They are counted in life cycle stage B1.
+In C.Scale, fugitive emissions from refrigerant leakage are categorized as operational emissions and counted in life cycle stage B1.
 
 ### Calculating Stored and Avoided Carbon [↗](stored-avoided-carbon.md)
 
