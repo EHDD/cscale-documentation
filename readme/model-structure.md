@@ -87,6 +87,12 @@ In the built environment, it is essential to understand the [time value of carbo
 * Replacement and refurbishment of interior fit-out (life cycle stages B3-B5)
 * Replacement and refurbishment of MEP and PV systems (life cycle stages B3-B5)
 
+## Building Geometry in C.Scale
+
+C.Scale's calculations are based on area and material takeoffs from simple building geometry. A diagram of this building geometry is provided below.
+
+<figure><img src="../.gitbook/assets/Diagrams.png" alt=""><figcaption></figcaption></figure>
+
 ## C.Scale customizable and extensible
 
 C.Scale is built as a series of modules, each connected to the others and tasked with a specific set of calculations. These modules are added or expanded in response to the requests of users.
