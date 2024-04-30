@@ -20,10 +20,6 @@ $$
 Roof \ area = Above \ Ground \ Floor \ Area
 $$
 
-### Custom Data
-
-In all cases, custom data can be entered on a kgCO2e/m2 (of kgCO2e/sf) basis for each component of the envelope.&#x20;
-
 ### Parametric Envelope Model
 
 C.Scale includes a dynamic envelope model which allows users to input very general data (when very little is known) or very specific data (during later stages of design).&#x20;
@@ -42,6 +38,8 @@ C.Scale will use your description of the envelope (i.e., any declarations of spe
 * With the user selects their design criteria, we subset the data used to generate these percentiles. For instance, if a user selects a Timber Rainscreen cladding, we will return the 20th, 50th, of 80th percentile of all envelope assemblies in our database with a Timber Rainscreen (\~100 modeled envelope assemblies).
 
 Multiple envelopes can be described for a building by passing a list of descriptions. The relative proportion of each envelope is described with the `proportion` field with each `description`. The API will normalize all proportion entries to the total opaque envelope area. This means that a use can pass in proportions of 20000, 25000, and 5000 (representing m2 of envelope area) or of 0.4, 0.5, and 0.1 (representing the same assemblies as proportions of the total).
+
+In all cases, user-declared carbon intensity data can be entered on a kgCO2e/m2 (of kgCO2e/sf) basis for each component of the envelope.&#x20;
 
 ### Opaque Envelope
 
