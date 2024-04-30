@@ -34,4 +34,4 @@ Parse your partial payload through the ingress schema. This endpoint is here to 
 
 ## Carbon Intensities
 
-[Documentation of our Carbon Intensities endpoint](readme/reference-data.md#reference-data-via-api) is available in this documentation under reference data.&#x20;
+[Documentation of our Carbon Intensities endpoint](the-c.scale-tm-data-model/reference-data.md#reference-data-via-api) is available in this documentation under reference data.&#x20;

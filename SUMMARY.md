@@ -1,16 +1,20 @@
 # Table of contents
 
-* [🏗️ The C.Scale™ Data Model](README.md)
-  * [Goal and Scope](readme/methodology.md)
-  * [Model Structure](readme/model-structure.md)
-  * [Embodied Carbon](readme/embodied-carbon/README.md)
-    * [Structure](readme/embodied-carbon/structure.md)
-    * [Envelope](readme/embodied-carbon/envelope.md)
-    * [Other Building Assemblies](readme/embodied-carbon/other-building-assemblies.md)
-  * [Operational Carbon](readme/operational-carbon.md)
-    * [Refrigerant Leakage](readme/operational-carbon/refrigerant-leakage.md)
-  * [Stored and Avoided Carbon](readme/stored-avoided-carbon.md)
-  * [Reference Data](readme/reference-data.md)
+## 🏗️ The C.Scale™ Data Model
+
+* [Goal and Scope](README.md)
+* [Model Structure](the-c.scale-tm-data-model/model-structure.md)
+* [Embodied Carbon](the-c.scale-tm-data-model/embodied-carbon/README.md)
+  * [Structure](the-c.scale-tm-data-model/embodied-carbon/structure.md)
+  * [Envelope](the-c.scale-tm-data-model/embodied-carbon/envelope.md)
+  * [Other Building Assemblies](the-c.scale-tm-data-model/embodied-carbon/other-building-assemblies.md)
+* [Operational Carbon](the-c.scale-tm-data-model/operational-carbon/README.md)
+  * [Refrigerant Leakage](the-c.scale-tm-data-model/operational-carbon/refrigerant-leakage.md)
+* [Stored and Avoided Carbon](the-c.scale-tm-data-model/stored-avoided-carbon.md)
+* [Reference Data](the-c.scale-tm-data-model/reference-data.md)
+
+***
+
 * [Using the API](using-the-api.md)
 
 ## Resources

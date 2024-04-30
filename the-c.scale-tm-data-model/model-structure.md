@@ -30,7 +30,7 @@ $$
 
 For n number of contributors to the embodied emissions, where A is the total building area, $$x_i$$ is the quantity of the contributor $$i$$ per building area, $$c_i$$ is the carbon intensity per unit of the contributor $$i$$, and $$r_i$$ is the number of replacements of the contributor $$i$$ before the target date.
 
-### Calculating Operational Carbon [↗](operational-carbon.md)
+### Calculating Operational Carbon [↗](operational-carbon/)
 
 The operational emissions of the project are assessed annually and summed across all years before the target date. The equation is similar to the equation for embodied emissions, with two key differences: first, the quantity x is substituted for the energy use intensity (EUI) e; second, the equation is a double summation, once across all the fuel types in the building and again across all years between the building’s completion and the target year. The total operational emissions assessed by C.Scale are represented by this expression:
 
@@ -66,7 +66,7 @@ Where $$e_{t}$$ is the excess energy in kWh generated in year $$t$$ and $$c_{t}$
 
 ## C.Scale is a time series model
 
-In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, C.Scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](methodology.md#time-horizon)), C.Scale estimates all emissions occurring in that year.
+In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, C.Scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](../#time-horizon)), C.Scale estimates all emissions occurring in that year.
 
 **In the first year**, the following emissions are always calculated:
 
