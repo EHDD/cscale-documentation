@@ -1,6 +1,6 @@
 # Operational Carbon
 
-The overview of how C.Scale calculated operational carbon is detailed on the [model structure](../model-structure.md) page. Below, we give additional detail about how C.Scale calculates emissions from all the sources contributing to a project's operational carbon.
+The overview of how C.Scale calculated operational carbon is detailed on the [model structure](model-structure.md) page. Below, we give additional detail about how C.Scale calculates emissions from all the sources contributing to a project's operational carbon.
 
 ## Energy Use
 
@@ -59,6 +59,22 @@ In order to ensure accurate operational emissions estimations for the lifecycle 
 * **Rapid Decarbonization:** Same as NZE Baseline scenario, but carbon pricing reaches the point that investment in renewables is more financially sensible than emitting carbon. The high cost of carbon will see non-emitting technology grow more rapidly than in the NZE baseline scenario. This is referred to as “High Carbon Price” in Canadian Energy Regulator Energy Future 2021.
 
 To fill in geographic gaps in future grid emissions for Northwest Territories, Nunavut, and Yukon, national grid projections for each scenario were used to forecast decarbonization in these three provinces.
+{% endtab %}
+
+{% tab title="UK" %}
+_Currently available. Documentation coming soon._
+{% endtab %}
+
+{% tab title="EU" %}
+_Currently available. Documentation coming soon._
+{% endtab %}
+
+{% tab title="Australia" %}
+_Currently available. Documentation coming soon._
+{% endtab %}
+
+{% tab title="RoW" %}
+_Currently available. Documentation coming soon._
 {% endtab %}
 {% endtabs %}
 
