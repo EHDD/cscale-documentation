@@ -1,6 +1,4 @@
-# Refrigerant Leakage
-
-## Refrigerant Emissions
+# Refrigerant Emissions
 
 In C.Scale, fugitive emissions from refrigerant leakage are categorized as operational emissions. They are counted in life cycle stage B1.
 

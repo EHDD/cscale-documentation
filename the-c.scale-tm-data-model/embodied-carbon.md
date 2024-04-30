@@ -1,12 +1,24 @@
-# Embodied Carbon
+# Life Cycle Stages
 
-The overview of how C.Scale calculated embodied carbon is detailed on the [model structure](../model-structure.md) page. Below, we give additional detail about how C.Scale calculates emissions from all the assemblies and processes counted as part of a project's embodied carbon.
-
-Every attempt has been made to ensure that C.Scale's results describe a typical building (i.e. a building similar to those in our database) whose characteristics match those you enter in the tool. However, unreported characteristics may make a particular building atypical in ways that it is beyond the scope of C.Scale to describe. For instance, the use of particularly high-carbon and high-cost finish materials (e.g., a building where all the millwork is in gold leaf) is not well-described by C.Scale. It is impossible to preemptively describe all cases where C.Scale might deviate from a particular building (the possibilities are literally endless) but, as your project progresses, we recommend that your project team remains aware of how any deviation from "typical" design will affect the project's climate goals.
+C.Scale generates detailed time series estimates of a building's embodied carbon emissions and organizes those emissions into the appropriate life cycle stages.&#x20;
 
 ## A1-3: Upstream Product Emissions
 
 A1-A3 emissions are calculated from a bill of materials (e.g., life cycle inventory) inferred from the user's description of a building. The exact method for generating that bill of materials and performing calculation of A1-A3 emissions vary by building assembly.&#x20;
+
+For each contributor $$i$$, embodied emissions in life cycle stages A1-A3 are assessed with the following expression:
+
+$$
+{Assessed\ emissions}_i=\ A\ast x_i\ast c_i
+$$
+
+Where A is the total building area, $$x_i$$ is the quantity of the contributor $$i$$ per building area, and $$c_i$$ is the carbon intensity per unit of the contributor $$i$$.
+
+For example, a 10,000 square foot building may use 4 pounds of reinforcing steel per square foot of floor area, and the reinforcing steel may have a carbon intensity of 500 grams (0.5 kilograms) of carbon dioxide-equivalent emissions per pound of steel (values for illustrative purposes only). Taking the product of these three hypothetical quantities yields the contribution of reinforcing steel to that building’s embodied carbon emission:
+
+$$
+10,000\ sf\ast4\ \frac{lbs\ rebar}{sf}\ast0.5\ \frac{kg\ CO_2e}{lb\ rebar}=20,000\ kg\ CO_2e
+$$
 
 Other pages in this section detail the calculation of A1-A3 emissions from [structure](structure.md), [envelope](envelope.md), and [other building assemblies](other-building-assemblies.md).&#x20;
 
@@ -40,7 +52,7 @@ Land use change emissions from greenfield development are counted in A5.2. When 
 
 Developing a greenfield site releases carbon emissions from two sources: carbon stored in soil and carbon stored in biomass. C.Scale assumes that 100% of the carbon stored in topsoil is emitted as carbon dioxide. Data on carbon storage in soil is highly regional, and C.Scale uses FAO's Global Soil Organic Carbon data product for this calculation, taking the mean value at the zip code level.
 
-To calculate emissions from the removal of above ground biomass, C.Scale treats the site as vegetated with regionally-specific "low carbon storage" plants at 50% of the site's carrying capacity. More information on how carbon storage in living biomass is calculated in C.Scale is available in the [Stored and Avoided Carbon](../stored-avoided-carbon.md#carbon-storage-in-landscapes-and-green-roofs) section of the methodology.
+To calculate emissions from the removal of above ground biomass, C.Scale treats the site as vegetated with regionally-specific "low carbon storage" plants at 50% of the site's carrying capacity. More information on how carbon storage in living biomass is calculated in C.Scale is available in the [Stored and Avoided Carbon](stored-avoided-carbon.md#carbon-storage-in-landscapes-and-green-roofs) section of the methodology.
 
 ### A5.3: Jobsite Waste
 
@@ -48,4 +60,24 @@ For each material and building assembly, C.Scale assumes a percentage of the ins
 
 <table><thead><tr><th width="355">Building Material/Assembly</th><th>Waste Rate</th></tr></thead><tbody><tr><td>Concrete (all types)</td><td>5%</td></tr><tr><td>Reinforcing Steel</td><td>3%</td></tr><tr><td>Hot-Rolled Steel</td><td>10%</td></tr><tr><td>Cold-Formed Steel</td><td>10%</td></tr><tr><td>Dimensional Lumber</td><td>10%</td></tr><tr><td>Ply and OSB Products</td><td>15%</td></tr><tr><td>Engineered Timber</td><td>10%</td></tr><tr><td>CMU Block</td><td>5%</td></tr><tr><td>CMU Mortar</td><td>15%</td></tr></tbody></table>
 
-&#x20;
+## B1
+
+In C.Scale, fugitive emissions from refrigerant leakage are categorized as operational emissions. They are counted in life cycle stage B1. This is treated in detail in the documentation section on [Refrigerant Emissions](refrigerant-emissions.md).
+
+## B2-B5: Replacement and Refurbishment
+
+C.Scale uses a simplified model of replacement and refurbishment. For these materials, the emissions associated with these activities (including transportation, installation, and end-of-life emissions for the replacement materials) are assigned to the year(s) in which they’re replaced, and a multiplier is added to the total summation. The total embodied emissions assessed by C.Scale are represented by this expression:
+
+$$
+Total\ embodied\ carbon\ emissions=\ \sum_{i=1}^{n}\ A\ast x_i\ast c_i\ast(1+r_i)\
+$$
+
+For n number of contributors to the embodied emissions, where A is the total building area, $$x_i$$ is the quantity of the contributor $$i$$ per building area, $$c_i$$ is the carbon intensity per unit of the contributor $$i$$ (including transportation, installation, and end-of-life emissions for the replacement), and $$r_i$$ is the number of replacements of the contributor $$i$$ before the target date.
+
+## B6
+
+Life cycle stage B6 includes operational emissions from energy use. This is treated in detail in the documentation section on [Operational Carbon](operational-carbon.md).&#x20;
+
+## C2-C4
+
+Data from life cycle stages C2-C4 are pulled from regionally-appropriate industry-average EPDs.

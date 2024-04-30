@@ -2,35 +2,21 @@
 
 ## C.Scale calculates whole life carbon emissions
 
-C.Scale integrates embodied, operational, and landscape carbon emission assessment into a single model. By taking a 'whole carbon' view, C.Scale prevents burden shifting and ensures that a project has the information necessary to target the most impactful carbon reductions.
+C.Scale integrates embodied, operational, and landscape carbon emission assessment into a single model. By taking a 'whole carbon' view, C.Scale prevents burden shifting and ensures that a project team has the information necessary to target the most impactful carbon reductions.
 
 C.Scale uses GWP-100 characterization factors.
 
-### Calculating Embodied Carbon [↗](model-structure.md#calculating-embodied-carbon)
+## C.Scale describes typical buildings
 
-For each contributor $$i$$, embodied emissions are assessed with the following expression:
+Every attempt has been made to ensure that C.Scale's results describe a typical building (i.e. a building similar to those in our database) whose characteristics match those you enter in the tool. However, unreported characteristics may make a particular building atypical in ways that it is beyond the scope of C.Scale to describe.&#x20;
 
-$$
-{Assessed\ emissions}_i=\ A\ast x_i\ast c_i
-$$
+For instance, the use of particularly high-carbon and high-cost finish materials (e.g., a building where all the millwork is in gold leaf) is not well-described by C.Scale. It is impossible to preemptively describe all cases where C.Scale might deviate from a particular building (the possibilities are literally endless) but, as your project progresses, we recommend that your project team remains aware of how any deviation from "typical" design will affect the project's climate goals.
 
-Where A is the total building area, $$x_i$$ is the quantity of the contributor $$i$$ per building area, and $$c_i$$ is the carbon intensity per unit of the contributor $$i$$.
+### Embodied Carbon [↗](model-structure.md#calculating-embodied-carbon)
 
-For example, a 10,000 square foot building may use 4 pounds of reinforcing steel per square foot of floor area, and the reinforcing steel may have a carbon intensity of 500 grams (0.5 kilograms) of carbon dioxide-equivalent emissions per pound of steel (values for illustrative purposes only). Taking the product of these three hypothetical quantities yields the contribution of reinforcing steel to that building’s embodied carbon emission:
+A1-A3 emissions are calculated from a bill of materials (e.g., life cycle inventory) inferred from the user's description of a building. The exact method for generating that bill of materials and performing calculation of A1-A3 emissions vary by building assembly.&#x20;
 
-$$
-10,000\ sf\ast4\ \frac{lbs\ rebar}{sf}\ast0.5\ \frac{kg\ CO_2e}{lb\ rebar}=20,000\ kg\ CO_2e
-$$
-
-In each section of its model, C.Scale sums the assessed emission of many individual contributors. While simple summation is acceptable in some cases, some materials will be replaced before the target date. For these materials, the emissions are assigned to the year(s) in which they’re replaced, and a multiplier is added to the total summation. The total embodied emissions assessed by C.Scale are represented by this expression:
-
-$$
-Total\ embodied\ carbon\ emissions=\ \sum_{i=1}^{n}\ A\ast x_i\ast c_i\ast(1+r_i)\
-$$
-
-For n number of contributors to the embodied emissions, where A is the total building area, $$x_i$$ is the quantity of the contributor $$i$$ per building area, $$c_i$$ is the carbon intensity per unit of the contributor $$i$$, and $$r_i$$ is the number of replacements of the contributor $$i$$ before the target date.
-
-### Calculating Operational Carbon [↗](operational-carbon/)
+### Operational Carbon [↗](operational-carbon.md)
 
 The operational emissions of the project are assessed annually and summed across all years before the target date. The equation is similar to the equation for embodied emissions, with two key differences: first, the quantity x is substituted for the energy use intensity (EUI) e; second, the equation is a double summation, once across all the fuel types in the building and again across all years between the building’s completion and the target year. The total operational emissions assessed by C.Scale are represented by this expression:
 
@@ -42,11 +28,11 @@ For m total years between the building’s completion and the target year and ac
 
 Carbon emissions associated with electricity are derived from NREL's Cambium model. Onsite fossil fuel use is assumed to be natural gas. The carbon emissions of natural gas are assessed with a 2.4% leakage rate. Fuel oil emissions account for N20 and CH4 emissions. Characterization of non-CO2 emissions is determined with the GWP100 factors published in IPCC AR6.
 
-### Refrigerant Emissions
+#### Refrigerant Emissions
 
 In C.Scale, fugitive emissions from refrigerant leakage are categorized as operational emissions and counted in life cycle stage B1.
 
-### Calculating Stored and Avoided Carbon [↗](stored-avoided-carbon.md)
+### Stored and Avoided Carbon [↗](stored-avoided-carbon.md)
 
 In C.Scale, landscaping and the use of structural timber contribute to biogenic carbon storage. Carbon storage in structural materials is assessed once in the first year of the project, and landscape sequestration is assessed each year. Biogenic carbon sequestration is evaluated with the following expression:
 
@@ -64,7 +50,7 @@ $$
 
 Where $$e_{t}$$ is the excess energy in kWh generated in year $$t$$ and $$c_{t}$$ is the carbon intensity of the electrical grid per unit demand in year $$t$$. This method assumes that there is no curtailment of PV production, and that the carbon emissions of grid electricity when solar energy is produced is substantially similar to the annual average emissions. In locations with a high proportion of solar on the grid, curtailment is likely and skepticism of C.Scale's calculation of avoided emissions is warranted.
 
-## C.Scale is a time series model
+## C.Scale is a Time Series model
 
 In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, C.Scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](../#time-horizon)), C.Scale estimates all emissions occurring in that year.
 

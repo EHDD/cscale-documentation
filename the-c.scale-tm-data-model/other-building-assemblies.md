@@ -24,7 +24,7 @@ A custom carbon intensity of MEP systems can be entered by passing a kgCO2e per 
 
 #### Embodied Carbon in Solar Photovoltaic Arrays
 
-Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](../reference-data.md) section of this guide.
+Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](reference-data.md) section of this guide.
 
 A custom carbon intensity of PV Array can be entered by passing a kgCO2e per area (sf or m2, depending on the unit system) value directly to the API. The area basis for this calculation is the total panel area (i.e., not the total array area). The panel area is calculated as the array area divided by the ground coverage ratio.&#x20;
 
@@ -36,7 +36,7 @@ A custom carbon intensity of hardscape can be entered by passing a kgCO2e per ar
 
 #### Emissions from Landscape Maintenance
 
-Annual emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](../reference-data.md) section of this guide.
+Annual emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](reference-data.md) section of this guide.
 
 ### Example Data
 

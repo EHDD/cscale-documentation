@@ -1,6 +1,18 @@
 # Operational Carbon
 
-The overview of how C.Scale calculated operational carbon is detailed on the [model structure](../model-structure.md) page. Below, we give additional detail about how C.Scale calculates emissions from all the sources contributing to a project's operational carbon.
+The overview of how C.Scale calculated operational carbon is detailed on the [model structure](model-structure.md) page. Below, we give additional detail about how C.Scale calculates emissions from all the sources contributing to a project's operational carbon.
+
+## Overview of Operational Carbon Calculation
+
+The operational emissions of the project are assessed annually and summed across all years before the target date. The equation is similar to the equation for embodied emissions, with two key differences: first, the quantity x is substituted for the energy use intensity (EUI) e; second, the equation is a double summation, once across all the fuel types in the building and again across all years between the building’s completion and the target year. The total operational emissions assessed by C.Scale are represented by this expression:
+
+$$
+Operational\ carbon\ emissions=\ \sum_{t=1}^{m}\ \sum_{j=1}^{o}\ A\ast e_{tj}\ast c_j
+$$
+
+For m total years between the building’s completion and the target year and across o fuel types, where A is the total building area, $$e_{tj}$$ is the energy use per building area (EUI) in year $$t$$ of fuel $$j$$, and $$c_{tj}$$ is the carbon intensity per energy unit in year $$t$$ of fuel $$j$$.
+
+Carbon emissions associated with electricity are derived from NREL's Cambium model. Onsite fossil fuel use is assumed to be natural gas. The carbon emissions of natural gas are assessed with a 2.4% leakage rate. Fuel oil emissions account for N20 and CH4 emissions. Characterization of non-CO2 emissions is determined with the GWP100 factors published in IPCC AR6.
 
 ## Energy Use
 

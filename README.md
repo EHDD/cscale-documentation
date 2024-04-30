@@ -1,4 +1,4 @@
-# 🏗️ Introduction to C.Scale
+# Introduction to C.Scale
 
 **C.Scale** is a whole life carbon calculation engine estimating emissions from the construction, renovation, and operation of buildings. **When highly-detailed energy modeling and life cycle assessment aren't affordable or practicable, teams use C.Scale.**
 

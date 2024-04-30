@@ -28,7 +28,7 @@ _We anticipate journal publication of our modeling pipeline in 2024. In the mean
 
 ### Carbon Intensities of Structural Materials
 
-**Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, C.Scale uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources ](../reference-data.md)section of this guide.
+**Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, C.Scale uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources ](reference-data.md)section of this guide.
 
 The three specifications available in C.Scale—low carbon, best practices, and conservative—correspond to the 20th, 50th, and 80th percentile of emissions for that material. These estimates _do not_ correspond to a specific EPD, as there are many options for achieving a certain level of performance. Most carbon intensities for structural materials in C.Scale are national averages, as material supply chains for major structural materials are typically national (or global) in coverage.
 
