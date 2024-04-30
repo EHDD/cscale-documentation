@@ -8,31 +8,35 @@ Building assemblies in C.Scale are evaluated on a per-area basis. When specific 
 * **Best Practices** represents the 50th percentile of material or assembly carbon intensities.
 * **Low Carbon** represents the 20th percentile of material or assembly carbon intensities.
 
-For each assembly, the carbon intensity is determined by sampling the distribution of GWP values from typical assemblies at the 20th, 50th, and 80th percentile.&#x20;
-
-<mark style="background-color:yellow;">For all asemblies, custom data can be entered by declaring a carbon intensity value.</mark>&#x20;
+For each assembly, the carbon intensity is determined by sampling the distribution of GWP values from typical assemblies at the 20th, 50th, and 80th percentile. &#x20;
 
 #### Embodied Carbon in Interior Fit Out
 
 Interior fit out is calculated on a per area basis for a proportion of the building's total area. Note that the dataset used to generate the quantities used in C.Scale is not sensitive to use type and is biased toward commercial interiors. These data include internal EHDD data and data from the CLF study on tenant fit outs in commercial office buildings.
 
-Custom fit out data can be entered with a&#x20;
+A custom carbon intensity of interior fitout can be entered by passing a kgCO2e per area value directly to the API. The area basis for this calculation is the total floor area multiplied by the percentage of floor area with an interior fit out.
 
-#### Embodied Carbon in MEP
+#### Embodied Carbon in MEP Systems
 
 Embodied carbon in mechanical systems in evaluated at two specification levels—standard performance and high performance—and is dependent of the total square footage of the building. This approach, and the data used in C.Scale, follow from the CLF study on building mechanical systems.
+
+A custom carbon intensity of MEP systems can be entered by passing a kgCO2e per area (sf or m2, depending on the unit system) value directly to the API. The area basis for this calculation is the total floor area multiplied by the percentage of conditioned floor  area.
 
 #### Embodied Carbon in Solar Photovoltaic Arrays
 
 Embodied carbon in solar photovoltaics arrays is calculated using values from the peer-reviewed literature. A citation to the current data source is available in in the [Reference Data Sources](../reference-data.md) section of this guide.
 
+A custom carbon intensity of PV Array can be entered by passing a kgCO2e per area (sf or m2, depending on the unit system) value directly to the API. The area basis for this calculation is the total panel area (i.e., not the total array area). The panel area is calculated as the array area divided by the ground coverage ratio.&#x20;
+
 #### Embodied Carbon in Hardscape
 
 All site area not designated as planted is assumed to be hardscaped. Hardscape emissions were calculated by EHDD using a parameterized streamlined LCA model of built from standard hardscape details. The 20th, 50th, and 80th percentile of the resulting distribution was sampled and used to define the specification levels in C.Scale.
 
+A custom carbon intensity of hardscape can be entered by passing a kgCO2e per area (sf or m2, depending on the unit system) value directly to the API. The hardscape area is assumed to be the total site area less the building footprint and and plantings.&#x20;
+
 #### Emissions from Landscape Maintenance
 
-Emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](../reference-data.md) section of this guide.
+Annual emissions from landscape maintenance is calculated per planted area using values from the literature. A citation to the current data source is available in in the [Reference Data Sources](../reference-data.md) section of this guide.
 
 ### Example Data
 
