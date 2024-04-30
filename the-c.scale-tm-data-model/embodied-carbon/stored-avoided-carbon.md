@@ -39,7 +39,7 @@ In C.Scale, the emissions and carbon storage associated with biogenic structural
 
 **C.Scale assumes that lumber, plywood, and mass timber assemblies are landfilled, recycled, or combusted for energy at the end of their useful life**. The mix of landfilling, combustion, and recycling is determined by the EPA analysis of US disposal in 2018. The emissions from these three activities are calculated with the EPA’s Waste Reduction Model (v15).
 
-### Carbon storage in landscapes and green roofs
+### Carbon storage in planted areas
 
 C.Scale measures the annual carbon storage of in living and growing landscape. We assume that all plantings will achieve maturity across the building project's reference period. Carbon storage in the landscape is accrued year over year by amortizing the total carbon storage in mature landscapes over the model's reference period.
 
@@ -48,6 +48,8 @@ Globally, the storage of carbon in plants is a major carbon sink. There are a nu
 In C.Scale, landscaped area is assumed to approach its maximum storage potential (its "carrying capacity") over a 60-year period. The amount of carbon that a landscape can store is location-dependent (i.e., a landscape in Miami can store more carbon than one of a similar size in Arizona).
 
 Maintaining carbon storage in landscape requires maintenance. Emissions from the maintenance of carbon-storing landscape are assessed as embodied emissions. The storage potential of a landscape or green roof depends on its area, its specification (low, moderate, or high storage), and the location of the project.
+
+### Land use change emissions
 
 Developing a "greenfield" site (one that has not been previously developed) will release carbon dioxide into the atmosphere. How C.Scale calculates these emissions is described in the [Embodied Carbon](./#emissions-from-greenfield-development) section of the methodology.
 
