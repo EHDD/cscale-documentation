@@ -4,11 +4,15 @@ In C.Scale, fugitive emissions from refrigerant leakage are categorized as opera
 
 For each year of operation, emissions from refrigerant leakage are calculated as:
 
-$$Emissions_{\text{annual}} = (\text{ref charge}) \cdot (\text{ref leakage rate}_{\text{annual}}) \cdot (\text{ref GWP})$$
+$$
+Emissions_{\text{annual}} = (\text{ref charge}) \cdot (\text{ref leakage rate}_{\text{annual}}) \cdot (\text{ref GWP})
+$$
 
 For each year where MEP systems are replaced/refurbished (denoted in C.Scale as the “refurbishment period”), emissions from refrigerant leakage are calculated as:
 
-$$Emissions_{\text{EoL}} = (\text{ref charge}) \cdot (\text{ref leakage rate}_{\text{EoL}} + \text{leakage rate}_{\text{annual}}) \cdot (\text{ref GWP})$$
+$$
+Emissions_{\text{EoL}} = (\text{ref charge}) \cdot (\text{ref leakage rate}_{\text{EoL}} + \text{leakage rate}_{\text{annual}}) \cdot (\text{ref GWP})
+$$
 
 ### Estimating Total Refrigerant Charge
 
