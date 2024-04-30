@@ -10,17 +10,20 @@ In countries where our users are based, we use country-level data. Additional co
 
 <details>
 
-<summary>Countries in C.Scale</summary>
+<summary>Country-Level Data in C.Scale</summary>
 
-* United States of America
+* Australia
+* Belgium
 * Canada
-* United Kingdom
 * Denmark
+* Finland
 * France
 * Germany
 * Italy
 * Norway
+* Spain
 * Sweden
+* United Kingdom
 
 </details>
 
