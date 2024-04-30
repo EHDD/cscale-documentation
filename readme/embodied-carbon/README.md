@@ -44,7 +44,7 @@ To calculate emissions from the removal of above ground biomass, C.Scale treats 
 
 ### A5.3 Jobsite Waste
 
-For each material and building assembly, C.Scale assumes a percentage of the installed total is wasted during construction. For all waste incurred during A5.3, we calculate A1-A4 and C2-C4 emissions for the wasted material and assign it A5.3. C.Scale's default conservative waste rates are included in the table below.&#x20;
+For each material and building assembly, C.Scale assumes a percentage of the installed total is wasted during construction. For all waste incurred during A5.3, we calculate A1-A4 and C2-C4 emissions for the wasted material and assign it to A5.3 emission for that material's category. C.Scale's default (conservative!) waste rates are included in the table below.&#x20;
 
 <table><thead><tr><th width="355">Building Material/Assembly</th><th>Waste Rate</th></tr></thead><tbody><tr><td>Concrete (all types)</td><td>5%</td></tr><tr><td>Reinforcing Steel</td><td>3%</td></tr><tr><td>Hot-Rolled Steel</td><td>10%</td></tr><tr><td>Cold-Formed Steel</td><td>10%</td></tr><tr><td>Dimensional Lumber</td><td>10%</td></tr><tr><td>Ply and OSB Products</td><td>15%</td></tr><tr><td>Engineered Timber</td><td>10%</td></tr><tr><td>CMU Block</td><td>5%</td></tr><tr><td>CMU Mortar</td><td>15%</td></tr></tbody></table>
 
