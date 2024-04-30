@@ -2,7 +2,7 @@
 
 ## 🏗️ The C.Scale™ Data Model
 
-* [🏗️ Introduction to C.Scale](README.md)
+* [Introduction to C.Scale](README.md)
 * [Model Structure](the-c.scale-tm-data-model/model-structure.md)
 * [Embodied Carbon](the-c.scale-tm-data-model/embodied-carbon/README.md)
   * [Structure](the-c.scale-tm-data-model/embodied-carbon/structure.md)
