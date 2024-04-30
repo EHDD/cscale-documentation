@@ -1,4 +1,4 @@
-# Life Cycle Stages
+# Whole Life Carbon Assessment
 
 C.Scale generates detailed time series estimates of a building's embodied carbon emissions and organizes those emissions into the appropriate life cycle stages.&#x20;
 
@@ -52,7 +52,7 @@ Land use change emissions from greenfield development are counted in A5.2. When 
 
 Developing a greenfield site releases carbon emissions from two sources: carbon stored in soil and carbon stored in biomass. C.Scale assumes that 100% of the carbon stored in topsoil is emitted as carbon dioxide. Data on carbon storage in soil is highly regional, and C.Scale uses FAO's Global Soil Organic Carbon data product for this calculation, taking the mean value at the zip code level.
 
-To calculate emissions from the removal of above ground biomass, C.Scale treats the site as vegetated with regionally-specific "low carbon storage" plants at 50% of the site's carrying capacity. More information on how carbon storage in living biomass is calculated in C.Scale is available in the [Stored and Avoided Carbon](../stored-avoided-carbon.md#carbon-storage-in-landscapes-and-green-roofs) section of the methodology.
+To calculate emissions from the removal of above ground biomass, C.Scale treats the site as vegetated with regionally-specific "low carbon storage" plants at 50% of the site's carrying capacity. More information on how carbon storage in living biomass is calculated in C.Scale is available in the [Stored and Avoided Carbon](stored-avoided-carbon.md#carbon-storage-in-landscapes-and-green-roofs) section of the methodology.
 
 ### A5.3: Jobsite Waste
 
@@ -62,7 +62,7 @@ For each material and building assembly, C.Scale assumes a percentage of the ins
 
 ## B1: Use Phase Emissions
 
-In C.Scale, fugitive emissions from refrigerant leakage are categorized as operational emissions. They are counted in life cycle stage B1. This is treated in detail in the documentation section on [Refrigerant Emissions](../operational-carbon/refrigerant-leakage.md).
+In C.Scale, fugitive emissions from refrigerant leakage are categorized as operational emissions. They are counted in life cycle stage B1. This is treated in detail in the documentation section on [Refrigerant Emissions](refrigerant-emissions.md).
 
 ## B2-B5: Replacement and Refurbishment
 
@@ -76,7 +76,7 @@ For n number of contributors to the embodied emissions, where A is the total bui
 
 ## B6: Operational Energy use
 
-Life cycle stage B6 includes operational emissions from energy use. This is treated in detail in the documentation section on [Operational Carbon](../operational-carbon/).&#x20;
+Life cycle stage B6 includes operational emissions from energy use. This is treated in detail in the documentation section on [Operational Carbon](operational-carbon.md).&#x20;
 
 ## C2-C4: End of Life
 
@@ -92,5 +92,13 @@ The assumption of displacement generation will not hold true in all locations, a
 
 * Daytime (i.e., when solar is available) emissions from the electrical grid are significantly lower than the national average.
 * Surplus energy generation is expected to be curtailed by the utility. For an overview of curtailment in the United States, we recommend [this report from NREL](https://www.nrel.gov/docs/fy14osti/60983.pdf) (pdf).
+
+The generation of excess energy by an onsite solar photovoltaic array displaces the generation an equivalent amount of electricity from the utility grid. This is calculated as follows:
+
+$$
+Avoided\ carbon\ emissions=\ \sum_{t=1}^{m}\ e_{t}\ast c_{t}
+$$
+
+Where $$e_{t}$$ is the excess energy in kWh generated in year $$t$$ and $$c_{t}$$ is the carbon intensity of the electrical grid per unit demand in year $$t$$. This method assumes that there is no curtailment of PV production, and that the carbon emissions of grid electricity when solar energy is produced is substantially similar to the annual average emissions. In locations with a high proportion of solar on the grid, curtailment is likely and skepticism of C.Scale's calculation of avoided emissions is warranted.
 
 If you are interested in further analysis of hourly emissions, [please reach out](mailto:epic@ehddd.com).

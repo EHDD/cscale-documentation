@@ -1,6 +1,18 @@
 # Stored and Avoided Carbon
 
-The overview of how C.Scale calculates stored and avoided carbon is detailed on the [model structure](model-structure.md) page. Below, we give additional detail about how C.Scale calculates emissions from all the sources contributing to a project's stored and avoided carbon.
+The overview of how C.Scale calculates stored and avoided carbon is detailed on the [model structure](../../) page. Below, we give additional detail about how C.Scale calculates emissions from all the sources contributing to a project's stored and avoided carbon.
+
+## Overview
+
+In C.Scale, landscaping and the use of structural timber contribute to biogenic carbon storage. Carbon storage in structural materials is assessed once in the first year of the project, and landscape sequestration is assessed each year. Biogenic carbon sequestration is evaluated with the following expression:
+
+$$
+Carbon\ Storage=x_i\ast C_i+\ \sum_{t=1}^{m}\ A_k\ast C_k
+$$
+
+Where $$x_i$$ is the amount of carbon-sequestering timber structural material $$i$$, $$C_i$$ is the carbon sequestration per unit $$i$$,$$A_k$$ is the area A of carbon-sequestering planting type k, and $$C_k$$ is the carbon sequestration in year $$t$$ per area of planting $$k$$.
+
+
 
 ## Biogenic Carbon
 
@@ -37,7 +49,7 @@ In C.Scale, landscaped area is assumed to approach its maximum storage potential
 
 Maintaining carbon storage in landscape requires maintenance. Emissions from the maintenance of carbon-storing landscape are assessed as embodied emissions. The storage potential of a landscape or green roof depends on its area, its specification (low, moderate, or high storage), and the location of the project.
 
-Developing a "greenfield" site (one that has not been previously developed) will release carbon dioxide into the atmosphere. How C.Scale calculates these emissions is described in the [Embodied Carbon](embodied-carbon/#emissions-from-greenfield-development) section of the methodology.
+Developing a "greenfield" site (one that has not been previously developed) will release carbon dioxide into the atmosphere. How C.Scale calculates these emissions is described in the [Embodied Carbon](./#emissions-from-greenfield-development) section of the methodology.
 
 ## Avoided carbon from surplus energy generation
 
@@ -49,5 +61,13 @@ The assumption of displacement generation will not hold true in all locations, a
 
 * Daytime (i.e., when solar is available) emissions from the electrical grid are significantly lower than the national average.
 * Surplus energy generation is expected to be curtailed by the utility. For an overview of curtailment in the United States, we recommend [this report from NREL](https://www.nrel.gov/docs/fy14osti/60983.pdf) (pdf).
+
+The generation of excess energy by an onsite solar photovoltaic array displaces the generation an equivalent amount of electricity from the utility grid. This is calculated as follows:
+
+$$
+Avoided\ carbon\ emissions=\ \sum_{t=1}^{m}\ e_{t}\ast c_{t}
+$$
+
+Where $$e_{t}$$ is the excess energy in kWh generated in year $$t$$ and $$c_{t}$$ is the carbon intensity of the electrical grid per unit demand in year $$t$$. This method assumes that there is no curtailment of PV production, and that the carbon emissions of grid electricity when solar energy is produced is substantially similar to the annual average emissions. In locations with a high proportion of solar on the grid, curtailment is likely and skepticism of C.Scale's calculation of avoided emissions is warranted.
 
 If you are interested in further analysis of hourly emissions, [please reach out](mailto:epic@ehddd.com).
