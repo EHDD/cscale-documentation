@@ -16,7 +16,7 @@ For instance, the use of particularly high-carbon and high-cost finish materials
 
 A1-A3 emissions are calculated from a bill of materials (e.g., life cycle inventory) inferred from the user's description of a building. The exact method for generating that bill of materials and performing calculation of A1-A3 emissions vary by building assembly.&#x20;
 
-### Operational Carbon [↗](operational-carbon.md)
+### Operational Carbon [↗](operational-carbon/)
 
 The operational emissions of the project are assessed annually and summed across all years before the target date. The equation is similar to the equation for embodied emissions, with two key differences: first, the quantity x is substituted for the energy use intensity (EUI) e; second, the equation is a double summation, once across all the fuel types in the building and again across all years between the building’s completion and the target year. The total operational emissions assessed by C.Scale are represented by this expression:
 
