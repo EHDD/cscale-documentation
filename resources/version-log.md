@@ -1,6 +1,75 @@
 # 🪵 Version Log
 
-**2.26.00**
+_This is a log of all updates affecting the use of the API or are otherwise important to communicate to users (e.g. bug fixes or performance updates requested by users). This is not an exhaustive list of updates, and may internal updates are not listed below. For a complete list of updates each version, please reach out._&#x20;
+
+### 2.29.00
+
+* `StackedBuildingForm` object is live and available to all users
+* Update material carbon intensity data in France, Italy, and Sweden
+
+2.28.03
+
+* Fix bug in display (not calculation) of carbon intensities for `CMUMortar` and `CMUBlock`
+
+2.28.01
+
+* Minor request refactoring
+* `interior.percent_floor_area` can now equal 0
+
+### **2.28.00**
+
+* Major middleware and DevOps update
+* Performance updates to Geodatabase
+
+2.27.08
+
+* Fixed a bug where `mep.specification`, `solar_pv.specification`, and `refrigerants.GWP_specification` were not being properly converted when `SI` was used
+
+2.27.07
+
+* Refactored POST `/carbon-intensities` endpoint to remove hyphens from `structure` response object
+* Separated routers for `/carbon-intensities` and `/location-data`
+
+2.27.05
+
+* added `ASHRAE_CZ` and `KG_CZ` to `regional_data` response object + added descriptions
+
+2.27.04
+
+* Fixed bug with `GetCarbonIntensities` endpoint where response data was not being parsed correctly.
+
+2.27.03
+
+* Fix responsibly sourced timber bug in some geo's
+
+2.27.02
+
+* Added POST endpoints for `/tokens/token-data` and `/carbon-intensities`
+
+2.27.01
+
+* bugfix for 500 internal server error in `/api/tokens/token-data endpoint`
+
+### **2.27.00**
+
+* Updated the following datasets:&#x20;
+  * Denmark, Germany: grid, fuel mix baselines, material carbon intensity
+  * Sweden, UK, Italy, France: grid, fuel mix baselines
+* Added the following regions: Australia, Spain, Belgium, EU, Finland
+* Added `/location-data` endpoint
+* Added request and response schema for `/location-data` endpoint
+
+2.26.03
+
+* Hotfix for 100% reuse on all reuse parameters
+* `{category.reuse}` now being applied to `A4`, `A5p3` calculations for `structure`, `cladding`, `glazing`, `roofing`,`mep`, `interiors`
+
+2.26.01
+
+* Bug fixes for`category_by_stages` response object
+* Added `demolition` as a stage in response schema
+
+### **2.26.00**
 
 * New A4-A5 modules in `LifeCycleStages.py` to reflect ASHRAE/ICC 240P
   * A4\_Emissions: Transportation emissions&#x20;
@@ -16,7 +85,7 @@
 * Hotfixes related to schema for Cambium 2023.&#x20;
 * Deprecate size/performance MEP data in `/carbon-intensities` endpoint.
 
-**2.25.00**
+### **2.25.00**
 
 * Migrated from Cambium 2022 to Cambium 2023 electricity emissions data for the contiguous US
   * NREL deprecated state-level data, so our analysis increased resolution to the ReEDS Balancing Authority level.
