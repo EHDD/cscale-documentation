@@ -1,6 +1,6 @@
 # 🪵 Version Log
 
-_This is a log of all updates affecting the use of the API or are otherwise important to communicate to users (e.g. bug fixes or performance updates requested by users). This is not an exhaustive list of updates, and may internal updates are not listed below. For a complete list of updates each version, please reach out._&#x20;
+_This is a log of all updates which either affect the use of the API or are otherwise important to communicate to our users (e.g. bug fixes or performance updates requested by users). This is not an exhaustive list of updates, and many internal updates are not listed below. For a complete list of updates in a specific version, please reach out._&#x20;
 
 ### 2.29.00
 
