@@ -24,10 +24,6 @@ Other pages in this section detail the calculation of A1-A3 emissions from [stru
 
 ## A4-5: Construction Emissions
 
-Emissions from the construction of the building are estimated as a proportion of A1-A3 emissions. Our expert review process established below ground construction as the major driver of A4-A5 emission. C.Scale estimates A4-A5 emissions as 10% of A1-A3 emissions when there is no below ground construction, and conservatively estimates the same at 18% when there is below ground construction.
-
-This parameter can be customized for a scenario in the scenario customization screen.
-
 ### A4: Transportation of Materials to Site
 
 All materials accounted for in A1-A3 must be transported to site. C.Scale defaults to emission factors from the ASHRAE 240P draft guidance in table 6.5.2.1. These are conservative estimates of emissions per quantity material. These data include a 0.5 return trip factor.&#x20;
