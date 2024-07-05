@@ -8,6 +8,7 @@
   * [Structure](the-c.scale-tm-data-model/embodied-carbon/structure.md)
   * [Envelope](the-c.scale-tm-data-model/embodied-carbon/envelope.md)
   * [Other Building Assemblies](the-c.scale-tm-data-model/embodied-carbon/other-building-assemblies.md)
+  * [Site and Landscape](the-c.scale-tm-data-model/embodied-carbon/site-and-landscape.md)
   * [Refrigerant Emissions](the-c.scale-tm-data-model/embodied-carbon/refrigerant-emissions.md)
   * [Operational Carbon](the-c.scale-tm-data-model/embodied-carbon/operational-carbon.md)
   * [Stored and Avoided Carbon](the-c.scale-tm-data-model/embodied-carbon/stored-avoided-carbon.md)
