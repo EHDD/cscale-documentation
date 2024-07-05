@@ -2,6 +2,94 @@
 
 _This is a log of all updates which either affect the use of the API or are otherwise important to communicate to our users (e.g. bug fixes or performance updates requested by users). This is not an exhaustive list of updates, and many internal updates are not listed below. For a complete list of updates in a specific version, please reach out._&#x20;
 
+<mark style="background-color:green;">Check out our feature roadmap and subscribe to our feature updates via RSS on o</mark>[<mark style="background-color:green;">ur canny.io site</mark>](https://cscale.canny.io/changelog)<mark style="background-color:green;">.</mark>
+
+### 2.33.00
+
+This update moves C.Scale's calculations in line with emerging whole life carbon standards, with a particular focus on how we handle replacements, refrigerants, and landscape carbon storage by phase.
+
+**Updated B2-5 Calculation**
+
+When accounting for the regular replacement and refurbishment of materials over time in modules B2-B5 (maintenance, repair, replacement, refurbishment), C.Scale now accounts for:
+
+* Emissions from the transportation of those materials to the site (following the assumptions used in module A4),
+* Emissions from the installation of that material and associated waste (following the assumptions in modules A5.2 and A5.3)
+* End-of-life emissions of all removed materials (following the same assumptions in modules C2-C4).
+
+All of these emissions are 'rolled into' the B2-5 estimate, better describing the total impact of those replacements.
+
+**Improved Refrigerant Model**
+
+Emissions from refrigerant leakage are now more richly described by life cycle module:
+
+* Emissions from installation of MEP equipment are counted in A5.2 (jobsite emissions).
+* Emissions from annual leakage are counted in B1 (in-use emissions).
+* Emissions from end-of-life leakage from the replacement of MEP equipment over the project's life cycle are counted in B1 (in-use emissions).
+* Emissions from the removal of MEP systems at end-of-life are counted in phase C1 (demolition emissions).
+
+We're in the process of scoping a wider update to our refrigerant model to better predict the mass of refrigerants installed, potentially with some additional (systems-specific) refrigerant data.
+
+**Improved Site and Landscape Model**
+
+As with the refrigerants model described above, we've worked to better organize and describe landscape emissions by life cycle module:
+
+* Land use change emissions from greenfield development are counted in A5.2 (jobsite emissions).
+* Carbon storage in the landscape plantings is counted in B1 (in-use emissions).
+* Recurring emissions from landscape maintenance are counted in B2-B5 (maintenance, repair, replacement, refurbishment).
+
+### 2.32.00
+
+No new data model capabilities this update, but a number of changes to make the API more robust, stable, and useful. Enjoy :)
+
+**Bulk Calculation Endpoints**
+
+In this release are two new "bulk calculation" endpoints, which accept a list of requests and return a list of responses. This endpoint is available for the [simple building form](http://api.cscale.io/api/cscale-swagger-docs#/Whole%20Life%20Carbon/calculate\_bulk\_emissions\_simple\_api\_calculate\_simple\_form\_bulk\_post) and for the [stacked building form](http://api.cscale.io/api/cscale-swagger-docs#/Whole%20Life%20Carbon/calculate\_bulk\_emissions\_stacked\_api\_calculate\_stacked\_form\_bulk\_post). The maximum number of calculations you can currently pass via this endpoint is **50**.
+
+In addition to better supporting the use of the API for masterplanning and larger-scale projects, we hope this update also gives our users a method for reducing the need to send large sets of concurrent requests.
+
+**Incident Reporting**
+
+Up until now, the best way to report a potential issue with the API was to email (or sometimes text) Jack. Now, we have an new incident reporting endpoint available at `/api/report/incident`. This endpoint logs the incident via Better Stack and then Better Stack emails, texts, Slacks (and, if it's severe, calls) the dev-on-duty to troubleshoot the incident ASAP.
+
+We hope that this will give a stronger line of communication between our users and our team, as well as ensuring that we can meet our user's highest expectations for support and incident response times.
+
+**Additional Testing**
+
+In this update, we added additional tests to support the B2-5 bugfix we made earlier today, as well as adding an additional schema-driven testing suite that ensures that the API can handle any request within the schema's validation parameters.
+
+### 2.31.00
+
+**Updates to C and D Phase Emissions**
+
+This release represents a significant improvement of how C.Scale calculates C Phase emissions. Where previously these were ambiguously grouped into a C1-C4 object, data is now available for each C phase separately. To ensure that this update is applied evenly throughout the model, we also divided the D phase into D1 and D2. With the addition of more detail, the overall phases are also still available, and the C1-C4 and D objects in the category\_by\_stages object are retained.A few non-breaking API changes related to this update:
+
+* Alias'ed `D` to `benefits` in `lifecycle_stages` request object. This parameter now affects more phases than D. I.e., carbon storage in landscape is in B1, upstream carbon storage in timber supply chains is included in A1.
+* D Phase is divided into D1 (potential recycling, reuse, and recovery benefits) and D2 (exported energy).
+* A5.3 estimates will change slightly, since they now include end-of-life (C Phase) emissions for all wasted materials
+
+**New Endpoints!**
+
+We restructured the endpoints to better support the stacked building form. The current `/api/calculate` endpoint will continue to be supported, but is considered a legacy endpoint since it's (purposefully) schema-agnostic. Moving forward, URLs for calculate endpoints will be structured around the schema they accept. We are also deprecating the `/api/summary` and `/api/timeseries` endpoints. They're a little silly, since they just return a subset of the results for the/api/calculate. This alone is not sufficient reason for us to maintain a separate endpoint. Here's the non-breaking changes you can expect from the endpoint update:
+
+* `/api/timeseries` is marked as deprecated. It will be removed from the model in Q4 2024.
+* `/api/summary` is marked as deprecated. It will be removed from the model in Q4 2024.
+* `/api/calculate` is marked as legacy. We will continue to support this model, even as it grows stranger from accepting too many schemas all at once.
+
+Two new shiny endpoints for calculating whole life carbon:
+
+* `/calculate/simple-form` accepts a request in a nested schema with a simple `building_form` request.
+* /`calculate/stacked-form` accepts a request in a nested schema with a stacked `building_form` request.
+
+You can see an example of these request objects (and more) in our [current API notebook](https://drive.google.com/drive/u/0/folders/1Q\_\_pMVDnPgzv01aWb-cfakifKtuqyH4K).
+
+**ZeroTool Update**
+
+Previously, C.Scale used the public ZeroTool API provided by Architecture 2030 for EUI baselines for Canada and North America. This API is awesome, and made earlier versions of our C.Scale possible. As we scale up, though, it didn't feel right that our model depended on their server resources. From this version of C.Scale and moving forward, we're hosting our own instance of ZeroTool. In addition to lessening the load on ZeroTool, this also allows us to add more resources to the ZeroTool, helping get around a performance bottleneck. Beside this, no changes to the C.Scale side.
+
+**Uptime Monitoring**
+
+* The [api.cscale.io](http://api.cscale.io) page now includes an uptime monitor widget, connected to the live status page available at [api-uptime.cscale.io](http://api-uptime.cscale.io). This will help determine is perceived downtime is on the C.Scale side.
+
 ### 2.29.00
 
 * `StackedBuildingForm` object is live and available to all users
