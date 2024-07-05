@@ -62,17 +62,13 @@ The use stage includes all emissions from the operation of the building from the
 
 ### B1: In-Use Emissions
 
-In C.Scale, fugitive emissions from refrigerant leakage are categorized as operational emissions. They are counted in life cycle stage B1. This is treated in detail in the documentation section on [Refrigerant Emissions](refrigerant-emissions.md).
+Fugitive emissions from annual refrigerant leakage, as well as refrigerant leakage for equipment replaced during the operating life of the building,  are counted in life cycle stage B1. This is treated in detail in the documentation section on [Refrigerant Emissions](refrigerant-emissions.md).
+
+Annual carbon storage in landscape is also included in this phase.
 
 ### B2-B5: Replacement and Refurbishment
 
-C.Scale uses a simplified model of replacement and refurbishment. For these materials, the emissions associated with these activities (including transportation, installation, and end-of-life emissions for the replacement materials) are assigned to the year(s) in which they’re replaced, and a multiplier is added to the total summation. The total embodied emissions assessed by C.Scale are represented by this expression:
-
-$$
-Total\ embodied\ carbon\ emissions=\ \sum_{i=1}^{n}\ A\ast x_i\ast c_i\ast(1+r_i)\
-$$
-
-For n number of contributors to the embodied emissions, where A is the total building area, $$x_i$$ is the quantity of the contributor $$i$$ per building area, $$c_i$$ is the carbon intensity per unit of the contributor $$i$$ (including transportation, installation, and end-of-life emissions for the replacement), and $$r_i$$ is the number of replacements of the contributor $$i$$ before the target date.
+C.Scale uses a simplified model of replacement and refurbishment. For all materials in the C.Scale model, the emissions associated with these replacement and refurbishment—including manufacturing, transportation, and installation of the new materials, as well as end-of-life emissions for any removed materials—are assigned to the year(s) determined by the user-selected refurbishment period.&#x20;
 
 ### B6: Operational Energy use
 
@@ -84,7 +80,7 @@ Data from life cycle stages C1-C4 cover the process from building demolition to 
 
 ### C1: Demolition
 
-C.Scale assumes that business-as-usual demolition practices will 30% of the emissions used to construct the same asset. This value can be overridden with a project-specific value.&#x20;
+C.Scale assumes that business-as-usual demolition practices will 30% of the emissions used to construct the same asset. This value can be overridden with a project-specific value. C1 also includes emissions from refrigerant leakage of all removed equipment.
 
 ### C2: Transportation to End of Life Processing
 
