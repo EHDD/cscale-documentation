@@ -58,7 +58,7 @@ The future of the electrical grid is uncertain. To account for this uncertainty,
 {% tab title="USA" %}
 C.Scale includes three NREL Cambium scenarios for the future evolution of the electrical grid. Portions of the text below are quoted from the description of these scenarios and their derivation published by NREL [here](https://www.nrel.gov/docs/fy23osti/84916.pdf) (pdf).
 
-* **Expected decarbonization**. Average estimates for inputs such as technology costs, fuel prices, and demand growth. No inclusion of nascent technologies. Electric sector policies as they existed in September 2022, with the assumption that the Inflation Reduction Act’s Production and Investment Tax Credits do not phase out. This metric is described in NREL's Cambium model as "Midcase."
+* **Expected Decarbonization**. Average estimates for inputs such as technology costs, fuel prices, and demand growth. No inclusion of nascent technologies. Electric sector policies as they existed in September 2022, with the assumption that the Inflation Reduction Act’s Production and Investment Tax Credits do not phase out. This metric is described in NREL's Cambium model as "Midcase."
 * **Slow Decarbonization**. Average estimates as in the mid-case scenario, but with an assumption that battery and renewable energy costs are high. This scenario assumes that the thresholds set by the Inflation Reduction Act’s Production and Investment Tax Credits are not met and, as such, they do not phase out. This metric is described in NREL's Cambium model as "High Cost of Renewable Energy."
 * **Rapid Decarbonization**. Average estimates for inputs such as technology costs, fuel prices, and demand growth. Nascent technologies are included. Electric sector policies as they existed in September 2022, with the assumption that the Inflation Reduction Act’s Production and Investment Tax Credits do not phase out. High-level assumption that the national electricity grid's carbon emissions in 2050 are 5% of their 2005 level. This metric is described in NREL's Cambium model as "95% decarbonization by 2050."
 {% endtab %}
@@ -74,7 +74,11 @@ To fill in geographic gaps in future grid emissions for Northwest Territories, N
 {% endtab %}
 
 {% tab title="UK" %}
-_Currently available. Documentation coming soon._
+C.Scale has three scenarios describing the future decarbonization of the electrical grid in the United Kingdom, based on the National Grid ESO's [Future Energy Scenarios](https://www.nationalgrideso.com/future-energy/future-energy-scenarios-fes/fes-documents) (FES).&#x20;
+
+* **Expected Decarbonization**. Based on the System Transformation scenario from FES, where the UK meets its net zero target in 2050.
+* **Slow Decarbonization**. Based on the Falling Short scenario from FES, where the UK does not meet its target of net zero by 2050. This scenario still shows some progress on decarbonization, but much lower than other scenarios.&#x20;
+* **Rapid Decarbonization**. Based on the Leading the Way scenario from FES, where the UK meets its net zero target in 2046.&#x20;
 {% endtab %}
 
 {% tab title="EU" %}
