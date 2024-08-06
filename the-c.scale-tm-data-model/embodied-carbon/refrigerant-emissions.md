@@ -25,7 +25,9 @@ Annual and end-of-life refrigerant leakage rates are typically a model assumptio
 | Reporting Scheme    | Annual Leakage | End-of-Life Leakage |
 | ------------------- | -------------- | ------------------- |
 | LEED                | 2%             | 10%                 |
+| CIBSE TM65 (Type 1) | 2              | 1                   |
 | CIBSE TM65 (Type 2) | 4%             | 2%                  |
+| CIBSE TM65 (Type 3) | 6%             | 3%                  |
 
 ### Refrigerant GWP
 
