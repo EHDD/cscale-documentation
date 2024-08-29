@@ -5,20 +5,32 @@
 The building envelope in divided into three components: opaque cladding, glazing, and roofing. The area of each is calculated based on user inputs for building floor area, number of floors, floor-to-floor height window-to-wall ratio (WWR), and building perimeter. C.Scale makes a preliminary estimate of floor-to-floor height, WWR, and building perimeter (assuming a square building) which the user can refine in the "overrides" panel in the base case tab.
 
 $$
-Envelope \ area = Perimeter \ * \ Floor \ Height \ * \ Number \ of \ floors
+Envelope \ area = Perimeter \ * \ F2F \ Height \ * \ Number \ of \ floors
 $$
 
 $$
-Glazing \ area = WWR \ * \ Perimeter \ * \ Floor \ Height \ * \ Number \ of \ floors
+Glazing \ area = WWR \ * \ Perimeter \ * \ F2F \ Height \ * \ Number \ of \ floors
 $$
 
 $$
-Cladding \ area = (1-WWR) \ * \ Perimeter \ * \ Floor \ Height \ * \ Number \ of \ floors
+Cladding \ area = (1-WWR) \ * \ Perimeter \ * \ F2F \ Height \ * \ Number \ of \ floors
 $$
 
 $$
-Roof \ area = Above \ Ground \ Floor \ Area
+Roof \ area = Building \ Footprint
 $$
+
+#### Floor-to-Floor Height
+
+Floor to floor (F2F) height can be set in the API for each floor individually (if using the stacked `BuildingForm` object) or for all floors together (in the simple `BuildingForm` object). Default values for floor-to-floor height are set by use type, as described in the table below.
+
+| Use Categories                                                                                                                 | Default F2F Height (ft) | Default F2F Height (m) |
+| ------------------------------------------------------------------------------------------------------------------------------ | ----------------------- | ---------------------- |
+| Dormitory, Hotel, Multifamily Housing, Senior Care Facility, Single Family Home                                                | 11.5 feet               | 3.5 meters             |
+| Fitness Center, K-12 School, Medical Clinic, Office, Pre-school / Day Care, Restaurant, Retail Store, University/College       | 13 feet                 | 4.0 meters             |
+| Aquarium, Hospital, Laboratory, Library, Museum, Performing Arts, Post Office, Stadium, Transit Station, Worship Facility, Zoo | 15 feet                 | 4.6 meters             |
+| Convention Center                                                                                                              | 18 feet                 | 5.5 meters             |
+| Distribution Center, Warehouse                                                                                                 | 20 feet                 | 6.1 meters             |
 
 ### Parametric Envelope Model
 
