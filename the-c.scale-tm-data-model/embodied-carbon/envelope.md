@@ -87,6 +87,12 @@ In all cases, user-declared carbon intensity data can be entered on a kgCO2e/m2 
 
 Data in the C.Scale envelope model makes use of Payette Kaleidoscope data for some assemblies by permission. Find the full citation for these data in the [Reference Data](../reference-data.md) section of the methodology.
 
+**Default R-Values**
+
+The declared R-value of the assembly is used to calculate the amount of exterior insulation needed. R-values for framing assemblies are de-rated using the nominal R-values in ASHRAE 90.1-2019 Appendix A. If an R-value is not declared by the user, the default is set by climate zone.&#x20;
+
+<table data-full-width="false"><thead><tr><th width="297">ASHRAE Climate Zone</th><th>C.Scale Default R-Value</th></tr></thead><tbody><tr><td>Climate Zone 0</td><td>18</td></tr><tr><td>Climate Zone 1</td><td>18</td></tr><tr><td>Climate Zone 2</td><td>18</td></tr><tr><td>Climate Zone 3</td><td>20</td></tr><tr><td>Climate Zone 4</td><td>21</td></tr><tr><td>Climate Zone 5</td><td>2</td></tr><tr><td>Climate Zone 6</td><td>26</td></tr><tr><td>Climate Zone 7</td><td>26</td></tr><tr><td>Climate Zone 8</td><td>29</td></tr></tbody></table>
+
 ### Transparent Envelope
 
 {% tabs %}
@@ -106,10 +112,6 @@ Data in the C.Scale envelope model makes use of Payette Kaleidoscope data for so
 * Triple-glazed IGU
 {% endtab %}
 {% endtabs %}
-
-### Calculating Opaque Assembly R-Value
-
-The declared R-value of the assembly is used to calculate the amount of exterior insulation needed. R-values for framing assemblies are de-rated using the nominal R-values in ASHRAE 90.1-2019 Appendix A.&#x20;
 
 ### Roofing
 
