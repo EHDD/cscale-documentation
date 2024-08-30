@@ -51,7 +51,7 @@ C.Scale's calculations are based on area and material takeoffs from simple build
 
 <figure><img src=".gitbook/assets/Diagrams.png" alt=""><figcaption></figcaption></figure>
 
-## C.Scale customizable and extensible
+## C.Scale is customizable and extensible
 
 C.Scale is built as a series of modules, each connected to the others and tasked with a specific set of calculations. These modules are added or expanded in response to the requests of users.
 
