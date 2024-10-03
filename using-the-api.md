@@ -8,30 +8,6 @@ Consider the information below a "highlight reel," but the best of the best (and
 
 Skip the swagger and get right to the good stuff - here's a Python Notebook with a panoply of use cases to get you building your integration ASAP.&#x20;
 
-## Calculate
-
-The main whole life carbon calculation endpoint.&#x20;
-
-{% swagger src=".gitbook/assets/openapi.json" path="/api/calculate" method="post" %}
-[openapi.json](.gitbook/assets/openapi.json)
-{% endswagger %}
-
-## Token Data
-
-Get data on your auth token, such as how many calls you've made to date and in the last tracking period.
-
-{% swagger src=".gitbook/assets/openapi.json" path="/api/tokens/token-data" method="get" %}
-[openapi.json](.gitbook/assets/openapi.json)
-{% endswagger %}
-
-## Payload
-
-Parse your partial payload through the ingress schema. This endpoint is here to help troubleshoot errors related to formatting or schema parsing.&#x20;
-
-{% swagger src=".gitbook/assets/openapi.json" path="/api/payload" method="post" %}
-[openapi.json](.gitbook/assets/openapi.json)
-{% endswagger %}
-
 ## Carbon Intensities
 
 [Documentation of our Carbon Intensities endpoint](the-c.scale-tm-data-model/reference-data.md#reference-data-via-api) is available in this documentation under reference data.&#x20;
