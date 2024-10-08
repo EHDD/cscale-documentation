@@ -24,8 +24,6 @@ These methods for calculating a structural bill of materials have been reviewed 
 
 Known issues with the structural bill or materials generation models are an overprediction of material quantities for small industrial warehouses and rare combinations of use category and primary structural material (e.g. light wood frame hospitals).&#x20;
 
-_We anticipate journal publication of our modeling pipeline in 2024. In the meantime, please direct questions regarding structural modeling methodology to_ [_j.rusk@ehdd.com_](mailto:j.rusk@ehdd.com)_._
-
 ### Carbon Intensities of Structural Materials
 
 **Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, C.Scale uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources ](../reference-data.md)section of this guide.
@@ -34,38 +32,14 @@ The three specifications available in C.Scale—low carbon, best practices, and 
 
 Concrete emissions, on the other hand, as assessed regionally. Concrete is a local material, rarely traveling more than 25 miles between production and use. Additionally, the relatively large number of concrete EPDs available in the United States ([80,000+](https://buildingtransparency.org/ec3)) supports a regional approach to measuring concrete emissions.
 
-When specific data is not known, the API includes EPIC's pre-defined carbon intensities, defined by the levels of ambition:
+When specific data is not known, the API includes three choices carbon intensities, defined by the range of products or assemblies available in a particular location:
 
-* **Conservative** represents the 80th percentile of material or assembly carbon intensities.
-* **Best Practices** represents the 50th percentile of material or assembly carbon intensities.
-* **Low Carbon** represents the 20th percentile of material or assembly carbon intensities
+* **Conservative** represents the 80th percentile of carbon intensities for regionally-available material or assemblies.
+* **Best Practices** represents the 50th percentile of carbon intensities for regionally-available material or assemblies.
+* **Low Carbon** represents the 20th percentile of carbon intensities for regionally-available material or assemblies.
 
 #### Regionalization of Carbon Intensity Data
 
-Wherever feasible, carbon intensity data is regionalized to the appropriate level of resolution. Our API includes country-level data for the following countries: United States of America, Canada, United Kingdom, Denmark, France, Germany, Italy, Norway, and Sweden.&#x20;
+Wherever feasible, carbon intensity data is regionalized to the appropriate level of resolution. Our regionalization methodology aims to reflect the products and assemblies available in a region (the "market mix"), which is often distinct from those manufactured in that region (the "production mix").
 
-#### Background Data
-
-The following tables describe the background generic data used in our API when country-specific data is not available.&#x20;
-
-{% tabs %}
-{% tab title="NAM Background Data" %}
-<table><thead><tr><th width="199">Structural Material</th><th>Low Carbon</th><th width="174">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Concrete, &#x3C;4 kSI</strong></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td></tr><tr><td><strong>Concrete, 4-6 kSI</strong></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td></tr><tr><td><strong>Concrete, 6-10 kSI</strong></td><td>0.16 kgCO2e/kg</td><td>0.18 kgCO2e/kg</td><td>0.19 kgCO2e/kg</td></tr><tr><td><strong>Reinforcing Steel</strong></td><td>0.9 kgCO2e/kg</td><td>1.1 kgCO2e/kg</td><td>1.16 kgCO2e/kg</td></tr><tr><td><strong>Structural Steel</strong></td><td>0.9 kgCO2e/kg</td><td>1.1 kgCO2e/kg</td><td>1.2 kgCO2e/kg</td></tr><tr><td><strong>Cold-Formed Steel</strong></td><td>1.7 kgCO2e/kg</td><td>2.2 kgCO2e/kg</td><td>2.4 kgCO2e/kg</td></tr><tr><td><strong>Lumber</strong></td><td>0.09 kgCO2e/kg</td><td>0.16 kgCO2e/kg</td><td>0.21 kgCO2e/kg</td></tr><tr><td><strong>Plywood/OSB</strong></td><td>0.36 kgCO2e/kg</td><td>0.51 kgCO2e/kg</td><td>0.73 kgCO2e/kg</td></tr><tr><td><strong>Engineered Wood</strong></td><td>0.19 kgCO2e/kg</td><td>0.25 kgCO2e/kg</td><td>0.36 kgCO2e/kg</td></tr></tbody></table>
-
-Where concrete EPDs are not available, the specification levels in C.Scale are set using NRMCA published minimum, average, and maximum values in line with the method outlined in the CLF's [2021 Material Baseline Report](https://carbonleadershipforum.org/2021-material-baseline-report/), included the use of the uncertainty method put forward by Building Transparency.
-
-In locations where concrete EPDs are available, C.Scale sets the specification levels for concrete by sampling the distribution of GWP values from available concrete EPDs at the 20th, 50th, and 80th percentile. Location specific data on concrete are collected via the [OpenEPD API](https://openepd.buildingtransparency.org/) and compiled in a GIS platform. High-strength concrete (7-10 kSI) carbon intensities correspond to Building Transparency's [OpenImpact](https://www.buildingtransparency.org/programs/openimpact/) data on 55.2 MPa concrete.
-{% endtab %}
-
-{% tab title="EU Background Data" %}
-<table><thead><tr><th width="199">Structural Material</th><th>Low Carbon</th><th width="174">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Concrete, &#x3C;4 kSI</strong></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td></tr><tr><td><strong>Concrete, 4-6 kSI</strong></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td></tr><tr><td><strong>Concrete, 6-10 kSI</strong></td><td>0.095 kgCO2e/kg</td><td>0.11 kgCO2e/kg</td><td>0.13 kgCO2e/kg</td></tr><tr><td><strong>Reinforcing Steel</strong></td><td>0.54 kgCO2e/kg</td><td>0.91 kgCO2e/kg</td><td>0.99 kgCO2e/kg</td></tr><tr><td><strong>Structural Steel</strong></td><td>0.522 kgCO2e/kg</td><td>0.61 kgCO2e/kg</td><td>0.67 kgCO2e/kg</td></tr><tr><td><strong>Cold-Formed Steel</strong></td><td>0.17 kgCO2e/kg</td><td>0.61 kgCO2e/kg</td><td>1.13 kgCO2e/kg</td></tr><tr><td><strong>Lumber</strong></td><td>0.28 kgCO2e/kg</td><td>0.38 kgCO2e/kg</td><td>0.51 kgCO2e/kg</td></tr><tr><td><strong>Plywood/OSB</strong></td><td>0.29 kgCO2e/kg</td><td>0.57 kgCO2e/kg</td><td>0.80 kgCO2e/kg</td></tr><tr><td><strong>Engineered Wood</strong></td><td>0.36 kgCO2e/kg</td><td>0.65 kgCO2e/kg</td><td>0.91 kgCO2e/kg</td></tr></tbody></table>
-
-EU background data is based on available EPDs and Okobaudat. National-level data (e.g. Table 7 data for Denmark) will supersede the background data where it is available.&#x20;
-{% endtab %}
-
-{% tab title="RoW Background Data" %}
-<table><thead><tr><th width="199">Structural Material</th><th>Low Carbon</th><th width="174">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Concrete, &#x3C;4 kSI</strong></td><td>0.088 kgCO2e/kg</td><td>0.111 kgCO2e/kg</td><td>0.121 kgCO2e/kg</td></tr><tr><td><strong>Concrete, 4-6 kSI</strong></td><td>0.109 kgCO2e/kg</td><td>0.129 kgCO2e/kg</td><td>0.149 kgCO2e/kg</td></tr><tr><td><strong>Concrete, 6-10 kSI</strong></td><td>0.123 kgCO2e/kg</td><td>0.153 kgCO2e/kg</td><td>0.172 kgCO2e/kg</td></tr><tr><td><strong>Reinforcing Steel</strong></td><td>0.345 kgCO2e/kg</td><td>0.669 kgCO2e/kg</td><td>1.61 kgCO2e/kg</td></tr><tr><td><strong>Structural Steel</strong></td><td>1.069 kgCO2e/kg</td><td>1.888 kgCO2e/kg</td><td>2.48 kgCO2e/kg</td></tr><tr><td><strong>Cold-Formed Steel</strong></td><td>2.22 kgCO2e/kg</td><td>2.64 kgCO2e/kg</td><td>2.95 kgCO2e/kg</td></tr><tr><td><strong>Dim. Lumber</strong></td><td>0.12 kgCO2e/kg</td><td>0.19 kgCO2e/kg</td><td>0.25 kgCO2e/kg</td></tr><tr><td><strong>Plywood/OSB</strong></td><td>0.38 kgCO2e/kg</td><td>0.82 kgCO2e/kg</td><td>1.2 kgCO2e/kg</td></tr><tr><td><strong>Engineered Wood</strong></td><td>0.24 kgCO2e/kg</td><td>0.34 kgCO2e/kg</td><td>0.40 kgCO2e/kg</td></tr></tbody></table>
-
-RoW background is assembled from multiple sources, including Quartz and the [ICE database.](https://circularecology.com/embodied-carbon-footprint-database.html)&#x20;
-{% endtab %}
-{% endtabs %}
+Our API includes country-level data for the following countries: United States of America, Canada, United Kingdom, Denmark, France, Germany, Italy, Norway, Saudi Arabia, United Arab Emirates, Singapore, and Sweden. Where regional data is not available, we use background data specific to the region. Currently, we maintain background datasets for North America, the EU, and "rest of world" (RoW). &#x20;
