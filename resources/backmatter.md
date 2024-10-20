@@ -2,8 +2,6 @@
 
 **C.Scale** is a lightweight data model for whole life carbon assessments.
 
-**EHDD** creates transformative places of belonging and impact. Learn more about our work at [ehdd.com](http://ehdd.com).
-
 ## Project Team
 
 **Project Coordinator, Technical Development**\
