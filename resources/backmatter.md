@@ -12,9 +12,6 @@ Jack Rusk
 **Data Engineering**\
 Lalyn Yu
 
-**Additional Support**\
-Lee Roder
-
 **Web Development**\
 [Lifelike Labs](https://www.lifelikelabs.com/)
 
@@ -32,4 +29,6 @@ Questions regarding the model, its methodology, or the data behind it can be dir
 
 ## Copyright
 
-C.Scale © 2023-2024 EHDD. All rights reserved.
+C.Scale © 2023-2024 Climate Scale, Inc. All rights reserved.
+
+<figure><img src="../.gitbook/assets/cscale logos_dark - blue square.png" alt="" width="188"><figcaption></figcaption></figure>
