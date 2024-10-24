@@ -55,42 +55,82 @@ C.Scale includes two metrics for grid emissions.
 The future of the electrical grid is uncertain. To account for this uncertainty, C.Scale includes three future grid scenarios in each region.
 
 {% tabs %}
-{% tab title="USA" %}
+{% tab title="North America" %}
+#### United States
+
 C.Scale includes three NREL Cambium scenarios for the future evolution of the electrical grid. Portions of the text below are quoted from the description of these scenarios and their derivation published by NREL [here](https://www.nrel.gov/docs/fy23osti/84916.pdf) (pdf).
 
 * **Expected Decarbonization**. Average estimates for inputs such as technology costs, fuel prices, and demand growth. No inclusion of nascent technologies. Electric sector policies as they existed in September 2022, with the assumption that the Inflation Reduction Act’s Production and Investment Tax Credits do not phase out. This metric is described in NREL's Cambium model as "Midcase."
 * **Slow Decarbonization**. Average estimates as in the mid-case scenario, but with an assumption that battery and renewable energy costs are high. This scenario assumes that the thresholds set by the Inflation Reduction Act’s Production and Investment Tax Credits are not met and, as such, they do not phase out. This metric is described in NREL's Cambium model as "High Cost of Renewable Energy."
 * **Rapid Decarbonization**. Average estimates for inputs such as technology costs, fuel prices, and demand growth. Nascent technologies are included. Electric sector policies as they existed in September 2022, with the assumption that the Inflation Reduction Act’s Production and Investment Tax Credits do not phase out. High-level assumption that the national electricity grid's carbon emissions in 2050 are 5% of their 2005 level. This metric is described in NREL's Cambium model as "95% decarbonization by 2050."
-{% endtab %}
 
-{% tab title="Canada" %}
+#### Canada
+
 In order to ensure accurate operational emissions estimations for the lifecycle of a building in C.Scale, a similar method to incorporating U.S. Grid Data was employed. Using [measured Grid Data](https://data-donnees.ec.gc.ca/data/substances/monitor/canada-s-official-greenhouse-gas-inventory/C-Tables-Electricity-Canada-Provinces-Territories/?lang=en) and [future projection data](https://open.canada.ca/data/en/dataset/5a6abd9d-d343-41ef-a525-7a1efb686300), yearly Canadian Grid emissions are estimated through 2110 with three different decarbonization scenarios so that operational emissions of any C.Scale project started before 2050 can be effectively estimated over a 60 year lifetime. Given the uncertainty of future grid emissions, the three decarbonization forecasts included represent the following scenarios:
 
 * **Expected Decarbonization:** Current policies are maintained, including an assumption that non-emitting materials comprise 80% of electricity generation by 2030, and comprise 89% of generation by 2050. Where electricity generation comes from emitting technologies, carbon capture and storage units are to be built. Electricity Storage becomes possible, as well as inter-provincial transmission, allowing excess generation to be shared among provinces. This is referred to as “Net Zero Electricity (NZE) Baseline” in Canadian Energy Regulator Energy Future 2021.
 * **Slower Decarbonization:** Same as NZE Baseline scenario, except there is no inter-provincial transmission of electricity due to high cost of expansion and subsequently, investment is uncertain. Without inter-provincial transmission, provinces with less ability to decarbonize still need to use emitting technologies. This is referred to as “Limited Transmission” Canadian Energy Regulator Energy Future 2021.
 * **Rapid Decarbonization:** Same as NZE Baseline scenario, but carbon pricing reaches the point that investment in renewables is more financially sensible than emitting carbon. The high cost of carbon will see non-emitting technology grow more rapidly than in the NZE baseline scenario. This is referred to as “High Carbon Price” in Canadian Energy Regulator Energy Future 2021.
 
+
+
 To fill in geographic gaps in future grid emissions for Northwest Territories, Nunavut, and Yukon, national grid projections for each scenario were used to forecast decarbonization in these three provinces.
 {% endtab %}
 
-{% tab title="UK" %}
+{% tab title="EU + UK" %}
+#### United Kingdom
+
 C.Scale has three scenarios describing the future decarbonization of the electrical grid in the United Kingdom, based on the National Grid ESO's [Future Energy Scenarios](https://www.nationalgrideso.com/future-energy/future-energy-scenarios-fes/fes-documents) (FES).&#x20;
 
 * **Expected Decarbonization**. Based on the System Transformation scenario from FES, where the UK meets its net zero target in 2050.
 * **Slow Decarbonization**. Based on the Falling Short scenario from FES, where the UK does not meet its target of net zero by 2050. This scenario still shows some progress on decarbonization, but much lower than other scenarios.&#x20;
 * **Rapid Decarbonization**. Based on the Leading the Way scenario from FES, where the UK meets its net zero target in 2046.&#x20;
+
+#### EU Countries
+
+For locations across the EU, we reference [data from the European Environment Agency](https://www.eea.europa.eu/en/analysis/indicators/greenhouse-gas-emission-intensity-of-1) for present-day emissions for each country. For future emissions, we consider three scenarios:
+
+* **Expected Decarbonization**. The country achieves an 80% reduction relative their present-day emissions by 2050, in alignment with the trajectory of a bloc-wide goal of a 90% reduction by 2040 relative to emissions in 1990.&#x20;
+* **Slow Decarbonization**.  The country falls short, achieving only a 20% reduction by 2050 relative their present-day emissions.&#x20;
+* **Rapid Decarbonization**. The country achieves a 99% decarbonization by 2050 relative their present-day emissions.C
 {% endtab %}
 
-{% tab title="EU" %}
-_Currently available. Documentation coming soon._
+{% tab title="ANZ" %}
+#### Australia
+
+Present-day electrical grid emissions in Australia are cited from data provided by the Australian Energy Market Operator. As of 2024, Australia is developing a [2050 Net Zero Plan](https://www.dcceew.gov.au/climate-change/emissions-reduction/net-zero/electricity-and-energy-sector-plan), but it is not yet published.&#x20;
+
+* **Expected Decarbonization**. Australia achieves an 80% reduction relative their present-day emissions by 2050.
+* **Slow Decarbonization**.  Australia alls short, achieving only a 20% reduction by 2050 relative their present-day emissions.&#x20;
+* **Rapid Decarbonization**. Australia achieves a 99% decarbonization by 2050 relative their present-day emissions.
 {% endtab %}
 
-{% tab title="Australia" %}
-_Currently available. Documentation coming soon._
+{% tab title="Gulf Countries" %}
+#### Saudi Arabia
+
+Present-day electricity-related emissions in Saudi Arabia are from [EMBER](https://ember-energy.org/about/). Saudi Arabia has a [goal of a net zero economy by 2060](https://www.kapsarc.org/wp-content/uploads/2023/12/KS-2023-DP31-Saudi-Arabia-Net-Zero-GHG-Emissions-by-2060-Transformation-of-the-Electricity-Sector.pdf), but data is not published on emissions rates on a kWh-basis.&#x20;
+
+* **Expected Decarbonization**. Saudi Arabia achieves an 90% reduction relative their present-day emissions by 2060.
+* **Slow Decarbonization**.  Saudi Arabia falls short, achieving only a 20% reduction by 2060 relative their present-day emissions.&#x20;
+* **Rapid Decarbonization**. Saudi Arabia achieves a 99% decarbonization by 2060 relative their present-day emissions.
+
+#### United Arab Emirates
+
+The UAE has a plan to achieve a electricity grid carbon intensity of 0.27 kgCO2e/kWh by the year 2030, and net zero by 2050. However, these plans indicate a percentage of gas and coal remaining on the grid in 2050, suggesting that the actual incurred emissions will not be zero.&#x20;
+
+* **Expected Decarbonization**. The Emirates achieve an 80% reduction relative their present-day emissions by 2050, and are on track to achieving their stated 2060 goal.
+* **Slow Decarbonization**.  The Emirates  falls short, achieving only a 20% reduction by 2050 relative their present-day emissions.&#x20;
+* **Rapid Decarbonization**. The Emirates achieves a 99% decarbonization by 2050 relative their present-day emissions.
 {% endtab %}
 
-{% tab title="RoW" %}
-_Currently available. Documentation coming soon._
+{% tab title="Southeast Asia" %}
+#### Singapore
+
+Present-say emission factors are from [EMA](https://www.ema.gov.sg/resources/singapore-energy-statistics/chapter2). Singapore has a goal of a net zero electricity sector by 2045.&#x20;
+
+* **Expected Decarbonization**. Singapore achieves an 90% reduction relative their present-day emissions by 2045.
+* **Slow Decarbonization**.  Singapore falls short, achieving only a 20% reduction by 2045 relative their present-day emissions.&#x20;
+* **Rapid Decarbonization**. Singapore achieves a 99% decarbonization by 2045 relative their present-day emissions.
 {% endtab %}
 {% endtabs %}
 
