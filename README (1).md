@@ -27,8 +27,11 @@ In countries where our users are based, we use country-level data. Additional co
 * Germany
 * Italy
 * Norway
+* Saudi Arabia
+* Singapore
 * Spain
 * Sweden
+* United Arab Emirates
 * United Kingdom
 
 </details>
