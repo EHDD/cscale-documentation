@@ -31,8 +31,9 @@ In countries where our users are based, we use country-level data. Additional co
 * Singapore
 * Spain
 * Sweden
-* United Arab Emirates
-* United Kingdom
+* United Arab Emirates (UAE)
+* United Kingdom (UK)
+* United States of America (USA)
 
 </details>
 
