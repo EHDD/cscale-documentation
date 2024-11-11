@@ -4,7 +4,7 @@ C.Scale is a free whole life carbon tool built by C.Scale to support climate-pos
 
 <div align="left">
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption><p>C.Scale is a free whole life carbon tool.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18).png" alt="" width="563"><figcaption><p>C.Scale is a free whole life carbon tool.</p></figcaption></figure>
 
 </div>
 

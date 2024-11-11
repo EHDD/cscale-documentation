@@ -3,6 +3,16 @@
 ## 🏗️ User's Guide
 
 * [What is C.Scale?](README.md)
+* [🏗️ How do i use EPIC?](users-guide/how-do-i-use-epic.md)
+* [1️⃣ Create a Project](users-guide/create-a-project/README.md)
+  * [All Project Settings](users-guide/create-a-project/all-project-settings.md)
+* [2️⃣ Set a Baseline](users-guide/set-a-baseline.md)
+* [3️⃣ Reduce Emissions](users-guide/reduce-emissions/README.md)
+  * [Carbon Reduction Measures](users-guide/reduce-emissions/carbon-reduction-measures.md)
+  * [Analyze Scenarios](users-guide/reduce-emissions/analyze-scenarios.md)
+  * [Rename, Duplicate, and Delete Scenarios](users-guide/reduce-emissions/rename-duplicate-and-delete-scenarios.md)
+* [4️⃣ Compare Scenarios](users-guide/compare-scenarios.md)
+* [🚀 Log in to C.Scale](https://app.cscale.io)
 
 ## 🏗️ The C.Scale™ Data Model
 
