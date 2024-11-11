@@ -49,7 +49,7 @@ Within the menu, click **Set as Baseline** to set another scenario as the refere
 
 With the baseline scenario selected in the left-hand panel, it can be analyzed using the following charts:
 
-* [Over Time](broken-reference)
+* [Over Time](reduce-emissions/analyze-scenarios.md)
 * [Scope Categories](broken-reference)
 * [LCA Stages](broken-reference)
 * [Summary](broken-reference)
