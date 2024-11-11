@@ -1,58 +1,39 @@
-# Introduction to C.Scale
+# What is C.Scale?
 
-## Welcome to C.Scale!
+C.Scale is a free whole life carbon tool built by C.Scale to support climate-positive design decisions in early project phases when data is scarce but the potential for emissions reduction is high. To overcome the scarcity of data, C.Scale uses a model that combines regionally-specific background data, forward-looking projections, peer-reviewed findings, and common sense assumptions to assess the relative impact of a variety of carbon reduction measures on a project’s embodied, operational, and landscape carbon footprints.&#x20;
 
-**C.Scale** is a whole life carbon calculation engine estimating emissions from the construction, renovation, and operation of buildings. **When highly-detailed energy modeling and life cycle assessment aren't affordable or practicable, teams use C.Scale.**
+<div align="left">
 
-C.Scale is designed for use during site and feasibility studies, requests for proposals, pre-design, in retrospective analysis, or in other situations where a whole-building life cycle assessments and/or energy models are not practicable.&#x20;
+<figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption><p>C.Scale is a free whole life carbon tool.</p></figcaption></figure>
 
-The model allows a user to enter a strict minimum of project parameters to test a wide range of the most meaningful carbon reductions strategies. It is the calculation engine behind numerous web applications and research efforts focused on both forward-looking planning and retrospective analysis of carbon emissions from buildings and the built environment.
+</div>
 
-We ship features continuously, and have an exciting roadmap for the year ahead. Features are developed in response to user feedback, to incorporate improved data, and to refine the tool's methodology. Something you'd like to see? Reach out.&#x20;
+C.Scale is a whole life carbon tool built to support climate-positive design decisions in early project phases when data is scarce but the potential for emissions reduction is high. To overcome the scarcity of data, C.Scale uses a model that combines regionally-specific background data, forward-looking projections, peer-reviewed findings, and common sense assumptions to assess the relative impact of a variety of carbon reduction measures on a project’s embodied, operational, and landscape carbon footprints.&#x20;
 
-## C.Scale calculates whole life carbon emissions
+Aggressive time-based targets have been set for the built environment as part of a society-wide strategy to combat the climate crisis. To meet these targets, quantification of the project’s whole life carbon footprint cannot wait until later project stages, at which point many impactful decisions have already been made. C.Scale is designed as the first step in an iterative low-carbon design process, setting out strategies and project-level targets that can be refined throughout the project lifecycle.
 
-C.Scale integrates embodied, operational, and landscape carbon emission assessment into a single model. By taking a 'whole carbon' view, C.Scale prevents burden shifting and ensures that a project team has the information necessary to target the most impactful carbon reductions.
+#### C.Scale **is useful to project teams:**
 
-C.Scale uses GWP-100 characterization factors.
+* in setting a whole life carbon budget for a project.
+* to evaluate the most impactful strategies for reducing whole life carbon emissions at the very beginning of a project, when data is scarce but the potential for reducing emissions is high.
+* to roughly approximate whole life carbon emissions from a project when completing an energy model and a wbLCA is not practical.
 
-## C.Scale describes typical buildings
+C.Scale is designed to allow a user to enter a strict minimum of project parameters and to test a wide range of the most meaningful carbon reduction strategies. These parameters are insufficient, of course, to describe the complexity of any real project. In rough terms, C.Scale is designed as a conceptual parallel to ‘shoebox’ energy or daylight models—the results do not correspond directly to a specific building but can help us to understand which strategies could perform well, are unlikely to succeed, or are worthy of more attention.
 
-Every attempt has been made to ensure that C.Scale's results describe a typical building (i.e. a building similar to those in our database) whose characteristics match those you enter in the tool. However, unreported characteristics may make a particular building atypical in ways that it is beyond the scope of C.Scale to describe.&#x20;
+<div align="left">
 
-For instance, the use of particularly high-carbon and high-cost finish materials (e.g., a building where all the millwork is in gold leaf) is not well-described by C.Scale. It is impossible to preemptively describe all cases where C.Scale might deviate from a particular building (the possibilities are literally endless) but, as your project progresses, we recommend that your project team remains aware of how any deviation from "typical" design will affect the project's climate goals.
+<figure><img src=".gitbook/assets/EPIC whole life carbon - early phase design.png" alt=""><figcaption><p>The most impactful decisions happen at the beginning of a project, before granular data is available.</p></figcaption></figure>
 
-## C.Scale is a time series model
+</div>
 
-In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, C.Scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](<README (1).md#time-horizon>)), C.Scale estimates all emissions occurring in that year.
+C.Scale _is not a high-resolution wbLCA tool_.
 
-**In the first year**, the following emissions are always calculated:
+C.Scale is designed to accurately represent the overall effects of decarbonization strategies, not precisely model individual design parameters or perform ISO-compliant LCA. C.Scale can help your team compare a net zero energy retrofit with mass timber new construction, for instance, but is not designed to capture differences in, say, efficiency gains from changing structural bay sizes or specifying one brand of heat pump versus another.
 
-* Embodied emissions in construction materials (life cycle stages A1-A3)
-* Construction site emissions (life cycle stages A4-A5)
-* Storage of biogenic carbon in timber structural components (life cycle stage D)
+C.Scale _is not a reporting tool_.
 
-**In each year**, the following emissions are always calculated:
+C.Scale is meant to support decisions about the future, not report on past efforts. The open access application is designed to highlight the most impactful decisions. C.Scale is complementary to but distinct from GHG reporting and wbLCA. For instance, C.Scale uses a 30 year time horizon to support planning toward time-based climate targets, but wbLCA often requires a 60- or 80-year time horizon.
 
-* Operational carbon emissions from onsite fossil fuel use (life cycle stage B6)
-* Operational carbon emissions from onsite electricity use (life cycle stage B6)
-* Emissions from landscape maintenance, when applicable (life cycle stage B2)
+C.Scale _is not a fortune teller._
 
-**In only some years,** the following emissions are always calculated:
-
-* Replacement and refurbishment of hardscape (life cycle stages B3-B5)
-* Replacement and refurbishment of the building envelope (life cycle stages B3-B5)
-* Replacement and refurbishment of interior fit-out (life cycle stages B3-B5)
-* Replacement and refurbishment of MEP and PV systems (life cycle stages B3-B5)
-
-## Building Geometry in C.Scale
-
-C.Scale's calculations are based on area and material takeoffs from simple building geometry. A diagram of this building geometry is provided below.
-
-<figure><img src=".gitbook/assets/Diagrams.png" alt=""><figcaption></figcaption></figure>
-
-## C.Scale is customizable and extensible
-
-C.Scale is built as a series of modules, each connected to the others and tasked with a specific set of calculations. These modules are added or expanded in response to the requests of users.
-
-The C.scale model's assumptions and background data can be overriden or refined through additional inputs. This allows for the addition of project-specific data where it is available while maintaining the C.Scale model for calculating all other parts of the project's carbon footprint. For more information on how this works, check out our Swagger docs or reach out for a conversation.
+If we could predict the future with 100% accuracy, we'd be in another line of work. C.Scale contains estimates of future emissions, but the future is inherently uncertain. In 2021, for instance, the last version of our data models did not predict the passage of the IRA or the continued operation of California's Diablo Canyon Nuclear Power Plant—two events which have since come to pass and have significantly affected our estimates of electricity-related emissions from buildings. As a corollary, we are not in the business of predicting which low-carbon concrete technology will achieve the greatest market share, which timber supply chain will be most disrupted by climate change, and so on. To the extent that trusted data sources make these predictions, we follow their lead. Documentation of these data sources in the [documentation](https://docs.cscale.io) for the underlying C.Scale data model.
