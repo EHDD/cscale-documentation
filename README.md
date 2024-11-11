@@ -2,11 +2,7 @@
 
 C.Scale is a free whole life carbon tool built by C.Scale to support climate-positive design decisions in early project phases when data is scarce but the potential for emissions reduction is high. To overcome the scarcity of data, C.Scale uses a model that combines regionally-specific background data, forward-looking projections, peer-reviewed findings, and common sense assumptions to assess the relative impact of a variety of carbon reduction measures on a project’s embodied, operational, and landscape carbon footprints.&#x20;
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/image (18).png" alt="" width="563"><figcaption><p>C.Scale is a free whole life carbon tool.</p></figcaption></figure>
-
-</div>
+<figure><img src=".gitbook/assets/Home-Hero Image (1).png" alt=""><figcaption><p>C.Scale is a free whole life carbon tool.</p></figcaption></figure>
 
 C.Scale is a whole life carbon tool built to support climate-positive design decisions in early project phases when data is scarce but the potential for emissions reduction is high. To overcome the scarcity of data, C.Scale uses a model that combines regionally-specific background data, forward-looking projections, peer-reviewed findings, and common sense assumptions to assess the relative impact of a variety of carbon reduction measures on a project’s embodied, operational, and landscape carbon footprints.&#x20;
 

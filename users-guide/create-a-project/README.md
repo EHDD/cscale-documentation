@@ -6,7 +6,7 @@ From the dashboard, begin by clicking the **+ New Project** button.&#x20;
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (24).png" alt="" width="563"><figcaption><p>Create your first project.</p></figcaption></figure>
 
 </div>
 

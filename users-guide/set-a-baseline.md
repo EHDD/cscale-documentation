@@ -13,7 +13,7 @@ In the left-hand panel, **select the scenario tagged "Baseline"**.
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (11).png" alt="" width="563"><figcaption><p>Baseline scenario selected in the left-hand panel.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Baseline (1).png" alt="" width="563"><figcaption><p>Baseline scenario selected in the left-hand panel.</p></figcaption></figure>
 
 </div>
 
@@ -21,7 +21,7 @@ After selecting the baseline scenario in the left-hand panel, the following warn
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (12).png" alt="" width="394"><figcaption><p>Warning that the baseline is being edited.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26).png" alt="" width="375"><figcaption><p>Warning that the baseline is being edited.</p></figcaption></figure>
 
 </div>
 

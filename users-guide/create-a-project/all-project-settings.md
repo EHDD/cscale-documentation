@@ -187,7 +187,7 @@ If the site is not previously developed, it is a greenfield site and the project
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt="" width="375"><figcaption><p>Electricity grid settings.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption><p>Electricity grid settings.</p></figcaption></figure>
 
 </div>
 
