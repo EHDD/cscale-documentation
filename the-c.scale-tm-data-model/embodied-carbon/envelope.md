@@ -36,7 +36,7 @@ Floor to floor (F2F) height can be set in the API for each floor individually (i
 
 C.Scale includes a dynamic envelope model which allows users to input very general data (when very little is known) or very specific data (during later stages of design).&#x20;
 
-When specific data is not known, the API includes EPIC's pre-defined carbon intensities, defined by the levels of ambition:
+When specific data is not known, the API includes C.Scale's pre-defined carbon intensities, defined by the levels of ambition:
 
 * **Conservative** represents the 80th percentile of material or assembly carbon intensities.
 * **Best Practices** represents the 50th percentile of material or assembly carbon intensities.

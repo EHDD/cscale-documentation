@@ -10,7 +10,7 @@ C.Scale's estimation of embodied carbon in a building's structure is modeled bas
 
 ### Calculating a Bill of Materials
 
-C.Scale uses a suite of machine learning models to estimate quantities of major structural materials in typical buildings. These models were trained from an EHDD database of structural quantities in completed buildings (n > 1200) assembled from both internal and public sources. The models are updated regularly as new data becomes available.
+C.Scale uses a suite of machine learning models to estimate quantities of major structural materials in typical buildings. These models were trained from an C.Scale database of structural quantities in completed buildings (n > 1200) assembled from both internal and public sources. The models are updated regularly as new data becomes available.
 
 These weighted data is used to train a statistical model for each structural material in each structural system. These models are trained on a small set of predictors from the underlying data set.&#x20;
 

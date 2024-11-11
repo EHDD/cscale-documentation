@@ -2,7 +2,7 @@
 
 ### Embodied Carbon in Building Assembles
 
-Building assemblies in C.Scale are evaluated on a per-area basis. When specific data is not known, the API includes EPIC's pre-defined carbon intensities, defined by the levels of ambition:
+Building assemblies in C.Scale are evaluated on a per-area basis. When specific data is not known, the API includes C.Scale's pre-defined carbon intensities, defined by the levels of ambition:
 
 * **Conservative** represents the 80th percentile of material or assembly carbon intensities.
 * **Best Practices** represents the 50th percentile of material or assembly carbon intensities.
@@ -12,7 +12,7 @@ For each assembly, the carbon intensity is determined by sampling the distributi
 
 #### Embodied Carbon in Interior Fit Out
 
-Interior fit out is calculated on a per area basis for a proportion of the building's total area. Note that the dataset used to generate the quantities used in C.Scale is not sensitive to use type and is biased toward commercial interiors. These data include internal EHDD data and data from the CLF study on tenant fit outs in commercial office buildings.
+Interior fit out is calculated on a per area basis for a proportion of the building's total area. Note that the dataset used to generate the quantities used in C.Scale is not sensitive to use type and is biased toward commercial interiors. These data include internal C.Scale data and data from the CLF study on tenant fit outs in commercial office buildings.
 
 A custom carbon intensity of interior fitout can be entered by passing a kgCO2e per area value directly to the API. The area basis for this calculation is the total floor area multiplied by the percentage of floor area with an interior fit out.
 
@@ -30,7 +30,7 @@ A custom carbon intensity of PV Array can be entered by passing a kgCO2e per are
 
 #### Embodied Carbon in Hardscape
 
-All site area not designated as planted is assumed to be hardscaped. Hardscape emissions were calculated by EHDD using a parameterized streamlined LCA model of built from standard hardscape details. The 20th, 50th, and 80th percentile of the resulting distribution was sampled and used to define the specification levels in C.Scale.
+All site area not designated as planted is assumed to be hardscaped. Hardscape emissions were calculated by C.Scale using a parameterized streamlined LCA model of built from standard hardscape details. The 20th, 50th, and 80th percentile of the resulting distribution was sampled and used to define the specification levels in C.Scale.
 
 A custom carbon intensity of hardscape can be entered by passing a kgCO2e per area (sf or m2, depending on the unit system) value directly to the API. The hardscape area is assumed to be the total site area less the building footprint and and plantings.&#x20;
 
