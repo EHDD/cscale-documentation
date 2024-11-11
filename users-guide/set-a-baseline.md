@@ -1,6 +1,6 @@
 # 2️⃣ Set a Baseline
 
-EPIC assesses the efficacy of carbon reduction measures in relative terms as a reduction in the carbon emissions from a baseline scenario. The baseline scenario is determined from a set of conservative assumptions which represent a project in which no efforts have been made to reduce carbon emissions. The baseline scenario provides a means of comparison for evaluating carbon reduction measures.&#x20;
+C.Scale assesses the efficacy of carbon reduction measures in relative terms as a reduction in the carbon emissions from a baseline scenario. The baseline scenario is determined from a set of conservative assumptions which represent a project in which no efforts have been made to reduce carbon emissions. The baseline scenario provides a means of comparison for evaluating carbon reduction measures.&#x20;
 
 * Baseline scenarios are **fully customizable.**&#x20;
 * Baseline scenarios can be configured as **new construction, renovation or a combination of both**.&#x20;
@@ -49,7 +49,7 @@ Within the menu, click **Set as Baseline** to set another scenario as the refere
 
 With the baseline scenario selected in the left-hand panel, it can be analyzed using the following charts:
 
-* [Over Time](reduce-emissions/analyze-scenarios.md)
-* [Scope Categories](broken-reference)
-* [LCA Stages](broken-reference)
-* [Summary](broken-reference)
+* [Over Time](reduce-emissions/analyze-scenarios.md#over-time-chart)
+* [Scope Categories](reduce-emissions/analyze-scenarios.md#scope-categories-chart)
+* [LCA Stages](reduce-emissions/analyze-scenarios.md#lca-stages-chart)
+* [Summary](reduce-emissions/analyze-scenarios.md#summary-chart)

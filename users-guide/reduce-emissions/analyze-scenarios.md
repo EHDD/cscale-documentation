@@ -30,7 +30,7 @@ Hovering over a bar gives the summary of emissions in that year. This is useful 
 
 This chart breaks down the building's contribution to operational carbon emissions (B6), embodied carbon emissions (A1-A3, A4-A5, B1, B2-B5, C1-C4, D), and biogenic carbon storage by scope category. This figure represents the total cumulative emissions associated with the scenario across the entire analysis period.
 
-When comparing EPIC results to wbLCA results at later project phases, this breakdown can be helpful in confirming if designs are within the carbon budget for a particular scope cateory for the project as a whole.&#x20;
+When comparing C.Scale results to wbLCA results at later project phases, this breakdown can be helpful in confirming if designs are within the carbon budget for a particular scope cateory for the project as a whole.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption><p>This figure shows total emissions by scope category. Comparing the relative contribution of each scope category can help in identifying the largest contributors and targeting reduction strategies accordingly.</p></figcaption></figure>
 
@@ -49,7 +49,7 @@ Each of the scope categories breaks carbon emissions into the following LCA stag
 
 This chart breaks down the building's contribution to operational carbon emissions (B6), embodied carbon emissions (A1-A3, A4-A5, B1, B2-B5, C1-C4, D), and biogenic carbon storage by LCA Stage. This figure represents the total cumulative emissions associated with the scenario across the entire analysis period.
 
-When comparing EPIC results to wbLCA results at later project phases, this breakdown can be helpful in confirming if designs are within the carbon budget for a particular LCA stage for the project as a whole.&#x20;
+When comparing C.Scale results to wbLCA results at later project phases, this breakdown can be helpful in confirming if designs are within the carbon budget for a particular LCA stage for the project as a whole.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>This figure shows total emissions by LCA stage. Comparing the relative contribution of each LCA stage can help in identifying when emissions occur in the lifecycle and targeting reduction strategies accordingly.</p></figcaption></figure>
 

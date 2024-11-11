@@ -3,7 +3,7 @@
 ## 🏗️ User's Guide
 
 * [What is C.Scale?](README.md)
-* [🏗️ How do i use EPIC?](users-guide/how-do-i-use-epic.md)
+* [🏗️ How do I use C.Scale?](users-guide/how-do-i-use-c.scale.md)
 * [1️⃣ Create a Project](users-guide/create-a-project/README.md)
   * [All Project Settings](users-guide/create-a-project/all-project-settings.md)
 * [2️⃣ Set a Baseline](users-guide/set-a-baseline.md)
