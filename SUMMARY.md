@@ -30,6 +30,7 @@
 
 ## Resources
 
+* [🔓 Data Privacy Statement](resources/data-privacy-statement.md)
 * [🪵 Version Log](resources/version-log.md)
 * [📃 Backmatter](resources/backmatter.md)
 * [🌐 C.Scale App](http://app.cscale.io)
