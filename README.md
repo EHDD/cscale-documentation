@@ -20,11 +20,7 @@ Aggressive time-based targets have been set for the built environment as part of
 
 C.Scale is designed to allow a user to enter a strict minimum of project parameters and to test a wide range of the most meaningful carbon reduction strategies. These parameters are insufficient, of course, to describe the complexity of any real project. In rough terms, C.Scale is designed as a conceptual parallel to ‘shoebox’ energy or daylight models—the results do not correspond directly to a specific building but can help us to understand which strategies could perform well, are unlikely to succeed, or are worthy of more attention.
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/EPIC whole life carbon - early phase design.png" alt=""><figcaption><p>The most impactful decisions happen at the beginning of a project, before granular data is available.</p></figcaption></figure>
-
-</div>
+<figure><img src=".gitbook/assets/C.Scale Early Phase-01.png" alt=""><figcaption><p>The most impactful decisions happen at the beginning of a project, before granular data is available.</p></figcaption></figure>
 
 C.Scale _is not a high-resolution wbLCA tool_.
 
