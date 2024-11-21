@@ -22,10 +22,6 @@ C.Scale _is not a high-resolution wbLCA tool_.
 
 C.Scale is designed to accurately represent the overall effects of decarbonization strategies, not precisely model individual design parameters or perform ISO-compliant LCA. C.Scale can help your team compare a net zero energy retrofit with mass timber new construction, for instance, but is not designed to capture differences in, say, efficiency gains from changing structural bay sizes or specifying one brand of heat pump versus another.
 
-C.Scale _is not a reporting tool_.
-
-C.Scale is meant to support decisions about the future, not report on past efforts. The open access application is designed to highlight the most impactful decisions. C.Scale is complementary to but distinct from GHG reporting and wbLCA. For instance, C.Scale uses a 30 year time horizon to support planning toward time-based climate targets, but wbLCA often requires a 60- or 80-year time horizon.
-
 C.Scale _is not a fortune teller._
 
 If we could predict the future with 100% accuracy, we'd be in another line of work. C.Scale contains estimates of future emissions, but the future is inherently uncertain. In 2021, for instance, the last version of our data models did not predict the passage of the IRA or the continued operation of California's Diablo Canyon Nuclear Power Plant—two events which have since come to pass and have significantly affected our estimates of electricity-related emissions from buildings. As a corollary, we are not in the business of predicting which low-carbon concrete technology will achieve the greatest market share, which timber supply chain will be most disrupted by climate change, and so on. To the extent that trusted data sources make these predictions, we follow their lead. Documentation of these data sources in the [documentation](https://docs.cscale.io) for the underlying C.Scale data model.
