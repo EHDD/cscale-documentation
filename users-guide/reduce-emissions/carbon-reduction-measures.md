@@ -66,7 +66,7 @@ The reduction of the building’s EUI by any of a number of strategies. If the y
 
 ### Clean Power Purchase
 
-The purchase of clean power through Direct Ownership, Green Retail Tariffs, Power Purchase Agreements (PPAs), Community Renewables or Utility Renewable Contracts (the five categories of renewables for which credit can be claimed in AIA 2030 commitment reporting) equivalent to the selected percentage of total energy use. _The purchase of unbundled RECs should not be counted as a clean power purchase in_ C.Scale_._
+The purchase of clean power through Direct Ownership, Green Retail Tariffs, Power Purchase Agreements (PPAs), Community Renewables or Utility Renewable Contracts (the five categories of renewables for which credit can be claimed in AIA 2030 commitment reporting) equivalent to the selected percentage of total energy use. _The purchase of unbundled RECs should not be counted as a clean power purchase in_ C.Scal&#x65;_._
 
 <details>
 
@@ -74,11 +74,7 @@ The purchase of clean power through Direct Ownership, Green Retail Tariffs, Powe
 
 * **0%.** No purchase of clean power or RECs.
 
-<!---->
-
-* **50%.** Purchase of clean power to cover 50% of building energy use. This option assumes that these RECs are not time-matched, and discounts their effectiveness by 20% as they don't follow patterns of emissions on the electrical grid.&#x20;
-
-<!---->
+- **50%.** Purchase of clean power to cover 50% of building energy use. This option assumes that these RECs are not time-matched, and discounts their effectiveness by 20% as they don't follow patterns of emissions on the electrical grid.&#x20;
 
 * **100%.** Purchase of clean power to cover 100% of building energy use. This option assumes that these RECs are not time-matched, and discounts their effectiveness by 20% as they don't follow patterns of emissions on the electrical grid.&#x20;
 
@@ -111,19 +107,11 @@ Specification of a structural system other than the system modeled in the baseli
 
 * **Reinforced Concrete**. A structural system comprised of columns, beams, and slabs of concrete reinforced with steel that provides tensile strength.
 
-<!---->
-
-* **Mass Timber**. A structural system comprised of massive beams, panels, and columns, often assembled by aggregating many smaller timber elements. This approach assumes that timber elements are aggressively substituted for other structural materials.
-
-<!---->
+- **Mass Timber**. A structural system comprised of massive beams, panels, and columns, often assembled by aggregating many smaller timber elements. This approach assumes that timber elements are aggressively substituted for other structural materials.
 
 * **Wood Frame**. A structural system comprised of dimensional lumber, plywood sheathing, and reinforced concrete cores and podiums.
 
-<!---->
-
-* **Steel Frame**. A structural system comprised of steel columns, beams, and girders connected with rigid or pin joints. Floors are steel decking with a concrete topping slab.&#x20;
-
-<!---->
+- **Steel Frame**. A structural system comprised of steel columns, beams, and girders connected with rigid or pin joints. Floors are steel decking with a concrete topping slab.&#x20;
 
 * **Hybrid Concrete-Steel**. A structural system that combines rigid steel frames with concrete columns, beams, and slabs. These hybrid structures are more materially intensive and may be used when there are significant seismic loads, in high-rise buildings, or for programs with very high live or environmental loads.
 
@@ -143,17 +131,11 @@ The specification of concrete with lower embodied carbon emissions. Choices are 
 
 * **Low (20th percentile).** GWP in the 20th percentile of locally available concrete. Concrete with >50% replacement of cement by SCM, lower carbon aggregate, and careful sizing of concrete structural elements to reduce overspecification.&#x20;
 
-<!---->
-
-* **Medium (50th percentile).** GWP in the 50th percentile of locally available concrete. Concrete with 30-50% replacement of cement by supplementary cementitious materials (SCM) and careful sizing of concrete structural elements to reduce overspecification.&#x20;
-
-<!---->
+- **Medium (50th percentile).** GWP in the 50th percentile of locally available concrete. Concrete with 30-50% replacement of cement by supplementary cementitious materials (SCM) and careful sizing of concrete structural elements to reduce overspecification.&#x20;
 
 * **High (80th percentile).** GWP in the 80th percentile of locally available concrete. Typical concrete mix, no effort made to lower carbon emissions.&#x20;
 
 </details>
-
-<table><thead><tr><th width="199">Structural Material</th><th>Low Carbon</th><th width="174">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Concrete, 3-4 kSI</strong></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td></tr><tr><td><strong>Concrete, 5-6 kSI</strong></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td><td><em>Location-specific</em></td></tr><tr><td><strong>Concrete, 7-10 kSI</strong></td><td>0.16 kgCO2e/kg</td><td>0.18 kgCO2e/kg</td><td>0.19 kgCO2e/kg</td></tr></tbody></table>
 
 ### Steel Specification
 
@@ -165,17 +147,11 @@ The specification of structural steel, steel deck, and reinforcing bar with lowe
 
 * **Low (20th percentile).** GWP in the 20th percentile of locally available concrete. Concrete with >50% replacement of cement by SCM, lower carbon aggregate, and careful sizing of concrete structural elements to reduce overspecification.&#x20;
 
-<!---->
-
-* **Medium (50th percentile).** GWP in the 50th percentile of locally available concrete. Concrete with 30-50% replacement of cement by supplementary cementitious materials (SCM) and careful sizing of concrete structural elements to reduce overspecification.&#x20;
-
-<!---->
+- **Medium (50th percentile).** GWP in the 50th percentile of locally available concrete. Concrete with 30-50% replacement of cement by supplementary cementitious materials (SCM) and careful sizing of concrete structural elements to reduce overspecification.&#x20;
 
 * **High (80th percentile).** GWP in the 80th percentile of locally available concrete. Typical concrete mix, no effort made to lower carbon emissions.&#x20;
 
 </details>
-
-<table><thead><tr><th width="199">Structural Material</th><th>Low Carbon</th><th width="174">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Reinforcing Steel</strong></td><td>0.9 kgCO2e/kg</td><td>1.1 kgCO2e/kg</td><td>0.16 kgCO2e/kg</td></tr><tr><td><strong>Structural Steel</strong></td><td>0.9 kgCO2e/kg</td><td>1.1 kgCO2e/kg</td><td>1.2 kgCO2e/kg</td></tr><tr><td><strong>Steel Deck</strong></td><td>1.7 kgCO2e/kg</td><td>2.2 kgCO2e/kg</td><td>2.4 kgCO2e/kg</td></tr></tbody></table>
 
 ### Timber Specification
 
@@ -187,17 +163,11 @@ The specification of lumber, plywood/OSB, and engineered timber elements with lo
 
 * **Low (20th percentile)** GWP in the 20th percentile of locally available timber . Wood products with the lowest GWP may come from value chains where wood waste is reused to make durable goods, electricity or biomass is used for process heat where possible, chemical inputs such as fertilizer are mostly avoided, climate-smart forestry practices increase forest carbon stocks over time and promotes the growth of complex older forest conditions, and the forest is near the mill and construction sites.
 
-<!---->
-
-* **Medium (50th percentile).** GWP in the 50th percentile of nationally available timber. Lowering the GWP of wood products can be achieved by using wood waste instead of natural gas for process heat at the mill, limiting chemical inputs such as fertilizer, practicing forestry that increases or at minimum maintains forest carbon stocks over time and provides protection for older forests, and transportation by efficient means such as rail.
-
-<!---->
+- **Medium (50th percentile).** GWP in the 50th percentile of nationally available timber. Lowering the GWP of wood products can be achieved by using wood waste instead of natural gas for process heat at the mill, limiting chemical inputs such as fertilizer, practicing forestry that increases or at minimum maintains forest carbon stocks over time and provides protection for older forests, and transportation by efficient means such as rail.
 
 * **High (80th percentile).** GWP in the 80th percentile of nationally available timber. The highest GWP forest products may come from value chains where fossil gas is used for process heat at the mill, forestry and nursery practices require high levels of chemical inputs, forestry practices utilize intensive short-rotation harvest regimes, and transportation is over long distances by truck.
 
 </details>
-
-<table><thead><tr><th width="199">Structural Material</th><th>Low Carbon</th><th width="174">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Lumber</strong></td><td>0.09 kgCO2e/kg</td><td>0.16 kgCO2e/kg</td><td>0.21 kgCO2e/kg</td></tr><tr><td><strong>Plywood/OSB</strong></td><td>0.36 kgCO2e/kg</td><td>0.51 kgCO2e/kg</td><td>0.73 kgCO2e/kg</td></tr><tr><td><strong>Engineered Wood</strong> </td><td>0.19 kgCO2e/kg</td><td>0.25 kgCO2e/kg</td><td>0.36 kgCO2e/kg</td></tr></tbody></table>
 
 ### Responsibly-Sourced Timber
 
@@ -216,11 +186,7 @@ In C.Scale, we identify three criteria contributing to the claim that wood produ
      * _E.g., sawmill, veneer mill, chip mill, etc._
   3. The fabrication shop (for engineered timber).
 
-<!---->
-
-* **Source forest has a growing carbon stock (optional)**. Carbon storage in wood products can only be claimed if the carbon stock of the source forest is maintained or increasing. This means that the forest area is managed and regenerates in a way that either preserves or increases the average level of carbon stored in vegetation and soils, or that high conservation value or high carbon stock forests are not replaced by less ecological valuable and carbon rich production forests.
-
-<!---->
+- **Source forest has a growing carbon stock (optional)**. Carbon storage in wood products can only be claimed if the carbon stock of the source forest is maintained or increasing. This means that the forest area is managed and regenerates in a way that either preserves or increases the average level of carbon stored in vegetation and soils, or that high conservation value or high carbon stock forests are not replaced by less ecological valuable and carbon rich production forests.
 
 * **Timber is certified, recycled, or reclaimed (optional)**. The use of recycled or reclaimed wood prolongs its storage of carbon and can displace the use of virgin timber. Certification by the Forest Stewardship Council (FSC) ensures that sound forestry, audit, and reporting practices are used.
 
@@ -238,21 +204,15 @@ The specification of the opaque envelope assemblies. These specification levels 
 
 * **Low (20th percentile).** 20th percentile of GWP for envelope assemblies. Maximize biogenic materials, innovate efficient assemblies, and reduce material use.
 
-<!---->
-
-* **Medium (50th percentile).** 50th percentile of GWP for envelope assemblies. Reduce redundancies and select low-carbon materials with high levels of recycled content.
-
-<!---->
+- **Medium (50th percentile).** 50th percentile of GWP for envelope assemblies. Reduce redundancies and select low-carbon materials with high levels of recycled content.
 
 * **High (80th percentile).** 80th percentile of GWP for envelope assemblies. Standard materials and assemblies, no effort made to lower carbon emissions.
 
-<!---->
-
-* **Custom**. Enter a custom carbon intensity.
+- **Custom**. Enter a custom carbon intensity.
 
 </details>
 
-<table><thead><tr><th width="203">Envelope Assembly</th><th>Low Carbon</th><th>Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Opaque Enclosure</strong></td><td>3.0 kgCO2e/sf</td><td>8.8 kgCO2e/sf</td><td>14.3 kgCO2e/sf</td></tr></tbody></table>
+<div align="left"><figure><img src="../../.gitbook/assets/image (28).png" alt="" width="344"><figcaption><p>Choose from pre-defined opaque enclosure carbon intensities, or input a custom value.</p></figcaption></figure></div>
 
 #### Opaque Enclosure Refresh Rate
 
@@ -268,21 +228,15 @@ The specification of the transparent enclosure assemblies. These specification l
 
 * **Low (20th percentile).** 20th percentile of GWP for envelope assemblies. Maximize biogenic materials, innovate efficient assemblies, and reduce material use.
 
-<!---->
-
-* **Medium (50th percentile).** 50th percentile of GWP for envelope assemblies. Reduce redundancies and select low-carbon materials with high levels of recycled content.
-
-<!---->
+- **Medium (50th percentile).** 50th percentile of GWP for envelope assemblies. Reduce redundancies and select low-carbon materials with high levels of recycled content.
 
 * **High (80th percentile).** 80th percentile of GWP for envelope assemblies. Standard materials and assemblies, no effort made to lower carbon emissions.
 
-<!---->
-
-* **Custom**. Enter a custom carbon intensity.
+- **Custom**. Enter a custom carbon intensity.
 
 </details>
 
-<table><thead><tr><th width="203">Envelope Assembly</th><th>Low Carbon</th><th>Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Transparent Enclosure</strong></td><td>11.4 kgCO2e/sf</td><td>13.6 kgCO2e/sf</td><td>19.0 kgCO2e/sf</td></tr></tbody></table>
+<div align="left"><figure><img src="../../.gitbook/assets/image (29).png" alt="" width="349"><figcaption><p>Choose from pre-defined transparent enclosure carbon intensities, or input a custom value.</p></figcaption></figure></div>
 
 #### Transparent Enclosure Refresh Rate
 
@@ -298,21 +252,15 @@ The specification of the roofing assemblies. These specification levels do not d
 
 * **Low (20th percentile).** 20th percentile of GWP for envelope assemblies. Maximize biogenic materials, innovate efficient assemblies, and reduce material use.
 
-<!---->
-
-* **Medium (50th percentile).** 50th percentile of GWP for envelope assemblies. Reduce redundancies and select low-carbon materials with high levels of recycled content.
-
-<!---->
+- **Medium (50th percentile).** 50th percentile of GWP for envelope assemblies. Reduce redundancies and select low-carbon materials with high levels of recycled content.
 
 * **High (80th percentile).** 80th percentile of GWP for envelope assemblies. Standard materials and assemblies, no effort made to lower carbon emissions.
 
-<!---->
-
-* **Custom**. Enter a custom carbon intensity.
+- **Custom**. Enter a custom carbon intensity.
 
 </details>
 
-<table><thead><tr><th width="203">Envelope Assembly</th><th>Low Carbon</th><th>Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Roofing</strong></td><td>5.3 kgCO2e/sf</td><td>7.7 kgCO2e/sf</td><td>14.0 kgCO2e/sf</td></tr></tbody></table>
+<div align="left"><figure><img src="../../.gitbook/assets/image (30).png" alt="" width="365"><figcaption><p>Choose from pre-defined roofing carbon intensities, or input a custom value.</p></figcaption></figure></div>
 
 #### Roofing Refresh Rate
 
@@ -334,23 +282,15 @@ The specification of the fittings, furniture, and fixtures required for the use 
 
 * **Low (20th percentile).** 20th percentile of GWP for interior fitouts. Comprehensive low-carbon design and specification of tenant fit-out.
 
-<!---->
-
-* **Medium (50th percentile).** 50th percentile of GWP for interior fitouts. Address "hot spots" (flooring, acoustic panels, casework, etc.).
-
-<!---->
+- **Medium (50th percentile).** 50th percentile of GWP for interior fitouts. Address "hot spots" (flooring, acoustic panels, casework, etc.).
 
 * **High (80th percentile).** 80th percentile of GWP for interior fitouts. Standard fittings, furniture, and fixtures, no effort made to lower carbon emissions.
 
-<!---->
-
-* **Custom**. Enter a custom carbon intensity.
+- **Custom**. Enter a custom carbon intensity.
 
 </details>
 
-| Assembly             | Low Carbon    | Best Practices | Conservative   |
-| -------------------- | ------------- | -------------- | -------------- |
-| **Interior Fit Out** | 4.0 kgCO2e/sf | 7.6 kgCO2e/sf  | 13.3 kgCO2e/sf |
+<div align="left"><figure><img src="../../.gitbook/assets/image (31).png" alt="" width="339"><figcaption><p>Choose from pre-defined interior carbon intensities, or input a custom value.</p></figcaption></figure></div>
 
 #### Interior Fit-Out Refresh Rate
 
@@ -376,19 +316,15 @@ _Embodied carbon in MEP is a data-scarce category, and we cannot confidently des
 
 * **Low (20th percentile).** 20th percentile of GWP for MEP systems.
 
-<!---->
-
-* **Medium (50th percentile).** 50th percentile of GWP for MEP systems.
-
-<!---->
+- **Medium (50th percentile).** 50th percentile of GWP for MEP systems.
 
 * **High (80th percentile).** 80th percentile of GWP for MEP systems.
 
-<!---->
-
-* **Custom**. Enter a custom carbon intensity.
+- **Custom**. Enter a custom carbon intensity.
 
 </details>
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (32).png" alt="" width="333"><figcaption><p>Choose from pre-defined MEP carbon intensities, or input a custom value.</p></figcaption></figure></div>
 
 #### MEP Refresh Rate
 
@@ -404,17 +340,11 @@ Embodied carbon in solar photovoltaics arrays is calculated using values from th
 
 * **Low (20th percentile).** 20th percentile of GWP for PV systems.
 
-<!---->
-
-* **Medium (50th percentile).** 50th percentile of GWP for PV systems.
-
-<!---->
+- **Medium (50th percentile).** 50th percentile of GWP for PV systems.
 
 * **High (80th percentile).** 80th percentile of GWP for PV systems.
 
-<!---->
-
-* **Custom**. Enter a custom carbon intensity.
+- **Custom**. Enter a custom carbon intensity.
 
 </details>
 
@@ -432,18 +362,41 @@ For any solar array entered as a decarbonization measure, this ratio describes t
 
 The reduction of the total quantity of refrigerants used in the buildings HVAC+R system.&#x20;
 
-<table><thead><tr><th width="469">Specification Level</th><th>kg refrigerants per 1000 sf</th></tr></thead><tbody><tr><td>Low (20th percentile)</td><td>1.86</td></tr><tr><td>Medium (50th percentile)</td><td>4.66</td></tr><tr><td>High (80th percentile)</td><td>8.36</td></tr><tr><td>Custom</td><td>Custom</td></tr></tbody></table>
+<details>
+
+<summary>Refrigerant Charge Choices (Carbon Intensity)</summary>
+
+* **Low (20th percentile).** 20th percentile of the total quantity of refrigerants used in the buildings HVAC+R system.
+
+- **Medium (50th percentile).** 50th percentile of the total quantity of refrigerants used in the buildings HVAC+R system.
+
+* **High (80th percentile).** 80th percentile of the total quantity of refrigerants used in the buildings HVAC+R system.
+
+- **Custom**. Enter a custom carbon intensity.
+
+</details>
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (33).png" alt="" width="340"><figcaption><p>Choose from pre-defined refrigerant charges, or input a custom value.</p></figcaption></figure></div>
 
 ### Refrigerant GWP
 
 The  average global warming potential (GWP) of refrigerants used in the buildings HVAC+R system.
 
-| Specification Level | Reference Refrigerant(s) | GWP Value |
-| ------------------- | ------------------------ | --------- |
-| Low                 | R-123                    | **79**    |
-| Medium              | R-513                    | **573**   |
-| High                | 60% R-410a; 40% R-134    | **1675**  |
-| Custom              | Custom                   | Custom    |
+<details>
+
+<summary>Refrigerant GWP Choices (Carbon Intensity)</summary>
+
+* **Low (20th percentile).** 20th percentile of GWP for refrigerants.
+
+- **Medium (50th percentile).** 50th percentile of GWP for refrigerants.
+
+* **High (80th percentile).** 80th percentile of GWP for refrigerants.
+
+- **Custom**. Enter a custom carbon intensity.
+
+</details>
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (34).png" alt="" width="337"><figcaption><p>Choose from pre-defined refrigerant GWPs, or input a custom value.</p></figcaption></figure></div>
 
 ## Sitework
 
@@ -465,23 +418,15 @@ The specification of the pervious and impervious surfaces on the building site (
 
 * **Low (20th percentile).** 20th percentile of GWP for hardscape assemblies.&#x20;
 
-<!---->
-
-* **Medium (50th percentile).** 50th percentile of GWP for hardscape assemblies.&#x20;
-
-<!---->
+- **Medium (50th percentile).** 50th percentile of GWP for hardscape assemblies.&#x20;
 
 * **High (80th percentile).** 80th percentile of GWP for hardscape assemblies.&#x20;
 
-<!---->
-
-* **Custom**. Enter a custom carbon intensity.
+- **Custom**. Enter a custom carbon intensity.
 
 </details>
 
-| Assembly      | Low Carbon    | Best Practices | Conservative  |
-| ------------- | ------------- | -------------- | ------------- |
-| **Hardscape** | 4.4 kgCO2e/sf | 5.9 kgCO2e/sf  | 7.2 kgCO2e/sf |
+<div align="left"><figure><img src="../../.gitbook/assets/image (35).png" alt="" width="332"><figcaption><p>Choose from pre-defined hardscape carbon intensities, or input a custom value.</p></figcaption></figure></div>
 
 #### Hardscape Refresh Rate
 
