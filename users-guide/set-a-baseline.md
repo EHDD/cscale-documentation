@@ -11,39 +11,23 @@ C.Scale assesses the efficacy of carbon reduction measures in relative terms as 
 
 In the left-hand panel, **select the scenario tagged "Baseline"**.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/Baseline (1).png" alt="" width="563"><figcaption><p>Baseline scenario selected in the left-hand panel.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/Baseline (1).png" alt="" width="563"><figcaption><p>Baseline scenario selected in the left-hand panel.</p></figcaption></figure></div>
 
 After selecting the baseline scenario in the left-hand panel, the following warning will be displayed in the right-hand panel. The warning serves as a reminder that you are editing the baseline, which is used as the reference for all other scenarios.
 
-<div align="left">
+<div align="left"><figure><img src="../.gitbook/assets/image (26).png" alt="" width="375"><figcaption><p>Warning that the baseline is being edited.</p></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/image (26).png" alt="" width="375"><figcaption><p>Warning that the baseline is being edited.</p></figcaption></figure>
-
-</div>
-
-The baseline can be refined using the [**Carbon Reduction Measures**](broken-reference) in the right-hand panel.&#x20;
+The baseline can be refined using the [**Carbon Reduction Measures**](reduce-emissions/) in the right-hand panel.&#x20;
 
 ### Setting Another Scenario as the Baseline
 
 Any scenario within the project can be set as the baseline, and serve as the reference point for the project. To set another scenario as the baseline, click the **3-dot menu** to the right of the scenario name in the left-hand panel.&#x20;
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/image (13).png" alt="" width="399"><figcaption><p>Click the 3-dot menu to set another scenario as the baseline.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (13).png" alt="" width="399"><figcaption><p>Click the 3-dot menu to set another scenario as the baseline.</p></figcaption></figure></div>
 
 Within the menu, click **Set as Baseline** to set another scenario as the reference for comparison.
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/image (14).png" alt="" width="182"><figcaption><p>Set any scenario as the baseline.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (14).png" alt="" width="182"><figcaption><p>Set any scenario as the baseline.</p></figcaption></figure></div>
 
 ### Analyzing the Baseline
 
