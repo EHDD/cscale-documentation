@@ -1,6 +1,6 @@
 # What is C.Scale?
 
-C.Scale is a whole life carbon tool supporting climate-positive design decisions across the design and delivery life cycle, especially in early project phases when data is scarce but the potential for emissions reduction is high. To overcome the scarcity of data, C.Scale uses a model that combines regionally-specific background data, forward-looking projections, peer-reviewed findings, and industry-leading ML models to assess the relative impact of a variety of carbon reduction measures on a project’s embodied, operational, and landscape carbon footprints.&#x20;
+C.Scale is a whole life carbon tool supporting climate-positive design decisions across the building design and delivery life cycle, especially in early project phases when data is scarce but the potential for emissions reduction is high. To overcome the scarcity of data, C.Scale uses a model that combines regionally-specific background data, forward-looking projections, peer-reviewed findings, and industry-leading ML models to assess the relative impact of a variety of carbon reduction measures on a project’s embodied, operational, and landscape carbon footprints.&#x20;
 
 <figure><img src=".gitbook/assets/Home-Hero Image (1).png" alt=""><figcaption><p>C.Scale is an easy-to-use tool for designing and delivering low-carbon buildings.</p></figcaption></figure>
 
