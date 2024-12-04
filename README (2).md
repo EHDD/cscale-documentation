@@ -24,7 +24,7 @@ For instance, the use of particularly high-carbon and high-cost finish materials
 
 ## C.Scale is a time series model
 
-In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, C.Scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](<README (1).md#time-horizon>)), C.Scale estimates all emissions occurring in that year.
+In the built environment, it is essential to understand the [time value of carbon](https://carbonleadershipforum.org/the-time-value-of-carbon/). To this end, C.Scale uses time series data to analyze carbon emissions across a building's life. For each year in the analysis period (defined by the project's [time horizon](the-c.scale-tm-data-model/goal-and-scope.md#time-horizon)), C.Scale estimates all emissions occurring in that year.
 
 **In the first year**, the following emissions are always calculated:
 

@@ -53,11 +53,11 @@ C.Scale assumes a building's reference service life of 60 years.&#x20;
 
 ### Life Cycle Stages
 
-**C.Scale** integrates data from life cycle stages (sometimes called "life cycle modules") A1-A5, B2-B6, and C2-C4. These correspond to the impacts of the materials used in the project, emissions from construction, their replacement over time, and the project’s operational energy use. When biogenic carbon is counted, some end-of-life impacts (from modules C2-C4) are assessed during the product phase (see section on [Biogenic Carbon](the-c.scale-tm-data-model/embodied-carbon/stored-avoided-carbon.md#biogenic-carbon)). End-of-life (C2-C4) emissions for structure are only assessed when a 60 year time horizon is selected.
+**C.Scale** integrates data from life cycle stages (sometimes called "life cycle modules") A1-A5, B2-B6, and C2-C4. These correspond to the impacts of the materials used in the project, emissions from construction, their replacement over time, and the project’s operational energy use. When biogenic carbon is counted, some end-of-life impacts (from modules C2-C4) are assessed during the product phase (see section on [Biogenic Carbon](whole-life-carbon/stored-avoided-carbon.md#biogenic-carbon)). End-of-life (C2-C4) emissions for structure are only assessed when a 60 year time horizon is selected.
 
 C.Scale also includes a model of fugitive refrigerant emissions (B1) and of benefits from the export of renewable energy to the utility (D2).&#x20;
 
-<figure><img src=".gitbook/assets/EPIC - Included LIfe Cycle Stages.png" alt=""><figcaption><p>Highlighted stages are included in the C.Scale model.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/EPIC - Included LIfe Cycle Stages.png" alt=""><figcaption><p>Highlighted stages are included in the C.Scale model.</p></figcaption></figure>
 
 ### Embodied Carbon Scope
 
@@ -83,7 +83,7 @@ C.Scale also includes a model of fugitive refrigerant emissions (B1) and of bene
 
 ### Stored Carbon Scope
 
-**C.Scale** includes an estimate of carbon storage in timber structural systems and site landscaping. Carbon storage in planting is calculated over the time horizon then annualized. Carbon storage in building structure is assigned to the first year of the project. C.Scale's method for calculating carbon storage in timber structural systems is detailed in the section on [stored and avoided carbon](the-c.scale-tm-data-model/embodied-carbon/stored-avoided-carbon.md).
+**C.Scale** includes an estimate of carbon storage in timber structural systems and site landscaping. Carbon storage in planting is calculated over the time horizon then annualized. Carbon storage in building structure is assigned to the first year of the project. C.Scale's method for calculating carbon storage in timber structural systems is detailed in the section on [stored and avoided carbon](whole-life-carbon/stored-avoided-carbon.md).
 
 ### Adjusting the Analysis Scope
 
