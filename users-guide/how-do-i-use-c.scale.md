@@ -17,7 +17,7 @@ In C.Scale, the basic workflow is:
 
 ### The C.Scale data model
 
-The C.Scale app is powered by the [C.Scale](https://www.cscale.io) data model.
+The C.Scale app is powered by the [C.Scale data model](<../README (2).md>).
 
 ### Get in touch!
 

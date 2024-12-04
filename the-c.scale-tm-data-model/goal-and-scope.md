@@ -57,7 +57,9 @@ C.Scale assumes a building's reference service life of 60 years.&#x20;
 
 C.Scale also includes a model of fugitive refrigerant emissions (B1) and of benefits from the export of renewable energy to the utility (D2).&#x20;
 
-<figure><img src="../.gitbook/assets/EPIC - Included LIfe Cycle Stages.png" alt=""><figcaption><p>Highlighted stages are included in the C.Scale model.</p></figcaption></figure>
+
+
+<figure><img src="../.gitbook/assets/LCA Stages.png" alt=""><figcaption></figcaption></figure>
 
 ### Embodied Carbon Scope
 
