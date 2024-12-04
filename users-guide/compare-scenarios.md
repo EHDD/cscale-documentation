@@ -4,7 +4,7 @@ After [constructing scenarios](reduce-emissions/), they can be compared in the "
 
 Use the ![](<../.gitbook/assets/image (19).png>) toggles in the left-hand panel to add or remove scenarios from the Compare charts. Scenarios will be plotted in the order in which they appear in the left-hand panel list.
 
-### Cumulative Emissions Over Time
+### Emissions Over Time
 
 This figure compares each scenario to the baseline across the analysis period.
 
@@ -12,7 +12,7 @@ This figure compares each scenario to the baseline across the analysis period.
 
 Note that some carbon reduction measures can actually _increase_ emissions, an effect that can lead to confusion in interpreting the Cumulative Emissions Over Time figure. For instance, substituting the structural system can increase or decrease the embodied emissions depending on the nature of the change, or the addition of a PV array incurs embodied emissions even if it lower operational emissions over time. Accordingly, the patterns in this figure require interpretation based on the carbon reduction measures modeled for each scenario.
 
-### Summary Chart
+### Emissions Summary
 
 This figure compares the cumulative emissions for each scenario at the end of the analysis period.
 

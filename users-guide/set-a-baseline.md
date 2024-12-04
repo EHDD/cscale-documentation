@@ -33,7 +33,7 @@ Within the menu, click **Set as Baseline** to set another scenario as the refere
 
 With the baseline scenario selected in the left-hand panel, it can be analyzed using the following charts:
 
-* [Over Time](reduce-emissions/analyze-scenarios.md#over-time-chart)
-* [Scope Categories](reduce-emissions/analyze-scenarios.md#scope-categories-chart)
-* [LCA Stages](reduce-emissions/analyze-scenarios.md#lca-stages-chart)
-* [Summary](reduce-emissions/analyze-scenarios.md#summary-chart)
+* [Emissions Over Time](reduce-emissions/analyze-scenarios.md#over-time-chart)
+* [Emissions by Scope Category](reduce-emissions/analyze-scenarios.md#scope-categories-chart)
+* [Emissions by LCA Stage](reduce-emissions/analyze-scenarios.md#lca-stages-chart)
+* [Emissions Summary](reduce-emissions/analyze-scenarios.md#summary-chart)

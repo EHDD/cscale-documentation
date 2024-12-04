@@ -2,15 +2,11 @@
 
 Scenarios can be analyzed using the following charts found within the **This Scenario** tab.
 
-### Over Time Chart
+### Emissions Over Time
 
 This figure describes the cumulative carbon emissions of a building over time. As a chart of cumulative emissions, the height of the bar in each year is the total emissions associated with the building up to and including that year rather than only the emissions associated with that year.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>This figure shows cumulative emissions over time. Looking at effects over time facilitates an understanding of how different carbon emission reduction strategies perform over a building's lifetime.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>This figure shows cumulative emissions over time. Looking at effects over time facilitates an understanding of how different carbon emission reduction strategies perform over a building's lifetime.</p></figcaption></figure></div>
 
 This chart has a number of elements:
 
@@ -26,7 +22,7 @@ This chart has a number of elements:
 
 Hovering over a bar gives the summary of emissions in that year. This is useful for determining how the project is performing against time-based targets (e.g. a 2030 net zero target). Hovering over the final year in the chart gives the total emissions across the analysis period. Note that these numbers are rounded to the nearest hundred and may not sum to net emissions in all cases.
 
-### Scope Categories Chart
+### Emissions by Scope Category
 
 This chart breaks down the building's contribution to operational carbon emissions (B6), embodied carbon emissions (A1-A3, A4-A5, B1, B2-B5, C1-C4, D), and biogenic carbon storage by scope category. This figure represents the total cumulative emissions associated with the scenario across the entire analysis period.
 
@@ -45,7 +41,7 @@ Each of the scope categories breaks carbon emissions into the following LCA stag
 * **D**. Total benefits beyond the system boundary (typically from recycling materials) associated with the scope category.&#x20;
 * **Biogenic Carbon Storage**. Total carbon stored by biological materials.&#x20;
 
-### LCA Stages Chart
+### Emissions by LCA Stage
 
 This chart breaks down the building's contribution to operational carbon emissions (B6), embodied carbon emissions (A1-A3, A4-A5, B1, B2-B5, C1-C4, D), and biogenic carbon storage by LCA Stage. This figure represents the total cumulative emissions associated with the scenario across the entire analysis period.
 
@@ -65,7 +61,7 @@ Each of the LCA stages breaks carbon emissions into the following scope categori
 * **Jobsite**. Construction-related processes.
 * **Biogenic Carbon Storage**. Total carbon stored by biological materials.
 
-### Summary Chart
+### Emissions Summary
 
 This donut chart displays the proportional relationship of the scenario's emissions over the analysis period.&#x20;
 
