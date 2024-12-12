@@ -142,4 +142,4 @@ C.Scale calculates energy generation from onsite solar photovoltaic arrays using
 
 The array area returned by the c.scale is the total area of the array (i.e., inclusive of the space between the panels). The ratio of solar panels to total array area is the Ground Coverage Ratio (GCR).
 
-PVWatts is limited to latitudes from -90 to +90 degrees. For latitudes outside this range, we calculate solar potential at the limit (either -90 or +90). If you're using C.Scale to model a PV array at extreme latitudes, use caution.
+PVWatts is limited to latitudes from -60 to +60 degrees. For latitudes outside this range, we calculate solar potential at the limit (either -60 or +60). If you're using C.Scale to model a PV array at extreme latitudes, use caution.
