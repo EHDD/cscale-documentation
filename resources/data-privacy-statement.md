@@ -1,18 +1,16 @@
 ---
-description: 'Last updates: November 10, 2024'
+description: 'Last updates: December 20, 2024'
 ---
 
 # 🔓 Data Privacy Statement
 
-C.Scale values your privacy and is committed to protecting your personal information when you use our C.Scale web application. This Privacy Policy explains how we collect, use, and secure your data. By using C.Scale, you acknowledge and accept the terms outlined in this policy.
-
-This policy may be updated periodically, and we will inform you of significant changes by updating the “Last Updated” date and posting the revised policy on this page.
+C.Scale values your privacy and is committed to protecting your personal information when you use our C.Scale web application. This Privacy Policy explains how we collect, use, and secure your data. This policy may be updated periodically, and we will inform you of significant changes by updating the “Last Updated” date and posting the revised policy on this page.
 
 ### 2. Information We Collect
 
 We collect several types of information to improve your experience with C.Scale. The first type is personal information, which includes details you provide to create an account, such as your name and email address. This information helps us manage your account and facilitate communication with you.
 
-Additionally, we collect non-identifiable usage data through tools like Google Analytics and Mixpanel. This usage data allows us to analyze how users interact with C.Scale, such as which pages are visited and which features are used. These insights help us to make informed improvements to C.Scale and better support user needs.
+Additionally, we collect non-identifiable usage data which allows us to analyze how users interact with C.Scale, such as which pages are visited and which features are used. These insights help us to make informed improvements to C.Scale and better support user needs.
 
 Finally, we handle project data that you upload to C.Scale, which is securely stored and anonymized to protect your privacy. Project data is not connected to any personally identifying information and is accessible only to authorized C.Scale personnel for occasional database maintenance tasks.&#x20;
 
@@ -46,7 +44,7 @@ Additionally, C.Scale respects “Do Not Track” settings, and we do not track 
 
 ### 7. Third-Party Services
 
-To understand and improve C.Scale’s functionality, we use third-party tools such as Google Analytics and Mixpanel. Google Analytics helps us evaluate website usage patterns, and Mixpanel enables us to understand user interactions within the application. You can opt out of Google Analytics by using their Opt-Out Browser Add-on.
+To understand and improve C.Scale’s functionality, we use third-party tools liek Google Analytics to help us evaluate website usage patterns, and to understand user interactions within the application. You can opt out of Google Analytics by using their Opt-Out Browser Add-on.
 
 These third-party services support our commitment to optimizing C.Scale for a better user experience. However, we ensure they do not collect personal information beyond what is essential for analysis and improvement.
 
