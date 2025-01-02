@@ -4,19 +4,11 @@ The following settings are applied at project-level, meaning they are applied to
 
 To refine the project, click **All Project Settings** in the left-hand panel.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (2).png" alt="" width="184"><figcaption><p>All Project Settings button found in the left-hand panel. </p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="184"><figcaption><p>All Project Settings button found in the left-hand panel. </p></figcaption></figure></div>
 
 ## Scope
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>Scope settings.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>Scope settings.</p></figcaption></figure></div>
 
 One of the leading causes of misalignment between wbLCA results is that they cover different project scopes. For instance, one model may contain only "structure, foundation, and envelope" while another will contain "structure, foundation, envelope, interiors, MEP, and site."&#x20;
 
@@ -28,7 +20,7 @@ Any decarbonization measures in excluded parts of the project scope are still sa
 
 Select an analysis period to determine over how many years the analysis takes place.&#x20;
 
-### LCA Stages
+### Life Cycle Stages
 
 **A4-A5 (Construction Process)**\
 Turning off this toggle will remove construction process emissions—counted in the A4 and A5 life cycle stages—from the C.Scale model. This toggle will enable and disable the "Jobsite" decarbonization measures in the right-hand panel.&#x20;
@@ -58,11 +50,7 @@ Turning off this toggle will remove all site and landscaping from the C.Scale mo
 
 ## General
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption><p>General settings.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption><p>General settings.</p></figcaption></figure></div>
 
 ### Unit System
 
@@ -80,11 +68,7 @@ The year that construction is completed and building operation begins. This is t
 
 ## Location
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption><p>Location settings.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption><p>Location settings.</p></figcaption></figure></div>
 
 ### Country
 
@@ -96,11 +80,7 @@ The postal code in which the project is located.
 
 ## Use
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption><p>Use settings.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (6).png" alt="" width="375"><figcaption><p>Use settings.</p></figcaption></figure></div>
 
 ### Primary Use
 
@@ -145,11 +125,7 @@ If the primary use comprises less than 100% of the program, a secondary program 
 
 ## Building Size
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>Building size settings.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>Building size settings.</p></figcaption></figure></div>
 
 ### Number of Above Ground Floors
 
@@ -169,11 +145,7 @@ The total constructed floor area below ground.&#x20;
 
 ## Sitework
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>Sitework settings.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>Sitework settings.</p></figcaption></figure></div>
 
 ### Total Site Area
 
@@ -185,11 +157,7 @@ If the site is not previously developed, it is a greenfield site and the project
 
 ## Electricity Grid
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption><p>Electricity grid settings.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (25).png" alt="" width="375"><figcaption><p>Electricity grid settings.</p></figcaption></figure></div>
 
 ### Future Scenario
 
@@ -208,11 +176,7 @@ For a given scenario, there are multiple methods to account for the emissions as
 
 ## Refrigerants
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (10).png" alt="" width="375"><figcaption><p>Refrigerants settings.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (10).png" alt="" width="375"><figcaption><p>Refrigerants settings.</p></figcaption></figure></div>
 
 ### Average Refrigerant Leakage Rates
 

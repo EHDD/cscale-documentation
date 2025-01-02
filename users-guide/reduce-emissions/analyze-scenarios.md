@@ -30,7 +30,7 @@ When comparing C.Scale results to wbLCA results at later project phases, this br
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption><p>This figure shows total emissions by scope category. Comparing the relative contribution of each scope category can help in identifying the largest contributors and targeting reduction strategies accordingly.</p></figcaption></figure>
 
-Each of the scope categories breaks carbon emissions into the following LCA stages:
+Each of the scope categories breaks carbon emissions into the following Life Cycle Stages:
 
 * **A1-A3**. Total upstream product emissions associated with the scope category.&#x20;
 * **A4-A5**. Total construction jobsite emissions associated with the scope category.&#x20;
@@ -41,9 +41,9 @@ Each of the scope categories breaks carbon emissions into the following LCA stag
 * **D**. Total benefits beyond the system boundary (typically from recycling materials) associated with the scope category.&#x20;
 * **Biogenic Carbon Storage**. Total carbon stored by biological materials.&#x20;
 
-### Emissions by LCA Stage
+### Emissions by Life Cycle Stage
 
-This chart breaks down the building's contribution to operational carbon emissions (B6), embodied carbon emissions (A1-A3, A4-A5, B1, B2-B5, C1-C4, D), and biogenic carbon storage by LCA Stage. This figure represents the total cumulative emissions associated with the scenario across the entire analysis period.
+This chart breaks down the building's contribution to operational carbon emissions (B6), embodied carbon emissions (A1-A3, A4-A5, B1, B2-B5, C1-C4, D), and biogenic carbon storage by LCA stage. This figure represents the total cumulative emissions associated with the scenario across the entire analysis period.
 
 When comparing C.Scale results to wbLCA results at later project phases, this breakdown can be helpful in confirming if designs are within the carbon budget for a particular LCA stage for the project as a whole.&#x20;
 

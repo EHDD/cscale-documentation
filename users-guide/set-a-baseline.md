@@ -35,5 +35,5 @@ With the baseline scenario selected in the left-hand panel, it can be analyzed u
 
 * [Emissions Over Time](reduce-emissions/analyze-scenarios.md#emissions-over-time)
 * [Emissions by Scope Category](reduce-emissions/analyze-scenarios.md#emissions-by-scope-category)
-* [Emissions by LCA Stage](reduce-emissions/analyze-scenarios.md#emissions-by-lca-stage)
+* [Emissions by Life Cycle Stage](reduce-emissions/analyze-scenarios.md#emissions-by-lca-stage)
 * [Emissions Summary](reduce-emissions/analyze-scenarios.md#emissions-summary)
