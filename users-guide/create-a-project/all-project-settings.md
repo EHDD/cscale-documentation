@@ -95,7 +95,9 @@ If the primary use comprises less than 100% of the program, a secondary program 
 <summary>Use Categories included in C.Scale</summary>
 
 * Aquarium&#x20;
+* Conditioned Parking
 * Convention Center&#x20;
+* Data Center
 * Distribution Center&#x20;
 * Dormitory&#x20;
 * Fitness Center&#x20;
@@ -106,16 +108,18 @@ If the primary use comprises less than 100% of the program, a secondary program 
 * Library&#x20;
 * Medical Clinic&#x20;
 * Multifamily Housing&#x20;
-* Museum Office&#x20;
+* Museum
+* Office&#x20;
 * Performing Arts&#x20;
 * Post Office&#x20;
 * Pre-school / Day Care&#x20;
 * Restaurant&#x20;
 * Retail Store&#x20;
 * Senior Care Facility&#x20;
-* ~~Single Family Home~~ _<mark style="color:green;">(only available via API)</mark>_
+* Single Family Home
 * Stadium&#x20;
 * Transit Station&#x20;
+* Unconditioned Parking
 * University/College&#x20;
 * Worship Facility&#x20;
 * Warehouse&#x20;
