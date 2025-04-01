@@ -6,11 +6,7 @@ A scenario can be renamed by clicking the **3-dot menu** to the right of the sce
 
 Within the menu, click **Rename**.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="182"><figcaption><p>Rename a scenario.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (14).png" alt="" width="182"><figcaption><p>Rename a scenario.</p></figcaption></figure></div>
 
 Modify the scenario's name and click **Save**.
 
@@ -20,11 +16,7 @@ A scenario can be duplicated by clicking the **3-dot menu** to the right of the 
 
 Within the menu, click **Duplicate**.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="182"><figcaption><p>Duplicate a scenario.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (14).png" alt="" width="182"><figcaption><p>Duplicate a scenario.</p></figcaption></figure></div>
 
 A duplicated version of the selected scenario will be created with "(copy)" at the end of its name.
 
@@ -34,10 +26,6 @@ A scenario can be deleted by clicking the **3-dot menu** to the right of the sce
 
 Within the menu, click **Delete**.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (14).png" alt="" width="182"><figcaption><p>Duplicate a scenario.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (14).png" alt="" width="182"><figcaption><p>Delete a scenario.</p></figcaption></figure></div>
 
 Confirm you would like to delete the scenario by clicking **Delete**.

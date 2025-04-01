@@ -11,6 +11,7 @@ Aggressive time-based targets have been set for the built environment as part of
 * in setting a whole life carbon budget for a project.
 * to evaluate the most impactful strategies for reducing whole life carbon emissions at the very beginning of a project, when data is scarce but the potential for reducing emissions is high.
 * to roughly approximate whole life carbon emissions from a project when completing an energy model and a wbLCA is not practical.
+* to compare approximate whole life carbon emissions across projects in your entire portfolio. \[Organization feature]
 
 C.Scale is designed to allow a user to enter a strict minimum of project parameters and to test a wide range of the most meaningful carbon reduction strategies. These parameters are insufficient, of course, to describe the complexity of any real project. In rough terms, C.Scale is designed as a conceptual parallel to ‘shoebox’ energy or daylight models—the results do not correspond directly to a specific building but can help us to understand which strategies could perform well, are unlikely to succeed, or are worthy of more attention.
 

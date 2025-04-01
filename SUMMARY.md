@@ -3,7 +3,8 @@
 ## 🏗️ User's Guide
 
 * [What is C.Scale?](README.md)
-* [🏗️ How do I use C.Scale?](users-guide/how-do-i-use-c.scale.md)
+* [🚀 Log in to C.Scale](https://app.cscale.io)
+* [🏗️ Get Started for Free](users-guide/get-started-for-free.md)
 * [1️⃣ Create a Project](users-guide/create-a-project/README.md)
   * [All Project Settings](users-guide/create-a-project/all-project-settings.md)
 * [2️⃣ Set a Baseline](users-guide/set-a-baseline.md)
@@ -11,8 +12,18 @@
   * [Carbon Reduction Measures](users-guide/reduce-emissions/carbon-reduction-measures.md)
   * [Analyze Scenarios](users-guide/reduce-emissions/analyze-scenarios.md)
   * [Rename, Duplicate, and Delete Scenarios](users-guide/reduce-emissions/rename-duplicate-and-delete-scenarios.md)
-* [4️⃣ Compare Scenarios](users-guide/compare-scenarios.md)
-* [🚀 Log in to C.Scale](https://app.cscale.io)
+* [4️⃣ Compare Scenarios](users-guide/compare-scenarios/README.md)
+  * [Set Target Scenario](users-guide/compare-scenarios/set-target-scenario.md)
+* [🏗️ Benefits of Organization Account](users-guide/benefits-of-organization-account.md)
+* [⚡ Sharing and Collaboration](users-guide/sharing-and-collaboration.md)
+* [⚡ Chart Exports](users-guide/chart-exports.md)
+* [⚡ AIA DDx Reporting](users-guide/aia-ddx-reporting.md)
+* [5️⃣ Create a Portfolio](users-guide/create-a-portfolio/README.md)
+  * [All Portfolio Settings](users-guide/create-a-portfolio/all-portfolio-settings.md)
+
+***
+
+* [6️⃣ Compare Projects within Portfolio](compare-projects-within-portfolio.md)
 
 ## 🏗️ The C.Scale™ Data Model
 
