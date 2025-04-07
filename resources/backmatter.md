@@ -12,7 +12,7 @@ Despite this review, errors may persist. If you are interested in providing addi
 
 ## Contact
 
-Questions regarding the model, its methodology, or the data behind it can be directed to [hi@cscale.io](mailto:hi@cscale.io).
+Questions regarding the model, its methodology, or the data? Emails to [hi@cscale.io](mailto:hi@cscale.io).
 
 ## Copyright
 
