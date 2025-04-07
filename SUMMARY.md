@@ -14,7 +14,7 @@
   * [Rename, Duplicate, and Delete Scenarios](users-guide/reduce-emissions/rename-duplicate-and-delete-scenarios.md)
 * [4️⃣ Compare Scenarios](users-guide/compare-scenarios/README.md)
   * [Set Target Scenario](users-guide/compare-scenarios/set-target-scenario.md)
-* [🏗️ Benefits of an Organization Account](users-guide/benefits-of-an-organization-account.md)
+* [🏗️ Benefits of an Organization Account](users-guide/benefits-of-organization-account.md)
 * [⚡ Sharing and Collaboration](users-guide/sharing-and-collaboration.md)
 * [⚡ Chart Exports](users-guide/chart-exports.md)
 * [⚡ AIA DDx Reporting](users-guide/aia-ddx-reporting.md)
@@ -42,6 +42,6 @@
 
 ## Resources
 
-* [🔓 Data Privacy Statement](resources/data-privacy-statement.md)
+* [🔓 Privacy Policy](resources/privacy-policy.md)
 * [🪵 Version Log](resources/version-log.md)
 * [📃 Backmatter](resources/backmatter.md)

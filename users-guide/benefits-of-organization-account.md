@@ -1,4 +1,4 @@
-# 🏗️ Benefits of Organization Account
+# 🏗️ Benefits of an Organization Account
 
 The C.Scale Organization Account offers a range of powerful features to enhance your firm's workflow in whole life carbon analysis. Here are the key benefits of using the Organization Account:
 
