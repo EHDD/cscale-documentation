@@ -2,7 +2,7 @@
 description: 'Last updated: April 7, 2025'
 ---
 
-# 🔓 Data Privacy Statement
+# 🔐 Privacy Policy
 
 The previous version of our Privacy Policy is available [here](https://docs.google.com/document/d/1zA4OMz7oEyNTMWgJ991jVP5NWBsVxZ4ykmml9YI4lk0/edit?usp=sharing).
 
