@@ -6,13 +6,13 @@
 
 ## Scope
 
-**C.Scale** is an whole life carbon model, integrating assessments of embodied, operational, and landscape carbon in a data model to capture the entire carbon footprint of the project.
+**C.Scale** is a whole life carbon model, integrating assessments of embodied and operational emissions in a data model to capture the entire carbon footprint of the project: from raw material extraction and manufacturing of construction materials through use to end of life. The tool also separately estimates the benefits and burdens beyond the system boundary of the project in future lifecycles and product systems.
 
-By default, all emissions associated with the building are included in the model's scope of analysis.&#x20;
+A C.Scale model can cover the following building categories: structure, enclosure, interiors, MEP, sitework, and landscape. By default, all emissions associated with the building are included in the model's scope of analysis.&#x20;
 
 ### Geographic Coverage
 
-In countries where our users are based, we use country-level data. Additional countries are added regularly, usually in response to user requests.&#x20;
+C.Scale covers the following geographies:&#x20;
 
 <details>
 
@@ -53,9 +53,9 @@ C.Scale assumes a building's reference service life of 60 years.&#x20;
 
 ### Life Cycle Stages
 
-**C.Scale** integrates data from life cycle stages (sometimes called "life cycle modules") A1-A5, B2-B6, and C2-C4. These correspond to the impacts of the materials used in the project, emissions from construction, their replacement over time, and the project’s operational energy use. When biogenic carbon is counted, some end-of-life impacts (from modules C2-C4) are assessed during the product phase (see section on [Biogenic Carbon](whole-life-carbon/stored-avoided-carbon.md#biogenic-carbon)). End-of-life (C2-C4) emissions for structure are only assessed when a 60 year time horizon is selected.
+**C.Scale** covers life cycle stages (sometimes called "life cycle modules") A1-A5, B1, B2-B5, B6, and C2-C4. These correspond to the impacts of the materials used in the project, emissions from construction, their replacement over time, and the project’s operational energy use. End-of-life (C2-C4) emissions for structure are only assessed when a 60-year time horizon is selected.
 
-C.Scale also includes a model of fugitive refrigerant emissions (B1) and of benefits from the export of renewable energy to the utility (D2).&#x20;
+C.Scale also reports the benefits associated with the export of renewable energy to the grid (D2) and carbon storage in durable wood products (Stored Carbon).
 
 <figure><img src="../.gitbook/assets/LCA Stages.png" alt=""><figcaption><p>Building Life Cycle Stages included in C.Scale</p></figcaption></figure>
 
@@ -63,14 +63,12 @@ C.Scale also includes a model of fugitive refrigerant emissions (B1) and of bene
 
 **C.Scale** includes an assessment of embodied carbon from the following sources:
 
-* Building structure and foundation
+* Building structure and substructure
 * Construction activities
 * Cladding, glazing, and roofing assemblies and their replacement over time
 * Interior fit-outs and their replacement over time
-* MEP systems and their replacement over time
-* PV arrays and their replacement over time
-* Regular landscape maintenance, assessed annually
-* Hardscape on the building site
+* MEP systems (including on-site photovoltaic arrays) and their replacement over time
+* Sitework and landscape elements, including planting, paving, and regular landscape maintenance activities
 
 ### Operational Carbon Scope
 
@@ -79,19 +77,23 @@ C.Scale also includes a model of fugitive refrigerant emissions (B1) and of bene
 * Emissions from the combustion of methane gas in the building
 * Upstream leakage of methane gas as a proportion of methane gas combusted in the building
 * Upstream emissions from the generation of electricity delivered to the site
-* Refrigerant leakage annually and at the end of the equipment's life.&#x20;
+* Refrigerant leakage during equipment installation, annually during the equipment's operation, and at the end of the equipment's life.&#x20;
 
-### Stored Carbon Scope
+### Stored Carbon&#x20;
 
-**C.Scale** includes an estimate of carbon storage in timber structural systems and site landscaping. Carbon storage in planting is calculated over the time horizon then annualized. Carbon storage in building structure is assigned to the first year of the project. C.Scale's method for calculating carbon storage in timber structural systems is detailed in the section on [stored and avoided carbon](whole-life-carbon/stored-avoided-carbon.md).
+**C.Scale** includes an estimate of carbon storage from bio-based construction materials and landscape elements.&#x20;
+
+The tool estimates the carbon content of structural wood products permanently installed on the project at the time of initial construction. C.Scale's method for calculating carbon storage in timber structural systems is detailed in the section on [Stored Carbon](whole-life-carbon/stored-avoided-carbon.md).
+
+The C.Scale model also includes quantification of the carbon content of landscape elements over the project lifecycle. C.Scale’s methodology for calculating sequestration, storage, and emissions of site and landscape elements is detailed in the section on [Site and Landscape](whole-life-carbon/site-and-landscape.md).
 
 ### Adjusting the Analysis Scope
 
-In C.Scale, you can add or remove some life cycle modules and building components from the scope of an assessment using the `include` toggles in each section of the request body. When comparing results between C.Scale and other tools, or between any estimates of carbon emissions, _the scope of each analysis must be identical._
+In C.Scale, you can include or exclude analysis scope by selecting life cycle modules, building components, and processes in the application’s interface or directly in the API request body. When comparing results between C.Scale and other tools, or between any estimates of carbon emissions, _the scope of each analysis must be identical._
 
 ## Uncertainty
 
-_<mark style="color:green;">Inclusion of an uncertainty estimate is coming soon to the public web application.</mark>_
+_<mark style="color:green;">The inclusion of an uncertainty estimate is coming soon to the public web application.</mark>_
 
 Anecdotal evidence has put C.Scale results (modeled without any customization) within 5-30% of the estimates generated by whole building Life Cycle Assessment and hourly operational carbon assessment for buildings where C.Scale was used either in early project stages or _post facto_.
 

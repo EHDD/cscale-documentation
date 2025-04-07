@@ -33,10 +33,11 @@
   * [Structure](the-c.scale-tm-data-model/whole-life-carbon/structure.md)
   * [Envelope](the-c.scale-tm-data-model/whole-life-carbon/envelope.md)
   * [Other Building Assemblies](the-c.scale-tm-data-model/whole-life-carbon/other-building-assemblies.md)
-  * [Site and Landscape](the-c.scale-tm-data-model/whole-life-carbon/site-and-landscape.md)
   * [Refrigerant Emissions](the-c.scale-tm-data-model/whole-life-carbon/refrigerant-emissions.md)
   * [Operational Carbon](the-c.scale-tm-data-model/whole-life-carbon/operational-carbon.md)
-  * [Stored and Avoided Carbon](the-c.scale-tm-data-model/whole-life-carbon/stored-avoided-carbon.md)
+  * [Site and Landscape](the-c.scale-tm-data-model/whole-life-carbon/site-and-landscape.md)
+  * [Stored Carbon](the-c.scale-tm-data-model/whole-life-carbon/stored-avoided-carbon.md)
+  * [Avoided Emissions](the-c.scale-tm-data-model/whole-life-carbon/avoided-emissions.md)
 * [Reference Data](the-c.scale-tm-data-model/reference-data.md)
 
 ## Resources
