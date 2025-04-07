@@ -1,6 +1,6 @@
 # 📃 Backmatter
 
-**C.Scale** is a lightweight data model for whole life carbon assessments.
+**C.Scale** is a calculation service and web application streamlining whole life carbon assessments.
 
 ## **Peer Review and Feedback**
 
