@@ -10,7 +10,7 @@ The previous version of our Privacy Policy is available [here](https://docs.goog
 
 This Privacy Policy describes how Climate Scale Inc. (“C.Scale”, “we”, “us” or “our”) processes personal information that we collect through our digital or online properties or services that link to this Privacy Policy (including as applicable, our website and social media pages) as well as our marketing activities, live events, and other activities described in this Privacy Policy (collectively, the “Service”). C.Scale may provide additional or supplemental privacy policies to individuals for specific products or services that we offer at the time we collect personal information.
 
-C.Scale is a whole life carbon tool supporting climate-positive design decisions across the building design and delivery life cycle. \[2] This Privacy Policy does not apply to information that we process on behalf of our business customers (such as\[3]  architects, building engineers, real estate companies, and building owners) while providing services to them. Our use of information that we process on behalf of our business customers may be governed by our agreements with such customers. If you have concerns regarding your personal information that we process on behalf of a business customer, please direct your concerns to that customer.
+C.Scale is a whole life carbon tool supporting climate-positive design decisions across the building design and delivery life cycle. This Privacy Policy does not apply to information that we process on behalf of our business customers (such as architects, building engineers, real estate companies, and building owners) while providing services to them. Our use of information that we process on behalf of our business customers may be governed by our agreements with such customers. If you have concerns regarding your personal information that we process on behalf of a business customer, please direct your concerns to that customer.
 
 ### Index
 
@@ -50,7 +50,7 @@ C.Scale is a whole life carbon tool supporting climate-positive design decisions
 * **Device data**, such as your internet protocol (IP) address, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform and other technology on the devices you use to access the Service.
 * **Online activity data**, such as pages or screens you viewed, how long you spent on a page or screen, the website you visited before browsing to the Service, navigation paths between pages or screens, information about your activity on a page or screen, access times and duration of access, and whether you have opened our emails or clicked links within them.
 * **Location data** when you authorize the Service to access your device’s location.
-* **Communication interaction data** such as your interactions with our email or other communications (e.g., whether you open and/or forward emails) – we may do this through use of pixel tags (which are also known as clear GIFs), which may be embedded invisibly in our emails. \[8] \[JR9]&#x20;
+* **Communication interaction data** such as your interactions with our email or other communications (e.g., whether you open and/or forward emails) – we may do this through use of pixel tags (which are also known as clear GIFs), which may be embedded invisibly in our emails.
 
 For more information concerning our automatic collection of data, please see the Tracking technologies section below.
 
@@ -75,7 +75,7 @@ We may use your personal information for the following purposes or as otherwise 
 * provide and operate the Service;
 * enable security features of the Service;
 * establish and maintain your user profile on the Service;
-* facilitate your invitations to contacts who you want to invite to join the Service;\[12] \[JR13]&#x20;
+* facilitate your invitations to contacts who you want to invite to join the Service;
 * communicate with you about the Service, including by sending Service-related announcements, updates, security alerts, and support and administrative messages;
 * communicate with you about events, contests surveys in which you participate;
 * provide support for the Service, and respond to your requests, questions and feedback.
