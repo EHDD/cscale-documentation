@@ -38,8 +38,8 @@ C.Scale includes a dynamic envelope model which allows users to input very gener
 
 When specific data is not known, the API includes C.Scale's pre-defined carbon intensities, defined by the levels of ambition:
 
-* **Conservative** represents the 80th percentile of material or assembly carbon intensities.
-* **Best Practices** represents the 50th percentile of material or assembly carbon intensities.
+* **High Carbon** represents the 80th percentile of material or assembly carbon intensities.
+* **Average** represents the 50th percentile of material or assembly carbon intensities.
 * **Low Carbon** represents the 20th percentile of material or assembly carbon intensities.
 
 When more data is available, C.Scale allows you to define specific cladding assemblies, exterior insulation types, and wall framing assemblies. Using the `description` parameter in the `envelope.cladding`  or `envelope.glazing` section of the request, you can pass in a more precise definition of the opaque building envelope. Where one or more layers of the assembly is unknown (or up for discussion, pass a `None` parameter.&#x20;

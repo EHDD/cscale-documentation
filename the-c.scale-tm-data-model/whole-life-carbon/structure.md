@@ -28,14 +28,14 @@ Known issues with the structural bill or materials generation models are an over
 
 **Carbon intensity is the amount of CO2-equivalent emissions per unit of material**. For structural materials, carbon intensity information is drawn from a variety of sources. In all cases, C.Scale uses GWP-100 characterization factors. These sources are documented in the [Reference Data Sources ](../reference-data.md)section of this guide.
 
-The three specifications available in C.Scale—low carbon, best practices, and conservative—correspond to the 20th, 50th, and 80th percentile of emissions for that material. These estimates _do not_ correspond to a specific EPD, as there are many options for achieving a certain level of performance. Most carbon intensities for structural materials in C.Scale are national averages, as material supply chains for major structural materials are typically national (or global) in coverage.
+The three specifications available in C.Scale—**low carbon, average, and high carbon**—correspond to the 20th, 50th, and 80th percentile of emissions for that material. These estimates _do not_ correspond to a specific EPD, as there are many options for achieving a certain level of performance. Most carbon intensities for structural materials in C.Scale are national averages, as material supply chains for major structural materials are typically national (or global) in coverage.
 
 Concrete emissions, on the other hand, as assessed regionally. Concrete is a local material, rarely traveling more than 25 miles between production and use. Additionally, the relatively large number of concrete EPDs available in the United States ([80,000+](https://buildingtransparency.org/ec3)) supports a regional approach to measuring concrete emissions.
 
 When specific data is not known, the API includes three choices carbon intensities, defined by the range of products or assemblies available in a particular location:
 
-* **Conservative** represents the 80th percentile of carbon intensities for regionally-available material or assemblies.
-* **Best Practices** represents the 50th percentile of carbon intensities for regionally-available material or assemblies.
+* **High Carbon** represents the 80th percentile of carbon intensities for regionally-available material or assemblies.
+* **Average** represents the 50th percentile of carbon intensities for regionally-available material or assemblies.
 * **Low Carbon** represents the 20th percentile of carbon intensities for regionally-available material or assemblies.
 
 #### Regionalization of Carbon Intensity Data

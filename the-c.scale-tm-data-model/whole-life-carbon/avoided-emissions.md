@@ -21,4 +21,4 @@ $$
 
 Where $$e_{t}$$ is the excess energy in kWh generated in year $$t$$ and $$c_{t}$$ is the carbon intensity of the electrical grid per unit demand in year $$t$$. This method assumes that there is no curtailment of PV production, and that the carbon emissions of grid electricity when solar energy is produced is substantially similar to the annual average emissions. In locations with a high proportion of solar on the grid, curtailment is likely and skepticism of C.Scale's calculation of avoided emissions is warranted.
 
-If you are interested in further analysis of hourly emissions, [please reach out](mailto:epic@ehddd.com).
+If you are interested in further analysis of hourly emissions, [please reach out](mailto:hi@cscale.io).

@@ -4,8 +4,8 @@
 
 Building assemblies in C.Scale are evaluated on a per-area basis. When specific data is not known, the API includes C.Scale's pre-defined carbon intensities, defined by the levels of ambition:
 
-* **Conservative** represents the 80th percentile of material or assembly carbon intensities.
-* **Best Practices** represents the 50th percentile of material or assembly carbon intensities.
+* **High Carbon** represents the 80th percentile of material or assembly carbon intensities.
+* **Average** represents the 50th percentile of material or assembly carbon intensities.
 * **Low Carbon** represents the 20th percentile of material or assembly carbon intensities.
 
 For each assembly, the carbon intensity is determined by sampling the distribution of GWP values from typical assemblies at the 20th, 50th, and 80th percentile. &#x20;
@@ -32,4 +32,4 @@ A custom carbon intensity of PV Array can be entered by passing a kgCO2e per are
 
 For reference, below is a tabular summary of some of the A1-A3 data used in the US. Additional data (across all supported regions) is [available via API](http://api.cscale.io/api/cscale-swagger-docs).&#x20;
 
-<table><thead><tr><th width="243">Assembly</th><th>Low Carbon</th><th width="172">Best Practices</th><th>Conservative</th></tr></thead><tbody><tr><td><strong>Cladding</strong></td><td>3.0 kgCO2e/sf</td><td>8.8 kgCO2e/sf</td><td>14.3 kgCO2e/sf</td></tr><tr><td><strong>Glazing</strong></td><td>11.4 kgCO2e/sf</td><td>13.6 kgCO2e/sf</td><td>19.0 kgCO2e/sf</td></tr><tr><td><strong>Roofing</strong></td><td>5.3 kgCO2e/sf</td><td>7.7 kgCO2e/sf</td><td>14.0 kgCO2e/sf</td></tr><tr><td><strong>Tenant Fit Out</strong></td><td>4.0 kgCO2e/sf</td><td>7.6 kgCO2e/sf</td><td>13.3 kgCO2e/sf</td></tr><tr><td><strong>Hardscape</strong></td><td>4.4 kgCO2e/sf</td><td>5.9 kgCO2e/sf</td><td>7.2 kgCO2e/sf</td></tr></tbody></table>
+<table><thead><tr><th width="185.55078125">Assembly</th><th>Low Carbon</th><th width="156.24609375">Average</th><th width="122.796875">High Carbon</th></tr></thead><tbody><tr><td><strong>Cladding</strong></td><td>3.0 kgCO2e/sf</td><td>8.8 kgCO2e/sf</td><td>14.3 kgCO2e/sf</td></tr><tr><td><strong>Glazing</strong></td><td>11.4 kgCO2e/sf</td><td>13.6 kgCO2e/sf</td><td>19.0 kgCO2e/sf</td></tr><tr><td><strong>Roofing</strong></td><td>5.3 kgCO2e/sf</td><td>7.7 kgCO2e/sf</td><td>14.0 kgCO2e/sf</td></tr><tr><td><strong>Tenant Fit Out</strong></td><td>4.0 kgCO2e/sf</td><td>7.6 kgCO2e/sf</td><td>13.3 kgCO2e/sf</td></tr><tr><td><strong>Hardscape</strong></td><td>4.4 kgCO2e/sf</td><td>5.9 kgCO2e/sf</td><td>7.2 kgCO2e/sf</td></tr></tbody></table>
