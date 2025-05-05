@@ -68,18 +68,6 @@ The reduction of the building’s EUI by any of a number of strategies. If the y
 
 The purchase of clean power through Direct Ownership, Green Retail Tariffs, Power Purchase Agreements (PPAs), Community Renewables or Utility Renewable Contracts (the five categories of renewables for which credit can be claimed in AIA 2030 commitment reporting) equivalent to the selected percentage of total energy use. _The purchase of unbundled RECs should not be counted as a clean power purchase in_ C.Scal&#x65;_._
 
-<details>
-
-<summary>Clean Power Purchase Thresholds</summary>
-
-* **0%.** No purchase of clean power or RECs.
-
-- **50%.** Purchase of clean power to cover 50% of building energy use. This option assumes that these RECs are not time-matched, and discounts their effectiveness by 20% as they don't follow patterns of emissions on the electrical grid.&#x20;
-
-* **100%.** Purchase of clean power to cover 100% of building energy use. This option assumes that these RECs are not time-matched, and discounts their effectiveness by 20% as they don't follow patterns of emissions on the electrical grid.&#x20;
-
-</details>
-
 ### Solar Photovoltaic (PV) Array System Design
 
 The addition of a solar PV array on the project site. The size of this array can be input in three forms:
@@ -121,35 +109,51 @@ Specification of a structural system other than the system modeled in the baseli
 
 Specification of a secondary structural system, and its associated percentage of the overall building structure.&#x20;
 
+### Structural Material Intensity
+
+Specification of the the structural material intensity based on the chosen material. The selections made in this field sample the distribution of bills of materials _(not carbon intensities)_. Choices are described in narrative form below, and the underlying data is listed in [C.Scale's whole life carbon methodology](https://docs.cscale.io/the-c.scale-tm-data-model/embodied-carbon).&#x20;
+
+<details>
+
+<summary>Structural Material Intensity Choices</summary>
+
+* **Low Carbon (20th percentile).** Represents the 20th percentile of structural material intensity. These designs are more structurally efficient and use less materials per floor area. Because fewer materials are used, cost and carbon emissions are usaually lowest in this case.
+
+- **Average (50th percentile).** Represents the 50th percentile of structural material intensity. These designs have a typical structural material use intensity per floor area. THis is the default value.&#x20;
+
+* **High Carbon (80th percentile).** Represents the 80th percentile of structural material intensity. These designs are less structurally efficient and use more materials per floor area. This is a higher carbon option often arising from site constraints of structurally expressive design.&#x20;
+
+</details>
+
 ### Concrete Specification
 
 The specification of concrete with lower embodied carbon emissions. Choices are described in narrative form below, and the underlying data is listed in [C.Scale's whole life carbon methodology](https://docs.cscale.io/the-c.scale-tm-data-model/embodied-carbon). Narrative descriptions are approximate; there are many options that can yield similar carbon intensities.
 
 <details>
 
-<summary>Concrete Specification Choices (Carbon Intensity)</summary>
+<summary>Concrete Carbon Intensity Choices</summary>
 
-* **Low Carbon (20th percentile).** GWP in the 20th percentile of locally available concrete. Concrete with >50% replacement of cement by SCM, lower carbon aggregate, and careful sizing of concrete structural elements to reduce overspecification.&#x20;
+* **Low Carbon (20th percentile).** GWP in the 20th percentile of locally available concrete for a given strength class. Concrete in this range typically has higher less cement, higher levels of supplementary cementitious materials (SCMs), and a carefully constructed aggregate profile.&#x20;
 
-- **Average (50th percentile).** GWP in the 50th percentile of locally available concrete. Concrete with 30-50% replacement of cement by supplementary cementitious materials (SCM) and careful sizing of concrete structural elements to reduce overspecification.&#x20;
+- **Average (50th percentile).** GWP in the 50th percentile of locally available concrete for a given strength class. Concrete is this range typically has some SCMs. This is the default value.
 
-* **High Carbon (80th percentile).** GWP in the 80th percentile of locally available concrete. Typical concrete mix, no effort made to lower carbon emissions.&#x20;
+* **High Carbon (80th percentile).** GWP in the 80th percentile of locally available concrete for a given strength class. These mixes often have low or no SCMs and may have additional performance requirements.
 
 </details>
 
+
+
 ### Steel Specification
 
-The specification of structural steel, steel deck, and reinforcing bar with lower embodied carbon emissions. Choices are described in narrative form below, and the underlying data is described in [C.Scale's whole life carbon methodology](https://docs.cscale.io/the-c.scale-tm-data-model/embodied-carbon). Narrative descriptions are approximate; there are many options that can yield similar carbon intensities.
+The specification of hot-rolled structural steel, ciolrd-formed steel (including steel deck), and reinforcing bar. Choices are described in narrative form below, and the underlying data is described in [C.Scale's whole life carbon methodology](https://docs.cscale.io/the-c.scale-tm-data-model/embodied-carbon). Narrative descriptions are approximate; there are many options that can yield similar carbon intensities.
 
 <details>
 
-<summary>Steel Specification Choices (Carbon Intensity)</summary>
+<summary>Steel Carbon Intensity Choices</summary>
 
-* **Low Carbon (20th percentile).** GWP in the 20th percentile of locally available concrete. Concrete with >50% replacement of cement by SCM, lower carbon aggregate, and careful sizing of concrete structural elements to reduce overspecification.&#x20;
-
-- **Average (50th percentile).** GWP in the 50th percentile of locally available concrete. Concrete with 30-50% replacement of cement by supplementary cementitious materials (SCM) and careful sizing of concrete structural elements to reduce overspecification.&#x20;
-
-* **High Carbon (80th percentile).** GWP in the 80th percentile of locally available concrete. Typical concrete mix, no effort made to lower carbon emissions.&#x20;
+* **Low Carbon (20th percentile)** GWP in the 20th percentile of available timber products in a category. Low carbon steel tyupically has high recycled content and is made in an electric arc furnance.
+* **Average (50th percentile).** GWP in the 50th percentile of available timber products in a category. This is the default value.
+* **High Carbon (80th percentile).** GWP in the 80th  percentile of available timber products in a category. High carbon steel may come from a blast furnace and use a higher proportion of iron produced in blast furnaces.&#x20;
 
 </details>
 
@@ -161,11 +165,11 @@ The specification of lumber, plywood/OSB, and engineered timber elements with lo
 
 <summary>Timber Specification Choices (Carbon Intensity)</summary>
 
-* **Low Carbon (20th percentile)** GWP in the 20th percentile of locally available timber . Wood products with the lowest GWP may come from value chains where wood waste is reused to make durable goods, electricity or biomass is used for process heat where possible, chemical inputs such as fertilizer are mostly avoided, climate-smart forestry practices increase forest carbon stocks over time and promotes the growth of complex older forest conditions, and the forest is near the mill and construction sites.
+* **Low Carbon (20th percentile)** GWP in the 20th percentile of available timber products in a category.
 
-- **Average (50th percentile).** GWP in the 50th percentile of nationally available timber. Lowering the GWP of wood products can be achieved by using wood waste instead of natural gas for process heat at the mill, limiting chemical inputs such as fertilizer, practicing forestry that increases or at minimum maintains forest carbon stocks over time and provides protection for older forests, and transportation by efficient means such as rail.
+- **Average (50th percentile).** GWP in the 50th percentile of available timber products in a category. This is the default value.
 
-* **High Carbon (80th percentile).** GWP in the 80th percentile of nationally available timber. The highest GWP forest products may come from value chains where fossil gas is used for process heat at the mill, forestry and nursery practices require high levels of chemical inputs, forestry practices utilize intensive short-rotation harvest regimes, and transportation is over long distances by truck.
+* **High Carbon (80th percentile).** GWP in the 80th  percentile of available timber products in a category.
 
 </details>
 

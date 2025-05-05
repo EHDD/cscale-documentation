@@ -20,7 +20,7 @@ There are five ML models in our model pipeline. The least accurate model in our 
 
 C.Scale uses an instance of this modeling pipeline served in the cloud to generate a bill of materials 'live' as a user requests data from our API.&#x20;
 
-These methods for calculating a structural bill of materials have been reviewed by colleagues at [MKA](https://www.mka.com/), [Carbon Leadership Forum](https://carbonleadershipforum.org/), and Autodesk with additional comment from colleagues at [Arup](https://www.arup.com/). If you are a structural engineer or data scientist interested in providing further review of our modeling pipeline, [please reach out](mailto:epic@ehdd.com?subject=Review).
+These methods for calculating a structural bill of materials have been reviewed by colleagues at [MKA](https://www.mka.com/), [Carbon Leadership Forum](https://carbonleadershipforum.org/), and Autodesk with additional comment from colleagues at [Arup](https://www.arup.com/). If you are a structural engineer or data scientist interested in providing further review of our modeling pipeline, [please reach out](mailto:hi@cscale.io).
 
 Known issues with the structural bill or materials generation models are an overprediction of material quantities for small industrial warehouses and rare combinations of use category and primary structural material (e.g. light wood frame hospitals).&#x20;
 
