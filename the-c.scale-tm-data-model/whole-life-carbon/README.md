@@ -20,7 +20,7 @@ $$
 10,000\ sf\ast4\ \frac{lbs\ rebar}{sf}\ast0.5\ \frac{kg\ CO_2e}{lb\ rebar}=20,000\ kg\ CO_2e
 $$
 
-Other pages in this section detail the calculation of A1-A3 emissions from [structure](structure.md), [envelope](envelope.md), and [other building assemblies](other-building-assemblies.md).&#x20;
+Other pages in this section detail the calculation of A1-A3 emissions from [structure](structure.md), [envelope](enclosure.md), and [other building assemblies](other-building-assemblies.md).&#x20;
 
 ## A4-5: Construction Emissions
 

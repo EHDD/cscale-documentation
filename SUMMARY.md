@@ -31,7 +31,7 @@
 * [Goal and Scope](the-c.scale-tm-data-model/goal-and-scope.md)
 * [Whole Life Carbon Assessment](the-c.scale-tm-data-model/whole-life-carbon/README.md)
   * [Structure](the-c.scale-tm-data-model/whole-life-carbon/structure.md)
-  * [Envelope](the-c.scale-tm-data-model/whole-life-carbon/envelope.md)
+  * [Enclosure](the-c.scale-tm-data-model/whole-life-carbon/enclosure.md)
   * [Other Building Assemblies](the-c.scale-tm-data-model/whole-life-carbon/other-building-assemblies.md)
   * [Refrigerant Emissions](the-c.scale-tm-data-model/whole-life-carbon/refrigerant-emissions.md)
   * [Operational Carbon](the-c.scale-tm-data-model/whole-life-carbon/operational-carbon.md)

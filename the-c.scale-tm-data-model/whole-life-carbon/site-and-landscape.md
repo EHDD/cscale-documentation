@@ -18,7 +18,7 @@ More information on how carbon storage in living biomass is calculated in C.Scal
 
 All site area not designated as planted is assumed to be hardscaped. Hardscape emissions were calculated by C.Scale using a parameterized streamlined LCA model built from standard hardscape details. The 20th, 50th, and 80th percentile of the resulting distribution was sampled and used to define emission ranges in C.Scale.
 
-A custom carbon intensity of paving assemblies or other landscape features can be entered by passing a kgCO2e per area (sf or m2, depending on the unit system) value directly to the API. The hardscape area is assumed to be the total site area, less the building footprint and plantings.&#x20;
+A custom carbon intensity of paving assemblies or other landscape features can be entered by passing a kgCO2e per area (sf or m2, depending on the unit system) value directly to the app. The hardscape area is assumed to be the total site area, less the building footprint and plantings.&#x20;
 
 ## Emissions from Landscape Maintenance
 

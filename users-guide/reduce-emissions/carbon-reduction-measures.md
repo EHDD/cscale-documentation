@@ -18,19 +18,19 @@ _Note that these measures only affect upfront emissions; refurbishments are coun
 
 The reuse of a pre-existing structural system for a given percentage of the building's floor area.
 
-**Opaque Enclosure Reuse**
+#### Solid Exterior Wall Reuse
 
-The reuse of opaque enclosure for a given percentage of the building’s total enclosure. Note that this measure only affects upfront emissions; refurbishments are counted normally.&#x20;
+The reuse of solid exterior wall for a given percentage of the building’s total enclosure. Note that this measure only affects upfront emissions; refurbishments are counted normally.&#x20;
 
-**Transparent Enclosure Reuse**
+#### Transparent Exterior Wall Reuse
 
-The reuse of transparent enclosure for a given percentage of the building’s total enclosure. Note that this measure only affects upfront emissions; refurbishments are counted normally.&#x20;
+The reuse of transparent exterior wall for a given percentage of the building’s total enclosure. Note that this measure only affects upfront emissions; refurbishments are counted normally.&#x20;
 
 **Roofing Reuse**
 
 The reuse of the roofing assembly for a given percentage of the building’s total roof area.&#x20;
 
-**Interior Reuse**
+**Interiors Reuse**
 
 The reuse of interior fitout materials as a percentage of the total fitout.
 
@@ -200,7 +200,7 @@ In C.Scale, we identify three criteria contributing to the claim that wood produ
 
 ### Opaque Enclosure Specification
 
-The specification of the opaque envelope assemblies. These specification levels do not describe specific assemblies. Instead, they approximate the 80th, 50th, and 20th percentile of the distribution of all opaque enclosure options.&#x20;
+The specification of the opaque enclosure assemblies. These specification levels do not describe specific assemblies. Instead, they approximate the 80th, 50th, and 20th percentile of the distribution of all opaque enclosure options.&#x20;
 
 <details>
 

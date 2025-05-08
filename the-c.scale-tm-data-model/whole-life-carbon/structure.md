@@ -18,7 +18,7 @@ Training data is divided into 80% training data and 20% data. Each bill of mater
 
 There are five ML models in our model pipeline. The least accurate model in our pipeline has a Mean Absolute Percentage Error of 16.7% and an r2 value of 0.74. The four other models each have an r2 value over 0.95. K-folds cross-validation (n=5) is used to confirm that each models can consistently predict unseen data.&#x20;
 
-C.Scale uses an instance of this modeling pipeline served in the cloud to generate a bill of materials 'live' as a user requests data from our API.&#x20;
+C.Scale uses an instance of this modeling pipeline served in the cloud to generate a bill of materials 'live' as a user requests data from our app.&#x20;
 
 These methods for calculating a structural bill of materials have been reviewed by colleagues at [MKA](https://www.mka.com/), [Carbon Leadership Forum](https://carbonleadershipforum.org/), and Autodesk with additional comment from colleagues at [Arup](https://www.arup.com/). If you are a structural engineer or data scientist interested in providing further review of our modeling pipeline, [please reach out](mailto:hi@cscale.io).
 
@@ -32,7 +32,7 @@ The three specifications available in C.Scale—**low carbon, average, and high 
 
 Concrete emissions, on the other hand, as assessed regionally. Concrete is a local material, rarely traveling more than 25 miles between production and use. Additionally, the relatively large number of concrete EPDs available in the United States ([80,000+](https://buildingtransparency.org/ec3)) supports a regional approach to measuring concrete emissions.
 
-When specific data is not known, the API includes three choices carbon intensities, defined by the range of products or assemblies available in a particular location:
+When specific data is not known, the app includes three choices carbon intensities, defined by the range of products or assemblies available in a particular location:
 
 * **High Carbon** represents the 80th percentile of carbon intensities for regionally-available material or assemblies.
 * **Average** represents the 50th percentile of carbon intensities for regionally-available material or assemblies.
@@ -42,4 +42,4 @@ When specific data is not known, the API includes three choices carbon intensiti
 
 Wherever feasible, carbon intensity data is regionalized to the appropriate level of resolution. Our regionalization methodology aims to reflect the products and assemblies available in a region (the "market mix"), which is often distinct from those manufactured in that region (the "production mix").
 
-Our API includes country-level data for the following countries: United States of America, Canada, United Kingdom, Denmark, France, Germany, Italy, Norway, Saudi Arabia, United Arab Emirates, Singapore, and Sweden. Where regional data is not available, we use background data specific to the region. Currently, we maintain background datasets for North America, the EU, and "rest of world" (RoW). &#x20;
+Our app includes country-level data for the following countries: United States of America, Canada, United Kingdom, Denmark, France, Germany, Italy, Norway, Saudi Arabia, United Arab Emirates, Singapore, and Sweden. Where regional data is not available, we use background data specific to the region. Currently, we maintain background datasets for North America, the EU, and "rest of world" (RoW). &#x20;
