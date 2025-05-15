@@ -27,5 +27,5 @@ This chart has a number of elements:
 * **Electricity Emissions**. Cumulative emissions associated with the energy use from the electrical grid.&#x20;
 * **Fossil Fuel Emissions**. Cumulative emissions associated with onsite fossil fuel use.&#x20;
 * **Embodied carbon emissions**. Cumulative emissions associated with building materials, their replacements, and with landscape maintenance.
-* **Biogenic Carbon**. Sequestered emissions from building structure and landscape planting.
+* **Stored Carbon**. Sequestered emissions from building structure and landscape planting.
 * **Avoided Energy Emissions**. Avoided emissions from onsite energy generation in excess of use.

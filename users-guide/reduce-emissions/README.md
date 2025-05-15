@@ -6,11 +6,7 @@ Scenarios are user-defined sets of carbon reduction measures that can be analyze
 
 Click the **+ New Scenario** button to create a new scenario where carbon reduction measures can be applied. The newly created scenario will include all of the carbon reduction measures that are applied to the baseline. Additionally, existing scenarios can be duplicated to create new scenarios.&#x20;
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image (15).png" alt="" width="164"><figcaption><p>Create a new scenario.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (15) (1).png" alt="" width="164"><figcaption><p>Create a new scenario.</p></figcaption></figure></div>
 
 Name the new scenario and click **Create**.&#x20;
 

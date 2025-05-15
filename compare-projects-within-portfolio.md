@@ -10,7 +10,7 @@ Use the ![](<.gitbook/assets/image (19).png>) toggles in the left-hand panel to 
 
 This figure describes the cumulative carbon emissions of a building over time. As a chart of cumulative emissions, the height of the bar is the total emissions associated with the building up to and including that year rather than only the emissions associated with that year.
 
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p>Comparison of project emissions over 60 years across portfolio.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (2).png" alt=""><figcaption><p>Comparison of project emissions over 60 years across portfolio.</p></figcaption></figure>
 
 This chart has a number of elements:
 

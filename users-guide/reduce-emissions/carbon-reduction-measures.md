@@ -18,11 +18,11 @@ _Note that these measures only affect upfront emissions; refurbishments are coun
 
 The reuse of a pre-existing structural system for a given percentage of the building's floor area.
 
-#### Solid Exterior Wall Reuse
+**Solid Exterior Wall Reuse**
 
 The reuse of solid exterior wall for a given percentage of the building’s total enclosure. Note that this measure only affects upfront emissions; refurbishments are counted normally.&#x20;
 
-#### Transparent Exterior Wall Reuse
+**Transparent Exterior Wall Reuse**
 
 The reuse of transparent exterior wall for a given percentage of the building’s total enclosure. Note that this measure only affects upfront emissions; refurbishments are counted normally.&#x20;
 
@@ -30,7 +30,7 @@ The reuse of transparent exterior wall for a given percentage of the building’
 
 The reuse of the roofing assembly for a given percentage of the building’s total roof area.&#x20;
 
-**Interiors Reuse**
+**Interior Reuse**
 
 The reuse of interior fitout materials as a percentage of the total fitout.
 
@@ -117,27 +117,27 @@ Specification of the the structural material intensity based on the chosen mater
 
 <summary>Structural Material Intensity Choices</summary>
 
-* **Low Carbon (20th percentile).** Represents the 20th percentile of structural material intensity. These designs are more structurally efficient and use less materials per floor area. Because fewer materials are used, cost and carbon emissions are usaually lowest in this case.
+* **Low Carbon (20th percentile).** Represents the 20th percentile of structural material intensity.&#x20;
 
-- **Average (50th percentile).** Represents the 50th percentile of structural material intensity. These designs have a typical structural material use intensity per floor area. THis is the default value.&#x20;
+- **Average (50th percentile).** Represents the 50th percentile of structural material intensity.&#x20;
 
-* **High Carbon (80th percentile).** Represents the 80th percentile of structural material intensity. These designs are less structurally efficient and use more materials per floor area. This is a higher carbon option often arising from site constraints of structurally expressive design.&#x20;
+* **High Carbon (80th percentile).** Represents the 80th percentile of structural material intensity.&#x20;
 
 </details>
 
 ### Concrete Specification
 
-The specification of concrete with lower embodied carbon emissions. Choices are described in narrative form below, and the underlying data is listed in [C.Scale's whole life carbon methodology](https://docs.cscale.io/the-c.scale-tm-data-model/embodied-carbon). Narrative descriptions are approximate; there are many options that can yield similar carbon intensities.
+The specification of concrete for a given strength class. These estimates do not correspond to a specific EPD, as there are many options for achieving a certain level of performance. Concrete emissions are assessed regionally. It is a local material, rarely traveling more than 25 miles between production and use. Additionally, the relatively large number of concrete EPDs available in the United States ([80,000+](https://buildingtransparency.org/ec3)) supports a regional approach to measuring concrete emissions.
 
 <details>
 
 <summary>Concrete Carbon Intensity Choices</summary>
 
-* **Low Carbon (20th percentile).** GWP in the 20th percentile of locally available concrete for a given strength class. Concrete in this range typically has higher less cement, higher levels of supplementary cementitious materials (SCMs), and a carefully constructed aggregate profile.&#x20;
+* **Low Carbon (20th percentile).** GWP in the 20th percentile of locally available concrete for a given strength class.&#x20;
 
-- **Average (50th percentile).** GWP in the 50th percentile of locally available concrete for a given strength class. Concrete is this range typically has some SCMs. This is the default value.
+- **Average (50th percentile).** GWP in the 50th percentile of locally available concrete for a given strength class.&#x20;
 
-* **High Carbon (80th percentile).** GWP in the 80th percentile of locally available concrete for a given strength class. These mixes often have low or no SCMs and may have additional performance requirements.
+* **High Carbon (80th percentile).** GWP in the 80th percentile of locally available concrete for a given strength class.&#x20;
 
 </details>
 
@@ -145,21 +145,21 @@ The specification of concrete with lower embodied carbon emissions. Choices are 
 
 ### Steel Specification
 
-The specification of hot-rolled structural steel, ciolrd-formed steel (including steel deck), and reinforcing bar. Choices are described in narrative form below, and the underlying data is described in [C.Scale's whole life carbon methodology](https://docs.cscale.io/the-c.scale-tm-data-model/embodied-carbon). Narrative descriptions are approximate; there are many options that can yield similar carbon intensities.
+The specification of hot-rolled structural steel, cold-formed steel (including steel deck), and reinforcing bar. These estimates _do not_ correspond to a specific EPD, as there are many options for achieving a certain level of performance. Most carbon intensities for structural materials in C.Scale are national averages, as material supply chains for major structural materials are typically national (or global) in coverage.
 
 <details>
 
 <summary>Steel Carbon Intensity Choices</summary>
 
-* **Low Carbon (20th percentile)** GWP in the 20th percentile of available timber products in a category. Low carbon steel tyupically has high recycled content and is made in an electric arc furnance.
-* **Average (50th percentile).** GWP in the 50th percentile of available timber products in a category. This is the default value.
-* **High Carbon (80th percentile).** GWP in the 80th  percentile of available timber products in a category. High carbon steel may come from a blast furnace and use a higher proportion of iron produced in blast furnaces.&#x20;
+* **Low Carbon (20th percentile)** GWP in the 20th percentile of available timber products in a category.&#x20;
+* **Average (50th percentile).** GWP in the 50th percentile of available timber products in a category.&#x20;
+* **High Carbon (80th percentile).** GWP in the 80th  percentile of available timber products in a category.&#x20;
 
 </details>
 
 ### Timber Specification
 
-The specification of lumber, plywood/OSB, and engineered timber elements with lower embodied carbon emissions. Choices are described in narrative form below. Narrative descriptions are approximate; there are many options that can yield similar carbon intensities.
+The specification of lumber, plywood/OSB, and engineered timber elements. These estimates _do not_ correspond to a specific EPD, as there are many options for achieving a certain level of performance. Most carbon intensities for structural materials in C.Scale are national averages, as material supply chains for major structural materials are typically national (or global) in coverage.
 
 <details>
 
@@ -198,51 +198,102 @@ In C.Scale, we identify three criteria contributing to the claim that wood produ
 
 ## Enclosure&#x20;
 
-### Opaque Enclosure Specification
+### Solid Exterior Wall Specification
 
-The specification of the opaque enclosure assemblies. These specification levels do not describe specific assemblies. Instead, they approximate the 80th, 50th, and 20th percentile of the distribution of all opaque enclosure options.&#x20;
-
-<details>
-
-<summary>Opaque Enclosure Specification Choices (Carbon Intensity)</summary>
-
-* **Low Carbon (20th percentile).** 20th percentile of GWP for opaque envelope assemblies. Maximize biogenic materials, innovate efficient assemblies, and reduce material use.
-
-- **Average (50th percentile).** 50th percentile of GWP for opaque envelope assemblies. Reduce redundancies and select low-carbon materials with high levels of recycled content.
-
-* **High Carbon (80th percentile).** 80th percentile of GWP for opaque  envelope assemblies. Standard materials and assemblies, no effort made to lower carbon emissions.
-
-- **Custom**. Enter a custom carbon intensity.
-
-</details>
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (28).png" alt="" width="344"><figcaption><p>Choose from pre-defined opaque enclosure carbon intensities, or input a custom value.</p></figcaption></figure></div>
-
-#### Opaque Enclosure Refresh Rate
-
-The length of time over which a majority of the opaque enclosure will be replaced.
-
-### Transparent Enclosure Specification
-
-The specification of the transparent enclosure assemblies. These specification levels do not describe specific assemblies. Instead, they approximate the 80th, 50th, and 20th percentile of the distribution of all transparent enclosure options.&#x20;
+The specification of the solid exterior wall assemblies. These specification levels do not describe specific assemblies. When specific data is not known, the C.Scale app includes pre-defined carbon intensities, defined by the levels of ambition. When more data is available, C.Scale allows you to define specific cladding assemblies, exterior insulation types, and wall framing assemblies. C.Scale will use your description of the solid exterior wall (i.e., any declarations of specific materials) to subset our library of solid exterior wall assemblies (\~1200) to only those meeting your criteria. This allows the user to know the range of potential carbon intensities available both within and between their declared design.
 
 <details>
 
-<summary>Transparent Enclosure Specification Choices (Carbon Intensity)</summary>
+<summary>Solid Exterior Wall Specification Choices (Carbon Intensity)</summary>
 
-* **Low Carbon (20th percentile).** 20th percentile of GWP for transparent envelope assemblies. Maximize biogenic materials, innovate efficient assemblies, and reduce material use.
+* **Low Carbon (20th percentile).** 20th percentile of GWP for solid exterior wall assemblies.&#x20;
 
-- **Average (50th percentile).** 50th percentile of GWP for transparent envelope assemblies. Reduce redundancies and select low-carbon materials with high levels of recycled content.
+- **Average (50th percentile).** 50th percentile of GWP for solid exterior wall assemblies.&#x20;
 
-* **High Carbon (80th percentile).** 80th percentile of GWP for transparent  envelope assemblies. Standard materials and assemblies, no effort made to lower carbon emissions.
-
-- **Custom**. Enter a custom carbon intensity.
+* **High Carbon (80th percentile).** 80th percentile of GWP for solid exterior wall assemblies.&#x20;
 
 </details>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (29).png" alt="" width="349"><figcaption><p>Choose from pre-defined transparent enclosure carbon intensities, or input a custom value.</p></figcaption></figure></div>
+#### Solid Exterior Wall Service Life
 
-#### Transparent Enclosure Refresh Rate
+The length of time over which a majority of the solid exterior wall will be replaced.
+
+#### Solid Exterior Wall Assemblies Configurator
+
+The Solid Exterior Wall Assemblies Configurator is designed to support the input of more detailed, project-specific data.
+
+To begin using this feature, turn on **Use Assemblies** within the Solid Exterior Wall accordion.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (7).png" alt="" width="350"><figcaption><p>Turn on the Use Assemblies within accordion.</p></figcaption></figure></div>
+
+Once turned on, click the **Configure Assemblies** to start editing Solid Exterior Wall Assemblies.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (8).png" alt="" width="350"><figcaption><p>Click on Configure Assemblies.</p></figcaption></figure></div>
+
+This opens up a **pop-out** for Solid Exterior Wall Assembly Configurator. This automatically generates an R-Value, Service Life, and Carbon Intensity, which can be changed as needed.&#x20;
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Customize Solid Exterior Wall Assembly options in pop-out.</p></figcaption></figure></div>
+
+You can choose the assembly options as you see fit to tailor them to your requirements. These options will continue to evolve based on ongoing feedback.
+
+{% tabs %}
+{% tab title="Solid Exterior Wall Cladding Assembly Choices" %}
+* Thin Brick
+* EIFS
+* Fiber Cement
+* Wood Siding
+* Profiled Metal Panel
+* Composite Metal Panel
+* Glass Fiber Reinforced Concrete
+* Stone Veneer
+* Terracotta
+{% endtab %}
+
+{% tab title="External Insulation Choices" %}
+* Mineral Wool
+* Polylso
+* XPS
+* EPS
+{% endtab %}
+
+{% tab title="Framing Choices" %}
+* 6 in. CMU
+* 6 in. Metal Stud
+* 2x6 Wood Stud
+{% endtab %}
+{% endtabs %}
+
+To add and edit additional Solid Exterior Wall Assemblies, simply click on the 3-dot menu on the right side and choose **Duplicate**.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (10).png" alt="" width="151"><figcaption><p>Duplicate to create a new Assembly.</p></figcaption></figure></div>
+
+Customize as needed and ensure the **Area(%)** adds up to a 100%, validating the area.&#x20;
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Customize all solid wall assemblies and validate. </p></figcaption></figure></div>
+
+Click Update to see changes to the carbon emissions values in the **Enclosure accordion**.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (14).png" alt="" width="351"><figcaption><p>Updated carbon emissions values in Enclosure accordion.</p></figcaption></figure></div>
+
+### Transparent Exterior Wall Specification
+
+The specification of the transparent exterior wall assemblies. These specification levels do not describe specific assemblies. When specific data is not known, the C.Scale app includes pre-defined carbon intensities, defined by the levels of ambition. When more data is available, C.Scale allows you to define specific glazing units, mullions, and insulation. C.Scale will use your description of the transparent exterior wall (i.e., any declarations of specific materials) to subset our library of transparent exterior wall assemblies (\~1200) to only those meeting your criteria. This allows the user to know the range of potential carbon intensities available both within and between their declared design.
+
+<details>
+
+<summary>Transparent Exterior Wall Specification Choices (Carbon Intensity)</summary>
+
+* **Low Carbon (20th percentile).** 20th percentile of GWP for transparent exterior wall assemblies.&#x20;
+
+- **Average (50th percentile).** 50th percentile of GWP for transparent exterior wall assemblies.&#x20;
+
+* **High Carbon (80th percentile).** 80th percentile of GWP for transparent exterior wall assemblies.&#x20;
+
+</details>
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="350"><figcaption><p>Choose from pre-defined transparent exterior wall carbon intensities.</p></figcaption></figure></div>
+
+#### Transparent Exterior Wall Service Life
 
 The length of time over which a majority of the transparent enclosure will be replaced.
 
@@ -254,23 +305,21 @@ The specification of the roofing assemblies. These specification levels do not d
 
 <summary>Roofing Specification Choices (Carbon Intensity)</summary>
 
-* **Low Carbon (20th percentile).** 20th percentile of GWP for roofing assemblies. Maximize biogenic materials, innovate efficient assemblies, and reduce material use.
+* **Low Carbon (20th percentile).** 20th percentile of GWP for roofing assemblies.&#x20;
 
-- **Average (50th percentile).** 50th percentile of GWP for roofing assemblies. Reduce redundancies and select low-carbon materials with high levels of recycled content.
+- **Average (50th percentile).** 50th percentile of GWP for roofing assemblies.&#x20;
 
-* **High Carbon (80th percentile).** 80th percentile of GWP for roofing assemblies. Standard materials and assemblies, no effort made to lower carbon emissions.
-
-- **Custom**. Enter a custom carbon intensity.
+* **High Carbon (80th percentile).** 80th percentile of GWP for roofing assemblies.&#x20;
 
 </details>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (30).png" alt="" width="365"><figcaption><p>Choose from pre-defined roofing carbon intensities, or input a custom value.</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3).png" alt="" width="350"><figcaption><p>Choose from pre-defined roofing carbon intensities.</p></figcaption></figure></div>
 
-#### Roofing Refresh Rate
+#### Roofing Service Life
 
 The length of time over which a majority of the roofing will be replaced.
 
-## Interior
+## Interiors
 
 ### Floor Area w/ Fit-Out
 
@@ -284,11 +333,11 @@ The specification of the fittings, furniture, and fixtures required for the use 
 
 <summary>Interior Fit Out Specification Choices (Carbon Intensity)</summary>
 
-* **Low Carbon (20th percentile).** 20th percentile of GWP for interior fitouts. Comprehensive low-carbon design and specification of tenant fit-out.
+* **Low Carbon (20th percentile).** 20th percentile of GWP for interior fitouts.&#x20;
 
-- **Average (50th percentile).** 50th percentile of GWP for interior fitouts. Address "hot spots" (flooring, acoustic panels, casework, etc.).
+- **Average (50th percentile).** 50th percentile of GWP for interior fitouts.&#x20;
 
-* **High Carbon (80th percentile).** 80th percentile of GWP for interior fitouts. Standard fittings, furniture, and fixtures, no effort made to lower carbon emissions.
+* **High Carbon (80th percentile).** 80th percentile of GWP for interior fitouts.&#x20;
 
 - **Custom**. Enter a custom carbon intensity.
 
@@ -296,7 +345,7 @@ The specification of the fittings, furniture, and fixtures required for the use 
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (31).png" alt="" width="339"><figcaption><p>Choose from pre-defined interior carbon intensities, or input a custom value.</p></figcaption></figure></div>
 
-#### Interior Fit-Out Refresh Rate
+#### Interiors Service Life
 
 The length of time over which a majority of the interior fit out will be replaced.
 
@@ -330,7 +379,7 @@ _Embodied carbon in MEP is a data-scarce category, and we cannot confidently des
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (32).png" alt="" width="333"><figcaption><p>Choose from pre-defined MEP carbon intensities, or input a custom value.</p></figcaption></figure></div>
 
-#### MEP Refresh Rate
+#### MEP Service Life
 
 The length of time over which a majority of the MEP systems will be replaced.
 
@@ -384,17 +433,17 @@ The reduction of the total quantity of refrigerants used in the buildings HVAC+R
 
 ### Refrigerant GWP
 
-The  average global warming potential (GWP) of refrigerants used in the buildings HVAC+R system.
+The  average global warming potential (GWP) of refrigerants used in the buildings HVAC+R system. Throughout C.Scale, three options are given for specification-related options: High Carbon, Average, and Low Carbon. Typically, these refer to the 80th, 50th, and 20th percentile of GWP values for available materials. We were unable to replicate this methodology for refrigerants, though, as the overall distribution of refrigerants skews very high–and this highly skewed distribution doesn’t represent the choices designers are making on their projects. In the refrigerant model, these three choices are keyed to specific refrigerants as follows:
 
 <details>
 
 <summary>Refrigerant GWP Choices (Carbon Intensity)</summary>
 
-* **Low Carbon (20th percentile).** 20th percentile of GWP for refrigerants.
+* **Low Carbon (20th percentile).** Next-Gen Natural Refrigerant (e.g., CO2). GWP Value = 5.
 
-- **Average (50th percentile).** 50th percentile of GWP for refrigerants.
+- **Average (50th percentile).** Low-GWP Refrigerant (e.g., R-513). GWP Value = 700.
 
-* H**igh Carbon (80th percentile).** 80th percentile of GWP for refrigerants.
+* H**igh Carbon (80th percentile).** HFC Refrigerant (e.g., 60% R-410a; 40% R-134). GWP Value = 2000.
 
 - **Custom**. Enter a custom carbon intensity.
 
@@ -404,9 +453,11 @@ The  average global warming potential (GWP) of refrigerants used in the building
 
 ## Sitework
 
+When a user enters a site area, they have the option to select whether or not the site has been previously developed. If the site has been previously developed, C.Scale treats it as a "brownfield" site with no carbon sequestered in its soil and existing landscape. If the site has not been previously developed, C.Scale treats it as a "greenfield" site with preexisting vegetation.
+
 ### Planted Area
 
-Set the percentage of site area, minus the building footprint, which is planted. This planted area is assumed to be a **low carbon storage landscape**, such as no-mow turfgrass or other herbaceous perennials. All unplanted area is assumed to be hardscape.&#x20;
+Set the percentage of site area, minus the building footprint, which is planted. To calculate emissions from the removal of above-ground biomass, C.Scale treats the site as vegetated with regionally-specific "low carbon storage" plants (such as no-mow turfgrass or other herbaceous perennials) at 50% of the site's carrying capacity. All unplanted area is assumed to be hardscape.&#x20;
 
 #### High Carbon Storage Planted Area
 
@@ -414,7 +465,7 @@ Set the percentage of the planted site area comprised of a high carbon storage l
 
 ### Hardscape specification
 
-The specification of the pervious and impervious surfaces on the building site (outside the building envelope. These specification levels do not describe specific materials or assemblies. Instead, they approximate the 80th, 50th, and 20th percentile of the distribution of all hardscape assemblies based on a set of standard details.&#x20;
+All site area not designated as planted is assumed to be hardscaped. The specification of the pervious and impervious surfaces on the building site (outside the building enclosure. These specification levels do not describe specific materials or assemblies. Instead, they approximate the 80th, 50th, and 20th percentile of the distribution of all hardscape assemblies based on a set of standard details.&#x20;
 
 <details>
 
@@ -432,7 +483,7 @@ The specification of the pervious and impervious surfaces on the building site (
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (35).png" alt="" width="332"><figcaption><p>Choose from pre-defined hardscape carbon intensities, or input a custom value.</p></figcaption></figure></div>
 
-#### Hardscape Refresh Rate
+#### Hardscape Service Life
 
 The length of time over which a majority of the site's hardscape will be replaced.
 

@@ -23,11 +23,11 @@ The baseline can be refined using the [**Carbon Reduction Measures**](reduce-emi
 
 Any scenario within the project can be set as the baseline, and serve as the reference point for the project. To set another scenario as the baseline, click the **3-dot menu** to the right of the scenario name in the left-hand panel.&#x20;
 
-<div align="left"><figure><img src="../.gitbook/assets/image (13).png" alt="" width="399"><figcaption><p>Click the 3-dot menu to set another scenario as the baseline.</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (13) (1).png" alt="" width="399"><figcaption><p>Click the 3-dot menu to set another scenario as the baseline.</p></figcaption></figure></div>
 
 Within the menu, click **Set as Baseline** to set another scenario as the reference for comparison.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (14).png" alt="" width="182"><figcaption><p>Set any scenario as the baseline.</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (14) (1).png" alt="" width="182"><figcaption><p>Set any scenario as the baseline.</p></figcaption></figure></div>
 
 ### Analyzing the Baseline
 

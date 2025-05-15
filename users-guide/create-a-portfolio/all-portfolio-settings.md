@@ -8,11 +8,11 @@ The following settings are applied at the portfolio level, meaning they affect t
 
 To refine the portfolio, click on **All Portfolio Settings** in the left-hand panel.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="246"><figcaption><p>All Portfolio Settings button found in the left-hand panel.</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (2).png" alt="" width="246"><figcaption><p>All Portfolio Settings button found in the left-hand panel.</p></figcaption></figure></div>
 
 ## Scope
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption><p>Scope settings.</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (2).png" alt="" width="375"><figcaption><p>Scope settings.</p></figcaption></figure></div>
 
 C.Scale allows project teams to refine the scope of analysis at the portfolio-level by including or excluding LCA stages or parts of the building to meet reporting goals or to facilitate comparison within the portfolio.&#x20;
 
@@ -52,7 +52,7 @@ Turning off this toggle will remove all site and landscaping from the C.Scale mo
 
 ## General
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4).png" alt="" width="375"><figcaption><p>General settings.</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (2).png" alt="" width="375"><figcaption><p>General settings.</p></figcaption></figure></div>
 
 ### Unit System
 
@@ -60,7 +60,7 @@ Modify the unit system for the portfolio's calculations.&#x20;
 
 ## Electricity Grid
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (5) (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Future Scenario
 

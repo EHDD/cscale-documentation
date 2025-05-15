@@ -8,7 +8,7 @@ A **Portfolio** lets you compare all active projects in your organization across
 
 From the Organization Dashboard, begin by clicking the **+ New Portfolio** button.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Create your portfolio.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Create your portfolio.</p></figcaption></figure>
 
 Portfolios can be created to be either **Static** or **Dynamic.**&#x20;
 
@@ -44,7 +44,7 @@ Fill in the required information and click **Create**.
 
 After creation, click on the desired **Portfolio Name** to open up the portfolio view.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>Portfolio view across projects.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>Portfolio view across projects.</p></figcaption></figure>
 
 <mark style="color:green;">**`Note:`**</mark> All projects within the Portfolio are compared based on the [target scenarios](../compare-scenarios/set-target-scenario.md) set within the project.&#x20;
 

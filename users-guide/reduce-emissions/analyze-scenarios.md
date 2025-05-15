@@ -53,7 +53,7 @@ Each of the LCA stages breaks carbon emissions into the following scope categori
 
 * **Energy Use**. Sources and use of energy in the building.
 * **Structure**. Substructure and superstructure, including both lateral and gravity systems.
-* **Enclosure**. Opaque enclosure, transparent enclosure, and roofing.
+* **Enclosure**. Solid exterior wall, transparent exterior wall, and roofing.
 * **Interior**. Interior construction and fit-out.
 * **Services**. **M**echanical, electrical, and plumbing (MEP) services and PV Array.
 * **Refrigerants**. Refrigerants used in building services (e.g., HVAC+R).
@@ -65,7 +65,7 @@ Each of the LCA stages breaks carbon emissions into the following scope categori
 
 This donut chart displays the proportional relationship of the scenario's emissions over the analysis period.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption><p>The donut chart and a tabular summary of the scenario's emissions.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption><p>The Total emissions bar chart and a tabular summary of the scenario's emissions.</p></figcaption></figure>
 
 This chart has a number of elements:
 
@@ -73,7 +73,7 @@ This chart has a number of elements:
 * **Electricity Emissions**. Cumulative emissions associated with the energy use from the electrical grid.&#x20;
 * **Fossil Fuel Emissions**. Cumulative emissions associated with onsite fossil fuel use.&#x20;
 * **Embodied carbon emissions**. Cumulative emissions associated with building materials, their replacements, and with landscape maintenance.
-* **Biogenic Carbon Storage**. Sequestered emissions from building structure and landscape planting.
+* **Stored Carbon**. Sequestered emissions from building structure and landscape planting.
 * **Avoided Energy Emissions**. Avoided emissions from onsite energy generation in excess of use.
 * **Net Emissions**. Operational, embodied, and refrigerant emissions minus biogenic carbon storage and and avoided energy emissions.
 * **Reduction from Baseline**. Cumulative reduction in emissions of the current scenario as compared to the baseline.
