@@ -42,6 +42,7 @@
 
 ## Resources
 
+* [📎 Terms of Use](resources/terms-of-use.md)
 * [🔐 Privacy Policy](resources/data-privacy-statement.md)
 * [🪵 Version Log](resources/version-log.md)
 * [📃 Backmatter](resources/backmatter.md)
